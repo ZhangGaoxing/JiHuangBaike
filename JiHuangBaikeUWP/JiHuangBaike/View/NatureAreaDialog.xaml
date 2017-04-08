@@ -1,0 +1,74 @@
+﻿<Page
+    x:Class="JiHuangBaike.View.NatureAreaDialog"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:JiHuangBaike.View"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:data="using:JiHuangBaike.Data"
+    mc:Ignorable="d">
+
+    <Page.Resources>
+        <DataTemplate x:Key="AreaDataTemplate" x:DataType="data:BindingImage">
+            <Image Source="{x:Bind ImagePath}" Stretch="Uniform" Height="45" Width="45" />
+        </DataTemplate>
+    </Page.Resources>
+    
+    <ScrollViewer VerticalScrollBarVisibility="Auto">
+        <Grid Background="Transparent">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+            </Grid.RowDefinitions>
+
+            <Image Name="AreaImage" Stretch="Uniform" Height="100" HorizontalAlignment="Center" />
+            <TextBlock Grid.Row="1" Name="AreaName" FontSize="25" FontWeight="Bold" HorizontalAlignment="Center" />
+            <TextBlock Grid.Row="2" Name="AreaEnName" FontSize="25" FontFamily="/Assets/belisa_plumilla.ttf#Belisa plumilla manual" HorizontalAlignment="Center" />
+            <StackPanel Grid.Row="3" Orientation="Horizontal" HorizontalAlignment="Center">
+                <CheckBox Name="ROG" IsEnabled="False" Style="{StaticResource ReadonlyCheckBoxStyle}">
+                    <CheckBox.Content>
+                        <StackPanel Orientation="Horizontal">
+                            <Image Source="/Assets/DLC_ROG.png" Height="22" />
+                            <TextBlock Text="ROG" Margin="5,0,0,0" />
+                        </StackPanel>
+                    </CheckBox.Content>
+                </CheckBox>
+                <CheckBox Name="SW" IsEnabled="False" Style="{StaticResource ReadonlyCheckBoxStyle}">
+                    <CheckBox.Content>
+                        <StackPanel Orientation="Horizontal">
+                            <Image Source="/Assets/DLC_SW.png" Height="22" />
+                            <TextBlock Text="SW" Margin="5,0,0,0" />
+                        </StackPanel>
+                    </CheckBox.Content>
+                </CheckBox>
+                <CheckBox Name="DST" IsEnabled="False" Style="{StaticResource ReadonlyCheckBoxStyle}">
+                    <CheckBox.Content>
+                        <StackPanel Orientation="Horizontal">
+                            <Image Source="/Assets/DLC_DST.png" Height="22" />
+                            <TextBlock Text="DST" Margin="5,0,0,0" />
+                        </StackPanel>
+                    </CheckBox.Content>
+                </CheckBox>
+            </StackPanel>
+            <StackPanel Grid.Row="4">
+                <TextBlock Text="富含：" />
+                <GridView Name="Abundant" ItemTemplate="{StaticResource AreaDataTemplate}" ItemsSource="{x:Bind abundantData}" SelectionMode="None" />
+            </StackPanel>
+            <StackPanel Grid.Row="5">
+                <TextBlock Text="偶尔：" />
+                <GridView Name="Occasional" ItemTemplate="{StaticResource AreaDataTemplate}" ItemsSource="{x:Bind occasionalData}" SelectionMode="None" />
+            </StackPanel>
+            <StackPanel Grid.Row="6">
+                <TextBlock Text="稀有：" />
+                <GridView Name="Rare" ItemTemplate="{StaticResource AreaDataTemplate}" ItemsSource="{x:Bind rareData}" SelectionMode="None" />
+            </StackPanel>
+            <TextBlock Grid.Row="7" Name="AreaIntroduction" TextWrapping="Wrap" HorizontalAlignment="Center" Margin="10" />
+        </Grid>
+    </ScrollViewer>
+</Page>

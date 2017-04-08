@@ -1,0 +1,109 @@
+﻿<Page
+    x:Class="JiHuangBaike.View.SciencePage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:JiHuangBaike.View"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:controls="using:Microsoft.Toolkit.Uwp.UI.Controls"
+    xmlns:data="using:JiHuangBaike.Data"
+    mc:Ignorable="d">
+
+    <Page.Resources>
+        <DataTemplate x:Key="ScienceDataTemplate" x:DataType="data:Science">
+            <Grid Margin="5" Width="80" Height="80">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="Auto" />
+                </Grid.RowDefinitions>
+                <Image Source="{x:Bind Image}" Stretch="Uniform" />
+                <TextBlock Grid.Row="1" Text="{x:Bind Name}" FontSize="11" HorizontalAlignment="Center" />
+            </Grid>
+        </DataTemplate>
+    </Page.Resources>
+    
+    <Grid Name="ScienceGrid" Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <VisualStateManager.VisualStateGroups>
+            <VisualStateGroup>
+                <VisualState>
+                    <VisualState.StateTriggers>
+                        <AdaptiveTrigger MinWindowWidth="{StaticResource LargeWindowSnapPoint}" />
+                    </VisualState.StateTriggers>
+                    <VisualState.Setters>
+                        <Setter Target="Title.Margin" Value="20,0,0,0"/>
+                    </VisualState.Setters>
+                </VisualState>
+                <VisualState>
+                    <VisualState.StateTriggers>
+                        <AdaptiveTrigger MinWindowWidth="{StaticResource MediumWindowSnapPoint}" />
+                    </VisualState.StateTriggers>
+                    <VisualState.Setters>
+                        <Setter Target="Title.Margin" Value="20,0,0,0"/>
+                    </VisualState.Setters>
+                </VisualState>
+                <VisualState>
+                    <VisualState.StateTriggers>
+                        <AdaptiveTrigger MinWindowWidth="{StaticResource MinWindowSnapPoint}" />
+                    </VisualState.StateTriggers>
+                    <VisualState.Setters>
+                        <Setter Target="Title.Margin" Value="68,0,0,0"/>
+                    </VisualState.Setters>
+                </VisualState>
+            </VisualStateGroup>
+        </VisualStateManager.VisualStateGroups>
+
+        <Grid Name="TitleGrid" Background="{ThemeResource SystemControlBackgroundAccentBrush}" Height="48">
+            <TextBlock Name="Title" Text="科技" FontSize="20" Foreground="White" VerticalAlignment="Center" />
+        </Grid>
+
+        <ScrollViewer VerticalScrollBarVisibility="Auto" Grid.Row="1">
+            <StackPanel>
+                <controls:Expander Header="工具" IsExpanded="True">
+                    <GridView Margin="10" ItemsSource="{x:Bind toolData}" ItemTemplate="{StaticResource ScienceDataTemplate}" SelectionMode="None" IsItemClickEnabled="True" ItemClick="ScienceGridView_ItemClick" />
+                </controls:Expander>
+                <controls:Expander Header="照明" IsExpanded="False">
+                    <GridView  Margin="10" ItemsSource="{x:Bind lightData}" ItemTemplate="{StaticResource ScienceDataTemplate}" SelectionMode="None" IsItemClickEnabled="True" ItemClick="ScienceGridView_ItemClick" />
+                </controls:Expander>
+                <controls:Expander Header="生存" IsExpanded="False">
+                    <GridView Margin="10" ItemsSource="{x:Bind survivalData}" ItemTemplate="{StaticResource ScienceDataTemplate}" SelectionMode="None" IsItemClickEnabled="True" ItemClick="ScienceGridView_ItemClick" />
+                </controls:Expander>
+                <controls:Expander Header="食物" IsExpanded="False">
+                    <GridView Margin="10" ItemsSource="{x:Bind foodData}" ItemTemplate="{StaticResource ScienceDataTemplate}" SelectionMode="None" IsItemClickEnabled="True" ItemClick="ScienceGridView_ItemClick" />
+                </controls:Expander>
+                <controls:Expander Header="科技" IsExpanded="False">
+                    <GridView Margin="10" ItemsSource="{x:Bind technologyData}" ItemTemplate="{StaticResource ScienceDataTemplate}" SelectionMode="None" IsItemClickEnabled="True" ItemClick="ScienceGridView_ItemClick" />
+                </controls:Expander>
+                <controls:Expander Header="战斗" IsExpanded="False">
+                    <GridView Margin="10" ItemsSource="{x:Bind fightData}" ItemTemplate="{StaticResource ScienceDataTemplate}" SelectionMode="None" IsItemClickEnabled="True" ItemClick="ScienceGridView_ItemClick" />
+                </controls:Expander>
+                <controls:Expander Header="建筑" IsExpanded="False">
+                    <GridView Margin="10" ItemsSource="{x:Bind structureData}" ItemTemplate="{StaticResource ScienceDataTemplate}" SelectionMode="None" IsItemClickEnabled="True" ItemClick="ScienceGridView_ItemClick" />
+                </controls:Expander>
+                <controls:Expander Header="合成" IsExpanded="False">
+                    <GridView Margin="10" ItemsSource="{x:Bind refineData}" ItemTemplate="{StaticResource ScienceDataTemplate}" SelectionMode="None" IsItemClickEnabled="True" ItemClick="ScienceGridView_ItemClick" />
+                </controls:Expander>
+                <controls:Expander Header="魔法" IsExpanded="False">
+                    <GridView Margin="10" ItemsSource="{x:Bind magicData}" ItemTemplate="{StaticResource ScienceDataTemplate}" SelectionMode="None" IsItemClickEnabled="True" ItemClick="ScienceGridView_ItemClick" />
+                </controls:Expander>
+                <controls:Expander Header="衣物" IsExpanded="False">
+                    <GridView Margin="10" ItemsSource="{x:Bind dressData}" ItemTemplate="{StaticResource ScienceDataTemplate}" SelectionMode="None" IsItemClickEnabled="True" ItemClick="ScienceGridView_ItemClick" />
+                </controls:Expander>
+                <controls:Expander Header="远古" IsExpanded="False">
+                    <GridView Margin="10" ItemsSource="{x:Bind ancientData}" ItemTemplate="{StaticResource ScienceDataTemplate}" SelectionMode="None" IsItemClickEnabled="True" ItemClick="ScienceGridView_ItemClick" />
+                </controls:Expander>
+                <controls:Expander Header="书" IsExpanded="False">
+                    <GridView Margin="10" ItemsSource="{x:Bind bookData}" ItemTemplate="{StaticResource ScienceDataTemplate}" SelectionMode="None" IsItemClickEnabled="True" ItemClick="ScienceGridView_ItemClick" />
+                </controls:Expander>
+                <controls:Expander Header="暗影巫术" IsExpanded="False">
+                    <GridView Margin="10" ItemsSource="{x:Bind shadowData}" ItemTemplate="{StaticResource ScienceDataTemplate}" SelectionMode="None" IsItemClickEnabled="True" ItemClick="ScienceGridView_ItemClick" />
+                </controls:Expander>
+            </StackPanel>
+        </ScrollViewer>
+        
+    </Grid>
+</Page>

@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <AppxShowAllApps>False</AppxShowAllApps>
+    <Source>C:\Users\zhang\Desktop\JiHuangBaike\Pic\600.png</Source>
+    <SmallTileSource>C:\Users\zhang\Desktop\JiHuangBaike\Pic\600.png</SmallTileSource>
+    <MediumTileSource>C:\Users\zhang\Desktop\JiHuangBaike\Pic\600.png</MediumTileSource>
+    <WideTileSource>C:\Users\zhang\Desktop\JiHuangBaike\Pic\600.png</WideTileSource>
+    <LargeTileSource>C:\Users\zhang\Desktop\JiHuangBaike\Pic\600.png</LargeTileSource>
+    <AppIconSource>C:\Users\zhang\Desktop\JiHuangBaike\Pic\600.png</AppIconSource>
+    <SplashScreenSource>C:\Users\zhang\Desktop\JiHuangBaike\Pic\600.png</SplashScreenSource>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|ARM'">
+    <DeviceId>30F105C9-681E-420b-A277-7C086EAD8A4E</DeviceId>
+    <UseEmulator>true</UseEmulator>
+    <RemoteDebugMachine>192.168.31.225</RemoteDebugMachine>
+    <AuthenticationMode>Universal</AuthenticationMode>
+    <RemoteDebugEnabled>false</RemoteDebugEnabled>
+  </PropertyGroup>
+</Project>

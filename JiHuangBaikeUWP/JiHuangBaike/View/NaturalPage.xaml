@@ -1,0 +1,73 @@
+﻿<Page
+    x:Class="JiHuangBaike.View.NaturalPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:JiHuangBaike.View"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:controls="using:Microsoft.Toolkit.Uwp.UI.Controls"
+    xmlns:data="using:JiHuangBaike.Data"
+    mc:Ignorable="d">
+
+    <Page.Resources>
+        <DataTemplate x:Key="AreaDataTemplate" x:DataType="data:NatureArea">
+            <Grid Margin="5" Width="85" Height="85">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="Auto" />
+                </Grid.RowDefinitions>
+                <Image Source="{x:Bind Picture}" Stretch="Uniform" />
+                <TextBlock Grid.Row="1" Text="{x:Bind Name}" FontSize="11" HorizontalAlignment="Center" />
+            </Grid>
+        </DataTemplate>
+    </Page.Resources>
+    
+    <Grid Name="NatureGrid" Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <VisualStateManager.VisualStateGroups>
+            <VisualStateGroup>
+                <VisualState>
+                    <VisualState.StateTriggers>
+                        <AdaptiveTrigger MinWindowWidth="{StaticResource LargeWindowSnapPoint}" />
+                    </VisualState.StateTriggers>
+                    <VisualState.Setters>
+                        <Setter Target="Title.Margin" Value="20,0,0,0"/>
+                    </VisualState.Setters>
+                </VisualState>
+                <VisualState>
+                    <VisualState.StateTriggers>
+                        <AdaptiveTrigger MinWindowWidth="{StaticResource MediumWindowSnapPoint}" />
+                    </VisualState.StateTriggers>
+                    <VisualState.Setters>
+                        <Setter Target="Title.Margin" Value="20,0,0,0"/>
+                    </VisualState.Setters>
+                </VisualState>
+                <VisualState>
+                    <VisualState.StateTriggers>
+                        <AdaptiveTrigger MinWindowWidth="{StaticResource MinWindowSnapPoint}" />
+                    </VisualState.StateTriggers>
+                    <VisualState.Setters>
+                        <Setter Target="Title.Margin" Value="68,0,0,0"/>
+                    </VisualState.Setters>
+                </VisualState>
+            </VisualStateGroup>
+        </VisualStateManager.VisualStateGroups>
+
+        <Grid Name="TitleGrid" Background="{ThemeResource SystemControlBackgroundAccentBrush}" Height="48">
+            <TextBlock Name="Title" Text="自然" FontSize="20" Foreground="White" VerticalAlignment="Center" />
+        </Grid>
+
+        <ScrollViewer Grid.Row="1" VerticalScrollBarVisibility="Auto">
+            <StackPanel>
+                <controls:Expander Header="生物群落" IsExpanded="True">
+                    <GridView Margin="10" ItemsSource="{x:Bind AreaData}" ItemTemplate="{StaticResource AreaDataTemplate}" SelectionMode="None" IsItemClickEnabled="True" ItemClick="AreaGridView_ItemClick" />
+                </controls:Expander>
+            </StackPanel>
+        </ScrollViewer>
+
+    </Grid>
+</Page>

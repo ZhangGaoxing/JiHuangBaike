@@ -1,0 +1,83 @@
+﻿<Page
+    x:Class="JiHuangBaike.View.FoodRecipeDialog"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:JiHuangBaike.View"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:chart="using:LiveCharts.Uwp"
+    mc:Ignorable="d">
+
+    <ScrollViewer VerticalScrollBarVisibility="Auto">
+        <Grid Background="Transparent">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+            </Grid.RowDefinitions>
+
+            <Image Name="RecipeImage" Stretch="Uniform" Height="85" HorizontalAlignment="Center" />
+            <TextBlock Grid.Row="1" Name="RecipeName" FontSize="25" FontWeight="Bold" HorizontalAlignment="Center" />
+            <TextBlock Grid.Row="2" Name="RecipeEnName" FontSize="25" FontFamily="/Assets/belisa_plumilla.ttf#Belisa plumilla manual" HorizontalAlignment="Center" />
+            <Grid Grid.Row="3">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+                <chart:PieChart Height="90" Width="90" HorizontalAlignment="Center">
+                    <chart:PieChart.Series>
+                        <chart:PieSeries Name="Hunger" Title="饥饿" DataLabels="True" />
+                        <chart:PieSeries Name="Health" Title="血量" DataLabels="True" />
+                        <chart:PieSeries Name="Sanity" Title="精神" DataLabels="True" />
+                    </chart:PieChart.Series>
+                </chart:PieChart>
+                <TextBlock Text="三维" Grid.Row="1" HorizontalAlignment="Center" />
+                <chart:PieChart Grid.Column="1" Height="90" Width="90" HorizontalAlignment="Center">
+                    <chart:PieChart.Series>
+                        <chart:PieSeries Name="Cooktime" Title="烹饪时间" DataLabels="True" />
+                        <chart:PieSeries Name="Perish" Title="保鲜" DataLabels="True" />
+                    </chart:PieChart.Series>
+                </chart:PieChart>
+                <TextBlock Text="其他" Grid.Row="1" Grid.Column="1" HorizontalAlignment="Center" />
+            </Grid>
+            <StackPanel Grid.Row="4">
+                <TextBlock Text="烹饪需求：" />
+                <TextBlock Name="RecipeNeed" HorizontalAlignment="Center" Margin="10" />
+            </StackPanel>
+            <StackPanel Grid.Row="5">
+                <TextBlock Text="推荐食谱：" />
+                <StackPanel Orientation="Horizontal">
+                    <Image Name="Recommend1" Height="45" />
+                    <Image Name="Recommend2" Height="45" />
+                    <Image Name="Recommend3" Height="45" />
+                    <Image Name="Recommend4" Height="45" />
+                </StackPanel>
+            </StackPanel>
+            <TextBlock Grid.Row="6" Name="RecipeIntroduction" TextWrapping="Wrap" HorizontalAlignment="Center" Margin="10" />
+            <Grid Grid.Row="7" HorizontalAlignment="Center">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto" />
+                    <ColumnDefinition Width="Auto" />
+                </Grid.ColumnDefinitions>
+                <TextBlock Name="Console" Margin="0,5,15,0" HorizontalAlignment="Right" VerticalAlignment="Center" />
+                <Button Name="Copy" Grid.Column="1" HorizontalAlignment="Left" Click="Copy_Click">
+                    <Button.Content>
+                        <StackPanel Orientation="Horizontal">
+                            <SymbolIcon Symbol="Copy" />
+                            <TextBlock Text="复制" Margin="8,0,0,0" />
+                        </StackPanel>
+                    </Button.Content>
+                </Button>
+            </Grid>
+        </Grid>
+    </ScrollViewer>
+</Page>

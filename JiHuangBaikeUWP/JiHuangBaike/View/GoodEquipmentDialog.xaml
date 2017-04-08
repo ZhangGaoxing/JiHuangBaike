@@ -1,0 +1,82 @@
+﻿<Page
+    x:Class="JiHuangBaike.View.GoodEquipmentDialog"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:JiHuangBaike.View"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <ScrollViewer VerticalScrollBarVisibility="Auto">
+        <Grid Background="Transparent">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+            </Grid.RowDefinitions>
+
+            <Image Name="EquipmentImage" Stretch="Uniform" Height="100" HorizontalAlignment="Center" />
+            <TextBlock Grid.Row="1" Name="EquipmentName" FontSize="25" FontWeight="Bold" HorizontalAlignment="Center" />
+            <TextBlock Grid.Row="2" Name="EquipmentEnName" FontSize="25" FontFamily="/Assets/belisa_plumilla.ttf#Belisa plumilla manual" HorizontalAlignment="Center" />
+            <StackPanel Grid.Row="3" Orientation="Horizontal" HorizontalAlignment="Center">
+                <CheckBox Name="ROG" IsEnabled="False" Style="{StaticResource ReadonlyCheckBoxStyle}">
+                    <CheckBox.Content>
+                        <StackPanel Orientation="Horizontal">
+                            <Image Source="/Assets/DLC_ROG.png" Height="22" />
+                            <TextBlock Text="ROG" Margin="5,0,0,0" />
+                        </StackPanel>
+                    </CheckBox.Content>
+                </CheckBox>
+                <CheckBox Name="SW" IsEnabled="False" Style="{StaticResource ReadonlyCheckBoxStyle}">
+                    <CheckBox.Content>
+                        <StackPanel Orientation="Horizontal">
+                            <Image Source="/Assets/DLC_SW.png" Height="22" />
+                            <TextBlock Text="SW" Margin="5,0,0,0" />
+                        </StackPanel>
+                    </CheckBox.Content>
+                </CheckBox>
+                <CheckBox Name="DST" IsEnabled="False" Style="{StaticResource ReadonlyCheckBoxStyle}">
+                    <CheckBox.Content>
+                        <StackPanel Orientation="Horizontal">
+                            <Image Source="/Assets/DLC_DST.png" Height="22" />
+                            <TextBlock Text="DST" Margin="5,0,0,0" />
+                        </StackPanel>
+                    </CheckBox.Content>
+                </CheckBox>
+            </StackPanel>
+            <TextBlock Name="EquipmentAttack" Grid.Row="4" Text="攻击：" Visibility="Collapsed" />
+            <TextBlock Name="EquipmentDurability" Grid.Row="5" Text="耐久：" />
+            <TextBlock Name="EquipmentWet" Grid.Row="6" Text="防潮：" Visibility="Collapsed" />
+            <TextBlock Name="EquipmentHeat" Grid.Row="7" Text="隔热：" Visibility="Collapsed" />
+            <TextBlock Name="EquipmentSanity" Grid.Row="8" Text="精神：" Visibility="Collapsed" />
+            <TextBlock Name="EquipmentDefense" Grid.Row="9" Text="防御：" Visibility="Collapsed" />
+            <TextBlock Name="EquipmentHunger" Grid.Row="10" Text="饥饿：" Visibility="Collapsed" />
+            <TextBlock Name="EquipmentIntroduction" Grid.Row="11" />
+            <Grid Grid.Row="12" HorizontalAlignment="Center">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto" />
+                    <ColumnDefinition Width="Auto" />
+                </Grid.ColumnDefinitions>
+                <TextBlock Name="Console" Margin="0,5,15,0" HorizontalAlignment="Right" VerticalAlignment="Center" />
+                <Button Name="Copy" Grid.Column="1" HorizontalAlignment="Left" Click="Copy_Click">
+                    <Button.Content>
+                        <StackPanel Orientation="Horizontal">
+                            <SymbolIcon Symbol="Copy" />
+                            <TextBlock Text="复制" Margin="5,0,0,0" />
+                        </StackPanel>
+                    </Button.Content>
+                </Button>
+            </Grid>
+        </Grid>
+    </ScrollViewer>
+</Page>
