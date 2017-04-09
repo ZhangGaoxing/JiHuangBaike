@@ -1,2 +1,1 @@
-# JiHuangBaike
-饥荒百科
+# 饥荒百科 JiHuangBaike
