@@ -9,6 +9,9 @@
     <LargeTileSource>C:\Users\zhang\Desktop\JiHuangBaike\Pic\600.png</LargeTileSource>
     <AppIconSource>C:\Users\zhang\Desktop\JiHuangBaike\Pic\600.png</AppIconSource>
     <SplashScreenSource>C:\Users\zhang\Desktop\JiHuangBaike\Pic\600.png</SplashScreenSource>
+    <AppxPackageIsForStore>True</AppxPackageIsForStore>
+    <AppxBuildConfigurationSelection>x86|x64|arm</AppxBuildConfigurationSelection>
+    <PackageOptionalProjectsInIdeBuilds>False</PackageOptionalProjectsInIdeBuilds>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|ARM'">
     <DeviceId>30F105C9-681E-420b-A277-7C086EAD8A4E</DeviceId>
@@ -16,5 +19,18 @@
     <RemoteDebugMachine>192.168.31.225</RemoteDebugMachine>
     <AuthenticationMode>Universal</AuthenticationMode>
     <RemoteDebugEnabled>false</RemoteDebugEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|ARM'">
+    <DeviceId>30F105C9-681E-420b-A277-7C086EAD8A4E</DeviceId>
+    <UseEmulator>true</UseEmulator>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <DeviceId>721A4141-313A-42D6-9C47-7FE224046E9B</DeviceId>
+    <UseEmulator>false</UseEmulator>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DeviceId>721A4141-313A-42D6-9C47-7FE224046E9B</DeviceId>
+    <UseEmulator>false</UseEmulator>
+    <UseSimulator>false</UseSimulator>
   </PropertyGroup>
 </Project>

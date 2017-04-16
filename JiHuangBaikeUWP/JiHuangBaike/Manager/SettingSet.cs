@@ -21,8 +21,9 @@ namespace JiHuangBaike.Manager
         public static int ThemeSettingRead()
         {
             var rootContainer = ApplicationData.Current.LocalSettings;
+            object themeIndex;
 
-            if (rootContainer.Values.TryGetValue(SETTING_THEME, out object themeIndex))
+            if (rootContainer.Values.TryGetValue(SETTING_THEME, out themeIndex))
             {
                 return (int)themeIndex;
             }

@@ -12,13 +12,16 @@
     <DefaultLanguage>zh-CN</DefaultLanguage>
     <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
     <TargetPlatformVersion>10.0.14393.0</TargetPlatformVersion>
-    <TargetPlatformMinVersion>10.0.10586.0</TargetPlatformMinVersion>
+    <TargetPlatformMinVersion>10.0.14393.0</TargetPlatformMinVersion>
     <MinimumVisualStudioVersion>14</MinimumVisualStudioVersion>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{A5A43C5B-DE2A-4C0C-9213-0A381AF9435A};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <WindowsXamlEnableOverview>true</WindowsXamlEnableOverview>
     <PackageCertificateKeyFile>JiHuangBaike_StoreKey.pfx</PackageCertificateKeyFile>
     <PackageCertificateThumbprint>96B8844CB4664ABD6DEEE2C1DFE5BA6D796A028D</PackageCertificateThumbprint>
+    <AppxAutoIncrementPackageRevision>False</AppxAutoIncrementPackageRevision>
+    <AppxBundle>Always</AppxBundle>
+    <AppxBundlePlatforms>x86|x64|arm</AppxBundlePlatforms>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
     <DebugSymbols>true</DebugSymbols>
@@ -92,41 +95,134 @@
   <ItemGroup>
     <!-- A reference to the entire .Net Framework and Windows SDK are automatically included -->
     <Content Include="Assets\belisa_plumilla.ttf" />
+    <Content Include="Assets\GameResources\--Raisins--.png" />
+    <Content Include="Assets\GameResources\Ancient_Key.png" />
+    <Content Include="Assets\GameResources\Antlion.png" />
+    <Content Include="Assets\GameResources\Apple_Cider.png" />
     <Content Include="Assets\GameResources\Beeswax.png" />
     <Content Include="Assets\GameResources\Bee_Queen.png" />
     <Content Include="Assets\GameResources\Bee_Queen_Crown.png" />
     <Content Include="Assets\GameResources\Blue_Funcap.png" />
     <Content Include="Assets\GameResources\Bone_Armor.png" />
+    <Content Include="Assets\GameResources\Broken_Stake.png" />
+    <Content Include="Assets\GameResources\Broodling.png" />
     <Content Include="Assets\GameResources\Canary.png" />
+    <Content Include="Assets\GameResources\Candy_Apple.png" />
+    <Content Include="Assets\GameResources\Candy_Bag.png" />
+    <Content Include="Assets\GameResources\Candy_Cane.png" />
+    <Content Include="Assets\GameResources\Candy_Corn.png" />
     <Content Include="Assets\GameResources\Cartographer%27s_Desk_Build.png" />
+    <Content Include="Assets\GameResources\Catcoon_Candy.png" />
+    <Content Include="Assets\GameResources\Chilled_Lavae.png" />
+    <Content Include="Assets\GameResources\Chocolate_Log_Cake.png" />
+    <Content Include="Assets\GameResources\Choco_Pigs.png" />
     <Content Include="Assets\GameResources\Cratered_Moonrock.png" />
+    <Content Include="Assets\GameResources\Cubic_Zirkonia_Ball.png" />
     <Content Include="Assets\GameResources\Desert_Goggles.png" />
+    <Content Include="Assets\GameResources\Desert_Stone.png" />
     <Content Include="Assets\GameResources\Electric_Dart.png" />
+    <Content Include="Assets\GameResources\Empty_Elixir.png" />
     <Content Include="Assets\GameResources\End_Table.png" />
+    <Content Include="Assets\GameResources\Eternal_Fruitcake.png" />
+    <Content Include="Assets\GameResources\Ewelet.png" />
     <Content Include="Assets\GameResources\Fashion_Goggles.png" />
+    <Content Include="Assets\GameResources\Faux_Fangs.png" />
     <Content Include="Assets\GameResources\Feather_Pencil.png" />
+    <Content Include="Assets\GameResources\Festive_Bauble.png" />
+    <Content Include="Assets\GameResources\Festive_Bauble_2.png" />
+    <Content Include="Assets\GameResources\Festive_Bauble_3.png" />
+    <Content Include="Assets\GameResources\Festive_Bauble_4.png" />
+    <Content Include="Assets\GameResources\Festive_Bauble_5.png" />
+    <Content Include="Assets\GameResources\Festive_Bauble_6.png" />
+    <Content Include="Assets\GameResources\Festive_Bauble_7.png" />
+    <Content Include="Assets\GameResources\Festive_Bauble_8.png" />
+    <Content Include="Assets\GameResources\Festive_Bauble_Fancy.png" />
+    <Content Include="Assets\GameResources\Festive_Bauble_Fancy_2.png" />
+    <Content Include="Assets\GameResources\Festive_Bauble_Fancy_3.png" />
+    <Content Include="Assets\GameResources\Festive_Bauble_Fancy_4.png" />
+    <Content Include="Assets\GameResources\Festive_Light.png" />
+    <Content Include="Assets\GameResources\Festive_Light_2.png" />
+    <Content Include="Assets\GameResources\Festive_Light_3.png" />
+    <Content Include="Assets\GameResources\Festive_Light_4.png" />
+    <Content Include="Assets\GameResources\Festive_Tree_Planter_Build.png" />
     <Content Include="Assets\GameResources\Fossils.png" />
     <Content Include="Assets\GameResources\Friendly_Scarecrow.png" />
+    <Content Include="Assets\GameResources\Ghost_Pop.png" />
+    <Content Include="Assets\GameResources\Giblet.png" />
+    <Content Include="Assets\GameResources\Gift_Wrap.png" />
+    <Content Include="Assets\GameResources\Gingerbread_Cookie.png" />
+    <Content Include="Assets\GameResources\Glomglom.png" />
+    <Content Include="Assets\GameResources\Glowcap_build.png" />
+    <Content Include="Assets\GameResources\Gobbler_Shrine_Build.png" />
     <Content Include="Assets\GameResources\Green_Funcap.png" />
+    <Content Include="Assets\GameResources\Gummy_Spider.png" />
+    <Content Include="Assets\GameResources\Heavenly_Eggnog.png" />
+    <Content Include="Assets\GameResources\Hot_Cocoa.png" />
+    <Content Include="Assets\GameResources\Icon_Critters.png" />
+    <Content Include="Assets\GameResources\Icon_Sculpt.png" />
+    <Content Include="Assets\GameResources\Jelly_Worm.png" />
+    <Content Include="Assets\GameResources\Kittykit.png" />
     <Content Include="Assets\GameResources\Klaus.png" />
+    <Content Include="Assets\GameResources\Lucky_Beast_Body.png" />
+    <Content Include="Assets\GameResources\Lucky_Beast_Head.png" />
+    <Content Include="Assets\GameResources\Lucky_Beast_Tail.png" />
+    <Content Include="Assets\GameResources\Lucky_Fan.png" />
+    <Content Include="Assets\GameResources\Lucky_Gold_Nugget.png" />
+    <Content Include="Assets\GameResources\Magnificent_Adornment_Bearger.png" />
+    <Content Include="Assets\GameResources\Magnificent_Adornment_BeeQueen.png" />
+    <Content Include="Assets\GameResources\Magnificent_Adornment_Deerclops.png" />
+    <Content Include="Assets\GameResources\Magnificent_Adornment_Dragonfly.png" />
+    <Content Include="Assets\GameResources\Magnificent_Adornment_Gmoose.png" />
+    <Content Include="Assets\GameResources\Magnificent_Adornment_Toadstool.png" />
+    <Content Include="Assets\GameResources\Map_Scroll.png" />
     <Content Include="Assets\GameResources\Marble_Bean.png" />
     <Content Include="Assets\GameResources\Mini_Sign.png" />
+    <Content Include="Assets\GameResources\Monkey_Paw.png" />
     <Content Include="Assets\GameResources\Moon_Dial.png" />
+    <Content Include="Assets\GameResources\Mushlight_Build.png" />
     <Content Include="Assets\GameResources\Mushroom_Planter_Build.png" />
+    <Content Include="Assets\GameResources\Not-So-Candy_Corn.png" />
     <Content Include="Assets\GameResources\Ocuvigil.png" />
+    <Content Include="Assets\GameResources\Plum_Pudding.png" />
     <Content Include="Assets\GameResources\Potted_Succulent.png" />
     <Content Include="Assets\GameResources\Potter%27s_Wheel_Build.png" />
+    <Content Include="Assets\GameResources\Raisins.png" />
     <Content Include="Assets\GameResources\Reanimated_Skeleton_Atrium.png" />
     <Content Include="Assets\GameResources\Reanimated_Skeleton_Caves.png" />
     <Content Include="Assets\GameResources\Reanimated_Skeleton_Forest.png" />
+    <Content Include="Assets\GameResources\Red_Firecrackers.png" />
     <Content Include="Assets\GameResources\Red_Funcap.png" />
+    <Content Include="Assets\GameResources\Red_Lantern.png" />
+    <Content Include="Assets\GameResources\Red_Pouch.png" />
+    <Content Include="Assets\GameResources\Rock_Den.png" />
     <Content Include="Assets\GameResources\Saffron_Feather.png" />
     <Content Include="Assets\GameResources\Scaled_Furnace.png" />
     <Content Include="Assets\GameResources\Shadow_Atrium.png" />
     <Content Include="Assets\GameResources\Shadow_Thurible.png" />
     <Content Include="Assets\GameResources\Shroom_Skin.png" />
+    <Content Include="Assets\GameResources\Sketch.png" />
+    <Content Include="Assets\GameResources\Spider_Ring.png" />
     <Content Include="Assets\GameResources\Stag_Antler.png" />
+    <Content Include="Assets\GameResources\Statue_Bishop_Marble.png" />
+    <Content Include="Assets\GameResources\Statue_Bishop_Stone.png" />
+    <Content Include="Assets\GameResources\Statue_Formal_Marble.png" />
+    <Content Include="Assets\GameResources\Statue_Formal_Stone.png" />
+    <Content Include="Assets\GameResources\Statue_Hornucopia_Marble.png" />
+    <Content Include="Assets\GameResources\Statue_Hornucopia_Stone.png" />
+    <Content Include="Assets\GameResources\Statue_Knight_Marble.png" />
+    <Content Include="Assets\GameResources\Statue_Knight_Stone.png" />
+    <Content Include="Assets\GameResources\Statue_Muse_Marble.png" />
+    <Content Include="Assets\GameResources\Statue_Muse_Stone.png" />
+    <Content Include="Assets\GameResources\Statue_Pawn_Marble.png" />
+    <Content Include="Assets\GameResources\Statue_Pawn_Stone.png" />
+    <Content Include="Assets\GameResources\Statue_Pipe_Marble.png" />
+    <Content Include="Assets\GameResources\Statue_Pipe_Stone.png" />
+    <Content Include="Assets\GameResources\Statue_Rook_Marble.png" />
+    <Content Include="Assets\GameResources\Statue_Rook_Stone.png" />
     <Content Include="Assets\GameResources\Succulent.png" />
+    <Content Include="Assets\GameResources\Sugar_Cookie.png" />
+    <Content Include="Assets\GameResources\Tentacle_Lolli.png" />
+    <Content Include="Assets\GameResources\The_Lazy_Deserter_Build.png" />
     <Content Include="Assets\GameResources\Toadstool.png" />
     <Content Include="Assets\GameResources\T_28.png" />
     <Content Include="Assets\GameResources\T_29.png" />
@@ -138,6 +234,7 @@
     <Content Include="Assets\GameResources\T_35.png" />
     <Content Include="Assets\GameResources\T_36.png" />
     <Content Include="Assets\GameResources\T_37.png" />
+    <Content Include="Assets\GameResources\Vargling.png" />
     <Content Include="Assets\GameResources\Wax_Paper.png" />
     <Content Include="Assets\GameResources\Wood_Fence.png" />
     <Content Include="Assets\GameResources\Wood_Gate.png" />
@@ -154,6 +251,7 @@
     <Compile Include="Data\BindingImage.cs" />
     <Compile Include="Data\Character.cs" />
     <Compile Include="Data\Creature.cs" />
+    <Compile Include="Data\Event.cs" />
     <Compile Include="Data\Food.cs" />
     <Compile Include="Data\FoodRecipe.cs" />
     <Compile Include="Data\GoodCreature.cs" />
@@ -185,6 +283,12 @@
     </Compile>
     <Compile Include="View\CreaturePage.xaml.cs">
       <DependentUpon>CreaturePage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\EventDialog.xaml.cs">
+      <DependentUpon>EventDialog.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\EventPage.xaml.cs">
+      <DependentUpon>EventPage.xaml</DependentUpon>
     </Compile>
     <Compile Include="View\FoodDialog.xaml.cs">
       <DependentUpon>FoodDialog.xaml</DependentUpon>
@@ -1530,18 +1634,19 @@
     <Content Include="XML\Creatures.xml">
       <SubType>Designer</SubType>
     </Content>
+    <Content Include="XML\Events.xml">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="XML\Foods.xml">
       <SubType>Designer</SubType>
     </Content>
     <Content Include="XML\Goods.xml">
       <SubType>Designer</SubType>
     </Content>
-    <Content Include="XML\MainWindow.xaml.vb" />
     <Content Include="XML\Natures.xml" />
     <Content Include="XML\Science.xml">
       <SubType>Designer</SubType>
     </Content>
-    <Content Include="XML\TencentXml.xml" />
     <None Include="Package.StoreAssociation.xml" />
     <Content Include="Properties\Default.rd.xml" />
   </ItemGroup>
@@ -1575,6 +1680,14 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="View\CreaturePage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\EventDialog.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\EventPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -1643,7 +1756,11 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <SDKReference Include="WindowsMobile, Version=10.0.14393.0">
+      <Name>Windows Mobile Extensions for the UWP</Name>
+    </SDKReference>
+  </ItemGroup>
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '14.0' ">
     <VisualStudioVersion>14.0</VisualStudioVersion>
   </PropertyGroup>

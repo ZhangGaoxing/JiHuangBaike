@@ -2,7 +2,7 @@
 <CharacterNode>
   <Character>
     <Picture>C_wilson</Picture>
-    <Name>威尔逊</Name>
+    <Name>绅士科学家威尔森</Name>
     <EnName>Wilson</EnName>
     <Motto>“我将用我的脑子征服这个世界！”</Motto>
     <Description>· 会长出华丽的胡须</Description>
@@ -10,12 +10,12 @@
     <Hunger>150</Hunger>
     <Sanity>200</Sanity>
     <Damage>1</Damage>
-    <Introduction>威尔逊 (绅士科学家) 是一位绅士，同时也是科学家，将他传送到荒岛的机器就是他亲手制作的。威尔逊与其他角色不同的地方在于他会长胡子，一位帅哥长时间不刮胡子也能变成野人的模样。胡子能在冬天为主角保暖，同时也是制作肉块雕像必不可少的材料。</Introduction>
+    <Introduction>威尔森 (绅士科学家) 是一位绅士，同时也是科学家，将他传送到荒岛的机器就是他亲手制作的。威尔逊与其他角色不同的地方在于他会长胡子，一位帅哥长时间不刮胡子也能变成野人的模样。胡子能在冬天为主角保暖，同时也是制作肉块雕像必不可少的材料。</Introduction>
     <Console>wilson</Console>
   </Character>
   <Character>
     <Picture>C_willow</Picture>
-    <Name>薇洛</Name>
+    <Name>纵火的薇洛</Name>
     <EnName>Willow</EnName>
     <Motto>“所有的一切都会在最美丽的火焰中燃烧。”</Motto>
     <Description>· 火焰抗性&#x000A;· 可以造出可爱的熊和超级甜美的打火机&#x000A;· 发疯时无法保持温暖</Description>
@@ -28,7 +28,7 @@
   </Character>
   <Character>
     <Picture>C_wolfgang</Picture>
-    <Name>沃尔夫冈</Name>
+    <Name>大力士沃尔夫冈</Name>
     <EnName>Wolfgang</EnName>
     <Motto>“我是男子汉！是最最强壮的男人！”</Motto>
     <Description>· 吃饱喝足时更加强大&#x000A;· 害怕怪物和黑暗</Description>
@@ -41,7 +41,7 @@
   </Character>
   <Character>
     <Picture>C_wendy</Picture>
-    <Name>温蒂</Name>
+    <Name>孤独的温蒂</Name>
     <EnName>Wendy</EnName>
     <Motto>“阿比盖尔？快回来！我们还没玩够呢。”</Motto>
     <Description>· 双胞胎妹妹萦绕在身边&#x000A;· 在黑暗中有安全感&#x000A;· 攻击力弱</Description>
@@ -54,7 +54,7 @@
   </Character>
   <Character>
     <Picture>C_wx78</Picture>
-    <Name>WX-78</Name>
+    <Name>机器人WX-78</Name>
     <EnName>WX-78</EnName>
     <Motto>“情感模块无响应”</Motto>
     <Descriptions_1>· 不挑食&#x000A;· 遇到闪电可以充能，遇到水则会短路&#x000A;· 可用零件升级</Descriptions_1>
@@ -67,7 +67,7 @@
   </Character>
   <Character>
     <Picture>C_wickerbottom</Picture>
-    <Name>维克波顿</Name>
+    <Name>图书管理员薇克巴顿</Name>
     <EnName>Wickerbottom</EnName>
     <Motto>“嘘！图书馆里不准讲话！”</Motto>
     <Description>· 懂很多知识&#x000A;· 自己出版书本&#x000A;· 无法入眠，讨厌变质的食物</Description>
@@ -80,7 +80,7 @@
   </Character>
   <Character>
     <Picture>C_woodie</Picture>
-    <Name>伍迪</Name>
+    <Name>伐木工伍迪</Name>
     <EnName>Woodie</EnName>
     <Motto>“那棵树很好看对吧？很快就要没了。”</Motto>
     <Description>· 有一把可爱的斧头&#x000A;· 以及一个可怕的秘密&#x000A;· 很感激丰收</Description>
@@ -93,7 +93,7 @@
   </Character>
   <Character>
     <Picture>C_wes</Picture>
-    <Name>韦斯</Name>
+    <Name>沉默的韦斯</Name>
     <EnName>Wes</EnName>
     <Motto>“……”</Motto>
     <Description>· 无法说话&#x000A;· 生存艰辛&#x000A;· 懂得气球术</Description>
@@ -106,7 +106,7 @@
   </Character>
   <Character>
     <Picture>C_waxwell</Picture>
-    <Name>麦克斯韦</Name>
+    <Name>傀儡大师麦斯威尔</Name>
     <EnName>Maxwell</EnName>
     <Motto>“我爱自由。”</Motto>
     <Description>· 衣冠楚楚但是不堪一击&#x000A;· 可以将脑子分成很多块&#x000A;· 曾经是世界之王</Description>
@@ -119,7 +119,7 @@
   </Character>
   <Character>
     <Picture>C_wathgrithr</Picture>
-    <Name>薇格弗德</Name>
+    <Name>表演艺术家薇格弗德</Name>
     <EnName>Wigfrid</EnName>
     <Motto>“对我来说，世界只不过是个舞台！”</Motto>
     <Description>· 精通战斗&#x000A;· 吸收死去敌人的力量&#x000A;· 只吃肉</Description>
@@ -132,7 +132,7 @@
   </Character>
   <Character>
     <Picture>C_webber</Picture>
-    <Name>韦伯</Name>
+    <Name>蜘蛛人韦伯</Name>
     <EnName>Webber</EnName>
     <Motto>“我们永远在一起，从不会孤单一人！”</Motto>
     <Description>· 是一个怪物&#x000A;· 可以和蜘蛛成为朋友&#x000A;· 能长出一把丝滑的胡子</Description>

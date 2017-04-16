@@ -63,44 +63,53 @@
 
         <ScrollViewer VerticalScrollBarVisibility="Auto" Grid.Row="1">
             <StackPanel>
-                <controls:Expander Header="工具" IsExpanded="True">
+                <controls:Expander Header="工具  Tools Tab" IsExpanded="True">
                     <GridView Margin="10" ItemsSource="{x:Bind toolData}" ItemTemplate="{StaticResource ScienceDataTemplate}" SelectionMode="None" IsItemClickEnabled="True" ItemClick="ScienceGridView_ItemClick" />
                 </controls:Expander>
-                <controls:Expander Header="照明" IsExpanded="False">
+                <controls:Expander Header="点燃  Light Tab" IsExpanded="False">
                     <GridView  Margin="10" ItemsSource="{x:Bind lightData}" ItemTemplate="{StaticResource ScienceDataTemplate}" SelectionMode="None" IsItemClickEnabled="True" ItemClick="ScienceGridView_ItemClick" />
                 </controls:Expander>
-                <controls:Expander Header="生存" IsExpanded="False">
+                <controls:Expander Header="生存  Survival Tab" IsExpanded="False">
                     <GridView Margin="10" ItemsSource="{x:Bind survivalData}" ItemTemplate="{StaticResource ScienceDataTemplate}" SelectionMode="None" IsItemClickEnabled="True" ItemClick="ScienceGridView_ItemClick" />
                 </controls:Expander>
-                <controls:Expander Header="食物" IsExpanded="False">
+                <controls:Expander Header="食物  Food Tab" IsExpanded="False">
                     <GridView Margin="10" ItemsSource="{x:Bind foodData}" ItemTemplate="{StaticResource ScienceDataTemplate}" SelectionMode="None" IsItemClickEnabled="True" ItemClick="ScienceGridView_ItemClick" />
                 </controls:Expander>
-                <controls:Expander Header="科技" IsExpanded="False">
+                <controls:Expander Header="科学  Science Tab" IsExpanded="False">
                     <GridView Margin="10" ItemsSource="{x:Bind technologyData}" ItemTemplate="{StaticResource ScienceDataTemplate}" SelectionMode="None" IsItemClickEnabled="True" ItemClick="ScienceGridView_ItemClick" />
                 </controls:Expander>
-                <controls:Expander Header="战斗" IsExpanded="False">
+                <controls:Expander Header="战斗  Fight Tab" IsExpanded="False">
                     <GridView Margin="10" ItemsSource="{x:Bind fightData}" ItemTemplate="{StaticResource ScienceDataTemplate}" SelectionMode="None" IsItemClickEnabled="True" ItemClick="ScienceGridView_ItemClick" />
                 </controls:Expander>
-                <controls:Expander Header="建筑" IsExpanded="False">
+                <controls:Expander Header="建筑  Structures Tab" IsExpanded="False">
                     <GridView Margin="10" ItemsSource="{x:Bind structureData}" ItemTemplate="{StaticResource ScienceDataTemplate}" SelectionMode="None" IsItemClickEnabled="True" ItemClick="ScienceGridView_ItemClick" />
                 </controls:Expander>
-                <controls:Expander Header="合成" IsExpanded="False">
+                <controls:Expander Header="合成  Refine Tab" IsExpanded="False">
                     <GridView Margin="10" ItemsSource="{x:Bind refineData}" ItemTemplate="{StaticResource ScienceDataTemplate}" SelectionMode="None" IsItemClickEnabled="True" ItemClick="ScienceGridView_ItemClick" />
                 </controls:Expander>
-                <controls:Expander Header="魔法" IsExpanded="False">
+                <controls:Expander Header="魔法  Magic Tab" IsExpanded="False">
                     <GridView Margin="10" ItemsSource="{x:Bind magicData}" ItemTemplate="{StaticResource ScienceDataTemplate}" SelectionMode="None" IsItemClickEnabled="True" ItemClick="ScienceGridView_ItemClick" />
                 </controls:Expander>
-                <controls:Expander Header="衣物" IsExpanded="False">
+                <controls:Expander Header="服装  Dress Tab" IsExpanded="False">
                     <GridView Margin="10" ItemsSource="{x:Bind dressData}" ItemTemplate="{StaticResource ScienceDataTemplate}" SelectionMode="None" IsItemClickEnabled="True" ItemClick="ScienceGridView_ItemClick" />
                 </controls:Expander>
-                <controls:Expander Header="远古" IsExpanded="False">
+                <controls:Expander Header="远古  Ancient Tab" IsExpanded="False">
                     <GridView Margin="10" ItemsSource="{x:Bind ancientData}" ItemTemplate="{StaticResource ScienceDataTemplate}" SelectionMode="None" IsItemClickEnabled="True" ItemClick="ScienceGridView_ItemClick" />
                 </controls:Expander>
-                <controls:Expander Header="书" IsExpanded="False">
+                <controls:Expander Header="书  Books Tab" IsExpanded="False">
                     <GridView Margin="10" ItemsSource="{x:Bind bookData}" ItemTemplate="{StaticResource ScienceDataTemplate}" SelectionMode="None" IsItemClickEnabled="True" ItemClick="ScienceGridView_ItemClick" />
                 </controls:Expander>
-                <controls:Expander Header="暗影巫术" IsExpanded="False">
+                <controls:Expander Header="暗影巫术  Shadow Tab" IsExpanded="False">
                     <GridView Margin="10" ItemsSource="{x:Bind shadowData}" ItemTemplate="{StaticResource ScienceDataTemplate}" SelectionMode="None" IsItemClickEnabled="True" ItemClick="ScienceGridView_ItemClick" />
+                </controls:Expander>
+                <controls:Expander Header="小动物  Critters Tab" IsExpanded="False">
+                    <GridView Margin="10" ItemsSource="{x:Bind crittersData}" ItemTemplate="{StaticResource ScienceDataTemplate}" SelectionMode="None" IsItemClickEnabled="True" ItemClick="ScienceGridView_ItemClick" />
+                </controls:Expander>
+                <controls:Expander Header="雕塑  Sculpt Tab" IsExpanded="False">
+                    <GridView Margin="10" ItemsSource="{x:Bind sculptData}" ItemTemplate="{StaticResource ScienceDataTemplate}" SelectionMode="None" IsItemClickEnabled="True" ItemClick="ScienceGridView_ItemClick" />
+                </controls:Expander>
+                <controls:Expander Header="制图学  Cartography Tab" IsExpanded="False">
+                    <GridView Margin="10" ItemsSource="{x:Bind cartographyData}" ItemTemplate="{StaticResource ScienceDataTemplate}" SelectionMode="None" IsItemClickEnabled="True" ItemClick="ScienceGridView_ItemClick" />
                 </controls:Expander>
             </StackPanel>
         </ScrollViewer>

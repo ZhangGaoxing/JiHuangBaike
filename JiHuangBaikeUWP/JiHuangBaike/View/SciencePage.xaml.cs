@@ -40,6 +40,9 @@ namespace JiHuangBaike.View
         private ObservableCollection<Science> ancientData = new ObservableCollection<Science>();
         private ObservableCollection<Science> bookData = new ObservableCollection<Science>();
         private ObservableCollection<Science> shadowData = new ObservableCollection<Science>();
+        private ObservableCollection<Science> crittersData = new ObservableCollection<Science>();
+        private ObservableCollection<Science> sculptData = new ObservableCollection<Science>();
+        private ObservableCollection<Science> cartographyData = new ObservableCollection<Science>();
 
         Style transparent = (Style)Application.Current.Resources["TransparentDialog"];
 
@@ -67,6 +70,9 @@ namespace JiHuangBaike.View
             var ancientList = xml.DocumentElement.SelectNodes("Ancient")[0].SelectNodes("Science");
             var bookList = xml.DocumentElement.SelectNodes("Book")[0].SelectNodes("Science");
             var shadowList = xml.DocumentElement.SelectNodes("Shadow")[0].SelectNodes("Science");
+            var crittersList = xml.DocumentElement.SelectNodes("Critter")[0].SelectNodes("Science");
+            var sculptList = xml.DocumentElement.SelectNodes("Sculpt")[0].SelectNodes("Science");
+            var cartographyList = xml.DocumentElement.SelectNodes("Cartography")[0].SelectNodes("Science");
 
             foreach (var item in toolList)
             {
@@ -360,6 +366,78 @@ namespace JiHuangBaike.View
             {
                 var childList = item.ChildNodes;
                 shadowData.Add(
+                    new Science
+                    {
+                        Image = $"ms-appx:///Assets/GameResources/{childList[1].InnerText}.png",
+                        Name = childList[3].InnerText,
+                        EnName = childList[5].InnerText,
+                        Need1 = $"ms-appx:///Assets/GameResources/{childList[7].InnerText}.png",
+                        Need1Value = Convert.ToInt32(childList[9].InnerText),
+                        Need2 = $"ms-appx:///Assets/GameResources/{childList[11].InnerText}.png",
+                        Need2Value = Convert.ToInt32(childList[13].InnerText),
+                        Need3 = $"ms-appx:///Assets/GameResources/{childList[15].InnerText}.png",
+                        Need3Value = Convert.ToInt32(childList[17].InnerText),
+                        IsROG = Convert.ToBoolean(Convert.ToInt32(childList[19].InnerText)),
+                        IsSW = Convert.ToBoolean(Convert.ToInt32(childList[21].InnerText)),
+                        IsDST = Convert.ToBoolean(Convert.ToInt32(childList[23].InnerText)),
+                        Unlock = $"ms-appx:///Assets/GameResources/{childList[25].InnerText}.png",
+                        Introduction = childList[27].InnerText,
+                        Console = $@"c_give(""{childList[29].InnerText}"",1)"
+                    });
+            }
+
+            foreach (var item in crittersList)
+            {
+                var childList = item.ChildNodes;
+                crittersData.Add(
+                    new Science
+                    {
+                        Image = $"ms-appx:///Assets/GameResources/{childList[1].InnerText}.png",
+                        Name = childList[3].InnerText,
+                        EnName = childList[5].InnerText,
+                        Need1 = $"ms-appx:///Assets/GameResources/{childList[7].InnerText}.png",
+                        Need1Value = Convert.ToInt32(childList[9].InnerText),
+                        Need2 = $"ms-appx:///Assets/GameResources/{childList[11].InnerText}.png",
+                        Need2Value = Convert.ToInt32(childList[13].InnerText),
+                        Need3 = $"ms-appx:///Assets/GameResources/{childList[15].InnerText}.png",
+                        Need3Value = Convert.ToInt32(childList[17].InnerText),
+                        IsROG = Convert.ToBoolean(Convert.ToInt32(childList[19].InnerText)),
+                        IsSW = Convert.ToBoolean(Convert.ToInt32(childList[21].InnerText)),
+                        IsDST = Convert.ToBoolean(Convert.ToInt32(childList[23].InnerText)),
+                        Unlock = $"ms-appx:///Assets/GameResources/{childList[25].InnerText}.png",
+                        Introduction = childList[27].InnerText,
+                        Console = $@"c_give(""{childList[29].InnerText}"",1)"
+                    });
+            }
+
+            foreach (var item in sculptList)
+            {
+                var childList = item.ChildNodes;
+                sculptData.Add(
+                    new Science
+                    {
+                        Image = $"ms-appx:///Assets/GameResources/{childList[1].InnerText}.png",
+                        Name = childList[3].InnerText,
+                        EnName = childList[5].InnerText,
+                        Need1 = $"ms-appx:///Assets/GameResources/{childList[7].InnerText}.png",
+                        Need1Value = Convert.ToInt32(childList[9].InnerText),
+                        Need2 = $"ms-appx:///Assets/GameResources/{childList[11].InnerText}.png",
+                        Need2Value = Convert.ToInt32(childList[13].InnerText),
+                        Need3 = $"ms-appx:///Assets/GameResources/{childList[15].InnerText}.png",
+                        Need3Value = Convert.ToInt32(childList[17].InnerText),
+                        IsROG = Convert.ToBoolean(Convert.ToInt32(childList[19].InnerText)),
+                        IsSW = Convert.ToBoolean(Convert.ToInt32(childList[21].InnerText)),
+                        IsDST = Convert.ToBoolean(Convert.ToInt32(childList[23].InnerText)),
+                        Unlock = $"ms-appx:///Assets/GameResources/{childList[25].InnerText}.png",
+                        Introduction = childList[27].InnerText,
+                        Console = $@"c_give(""{childList[29].InnerText}"",1)"
+                    });
+            }
+
+            foreach (var item in cartographyList)
+            {
+                var childList = item.ChildNodes;
+                cartographyData.Add(
                     new Science
                     {
                         Image = $"ms-appx:///Assets/GameResources/{childList[1].InnerText}.png",

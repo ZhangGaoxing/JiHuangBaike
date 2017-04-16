@@ -61,7 +61,7 @@
             <TextBlock Name="EquipmentSanity" Grid.Row="8" Text="精神：" Visibility="Collapsed" />
             <TextBlock Name="EquipmentDefense" Grid.Row="9" Text="防御：" Visibility="Collapsed" />
             <TextBlock Name="EquipmentHunger" Grid.Row="10" Text="饥饿：" Visibility="Collapsed" />
-            <TextBlock Name="EquipmentIntroduction" Grid.Row="11" />
+            <TextBlock Name="EquipmentIntroduction" Grid.Row="11" TextWrapping="Wrap" />
             <Grid Grid.Row="12" HorizontalAlignment="Center">
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="Auto" />

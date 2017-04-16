@@ -2263,7 +2263,7 @@
       <Goods>大肉*6、鸡腿*2、羽毛*3-5</Goods>
       <Ability>尖叫使得武器掉落</Ability>
       <Introduction>鹿角鹅是春季BOSS，在进入春天的2-4天出现(前提是至少有3个建筑在靠近的位置，比如科学机器、避雷针、烹煮锅等)，在夏季到达时会离开。到达约一天后会生成鹿角鹅蛋，孵化出5只莫斯林，莫斯林不会成长为鹿角鹅。注意如果青蛙雨的青蛙攻击了莫斯林可能会产生另一只鹿角鹅。鹿角鹅不会破坏玩家的建筑，除了墙。鹿角鹅只会近程攻击(攻击生物时攻击力为150)，每到第三次攻击就会让玩家的武器掉落在附近地上。可以把鹿角鹅吸引到皮弗娄牛处或者青蛙雨处击杀。如果自己动手打的话带上武器防具注意躲避攻击也是可以击杀的。</Introduction>
-      <Console></Console>
+      <Console>moose</Console>
     </Creature>
     <Creature>
       <Picture>A_mosling</Picture>
@@ -2517,6 +2517,29 @@
       <Ability>无</Ability>
       <Introduction></Introduction>
       <Console>klaus</Console>
+    </Creature>
+    <Creature>
+      <Picture>Antlion</Picture>
+      <Name>蚁狮</Name>
+      <EnName>Antlion</EnName>
+      <Health>0</Health>
+      <HealthDST>6000</HealthDST>
+      <Attack>100</Attack>
+      <AttackInterval>4</AttackInterval>
+      <AttackScope>15</AttackScope>
+      <MoveSpeed>0</MoveSpeed>
+      <RunSpeed>0</RunSpeed>
+      <Dangerous>0</Dangerous>
+      <SanityEffect>-40</SanityEffect>
+      <IsActiveAttack>1</IsActiveAttack>
+      <IsTeamWork>1</IsTeamWork>
+      <IsROG>0</IsROG>
+      <IsSW>0</IsSW>
+      <IsDST>1</IsDST>
+      <Goods></Goods>
+      <Ability>无</Ability>
+      <Introduction></Introduction>
+      <Console>toadstool</Console>
     </Creature>
   </BOSS>
 </CreatureNode>

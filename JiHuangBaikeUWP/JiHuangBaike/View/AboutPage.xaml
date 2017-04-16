@@ -73,7 +73,7 @@
 
                 <TextBlock Text="其他" FontSize="22" Margin="20,20,0,0" />
                 <TextBlock FontSize="14" Margin="20,5,0,0">
-                    本应用遵循 MIT 许可开源，快来一起写代码啊。
+                    本应用使用 MIT 许可开源，快来一起写代码啊。
                 </TextBlock>
                 <HyperlinkButton Margin="20,5,0,0" NavigateUri="https://github.com/ZhangGaoxing/JiHuangBaike/tree/master">
                     <Image Source="/Assets/Pic/github.png" Height="45" />

@@ -710,6 +710,18 @@
       <Console>bearger_fur</Console>
     </Good>
     <Good>
+      <Picture>Chilled_Lavae</Picture>
+      <Name>冷冻幼虫</Name>
+      <EnName>Chilled Lavae</EnName>
+      <Science></Science>
+      <Creature>A_lavae</Creature>
+      <IsROG>0</IsROG>
+      <IsSW>0</IsSW>
+      <IsDST>1</IsDST>
+      <Introduction>击杀超可爱岩浆虫获得。</Introduction>
+      <Console>lavae_cocoon</Console>
+    </Good>
+    <Good>
       <Picture>Stag_Antler</Picture>
       <Name>牡鹿角</Name>
       <EnName>Stag Antler</EnName>
@@ -754,8 +766,32 @@
       <IsROG>0</IsROG>
       <IsSW>0</IsSW>
       <IsDST>1</IsDST>
-      <Introduction>雕塑材料(TGP翻译作死...)</Introduction>
+      <Introduction>蓝图科技材料(TGP翻译作死...)</Introduction>
       <Console>shroom_skin</Console>
+    </Good>
+    <Good>
+      <Picture>Ancient_Key</Picture>
+      <Name>古代钥匙</Name>
+      <EnName>Ancient Key</EnName>
+      <Science></Science>
+      <Creature>A_ancient_guardian</Creature>
+      <IsROG>0</IsROG>
+      <IsSW>0</IsSW>
+      <IsDST>1</IsDST>
+      <Introduction>开启古代通道</Introduction>
+      <Console>atrium_key</Console>
+    </Good>
+    <Good>
+      <Picture>Desert_Stone</Picture>
+      <Name>砂石</Name>
+      <EnName>Desert Stone</EnName>
+      <Science>The_Lazy_Deserter_Build</Science>
+      <Creature>Antlion</Creature>
+      <IsROG>0</IsROG>
+      <IsSW>0</IsSW>
+      <IsDST>1</IsDST>
+      <Introduction></Introduction>
+      <Console>townportaltalisman</Console>
     </Good>
   </Material>
   <Equipment>
@@ -2578,60 +2614,7 @@
       <IsDST>1</IsDST>
       <Console>trinket_31</Console>
     </Good>
-    <Good>
-      <Picture>T_32</Picture>
-      <Name>方晶锆石球</Name>
-      <EnName></EnName>
-      <IsROG>1</IsROG>
-      <IsSW>0</IsSW>
-      <IsDST>1</IsDST>
-      <Console>trinket_32</Console>
-    </Good>
-    <Good>
-      <Picture>T_33</Picture>
-      <Name>蜘蛛戒指</Name>
-      <EnName></EnName>
-      <IsROG>1</IsROG>
-      <IsSW>0</IsSW>
-      <IsDST>1</IsDST>
-      <Console>trinket_33</Console>
-    </Good>
-    <Good>
-      <Picture>T_34</Picture>
-      <Name>猴爪</Name>
-      <EnName></EnName>
-      <IsROG>1</IsROG>
-      <IsSW>0</IsSW>
-      <IsDST>1</IsDST>
-      <Console>trinket_34</Console>
-    </Good>
-    <Good>
-      <Picture>T_35</Picture>
-      <Name>空的万能药</Name>
-      <EnName></EnName>
-      <IsROG>1</IsROG>
-      <IsSW>0</IsSW>
-      <IsDST>1</IsDST>
-      <Console>trinket_35</Console>
-    </Good>
-    <Good>
-      <Picture>T_36</Picture>
-      <Name>人造尖牙</Name>
-      <EnName></EnName>
-      <IsROG>1</IsROG>
-      <IsSW>0</IsSW>
-      <IsDST>1</IsDST>
-      <Console>trinket_36</Console>
-    </Good>
-    <Good>
-      <Picture>T_37</Picture>
-      <Name>折断的棍子</Name>
-      <EnName></EnName>
-      <IsROG>1</IsROG>
-      <IsSW>0</IsSW>
-      <IsDST>1</IsDST>
-      <Console>trinket_37</Console>
-    </Good>
+    
   </Toy>
   <Turf>
     <Good>

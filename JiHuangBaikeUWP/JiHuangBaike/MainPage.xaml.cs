@@ -9,6 +9,7 @@ using System.Runtime.InteropServices.WindowsRuntime;
 using Windows.Foundation;
 using Windows.Foundation.Collections;
 using Windows.UI;
+using Windows.UI.ViewManagement;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
 using Windows.UI.Xaml.Controls.Primitives;
@@ -84,6 +85,15 @@ namespace JiHuangBaike
                     Color = new SolidColorBrush(Colors.White),
                     Selected = Visibility.Collapsed,
                     DestPage = typeof(GoodsPage)
+                },
+                new NavMenuItem()
+                {
+                    FontFamily = new FontFamily("/Assets/segmdl2.ttf#Segoe MDL2 Assets"),
+                    Icon = "\xE163",
+                    Label = "节日",
+                    Color = new SolidColorBrush(Colors.White),
+                    Selected = Visibility.Collapsed,
+                    DestPage = typeof(EventPage)
                 }
             });
 
@@ -178,6 +188,40 @@ namespace JiHuangBaike
         private async void RootSplitView_PaneClosed(SplitView sender, object args)
         {
             await RootFrame.Blur(value: 0, duration: 0, delay: 0).StartAsync();
+        }
+
+        protected async override void OnNavigatedTo(NavigationEventArgs e)
+        {
+            if (Windows.Foundation.Metadata.ApiInformation.IsTypePresent("Windows.UI.ViewManagement.StatusBar"))
+            {
+                StatusBar statusBar = StatusBar.GetForCurrentView();
+                statusBar.ForegroundColor = Colors.White;
+                statusBar.BackgroundOpacity = 1;
+                statusBar.BackgroundColor = brush;
+                await statusBar.ShowAsync();
+            }
+            else
+            {
+                var view = ApplicationView.GetForCurrentView();
+                // active
+                view.TitleBar.BackgroundColor = brush;
+                view.TitleBar.ForegroundColor = Colors.White;
+                // inactive
+                view.TitleBar.InactiveBackgroundColor = brush;
+                view.TitleBar.InactiveForegroundColor = Colors.Gray;
+                // button
+                view.TitleBar.ButtonBackgroundColor = brush;
+                view.TitleBar.ButtonForegroundColor = Colors.White;
+
+                view.TitleBar.ButtonInactiveBackgroundColor = brush;
+                view.TitleBar.ButtonInactiveForegroundColor = Colors.Gray;
+
+                //view.TitleBar.ButtonHoverBackgroundColor = Colors.LightSkyBlue;
+                //view.TitleBar.ButtonHoverForegroundColor = Colors.White;
+
+                //view.TitleBar.ButtonPressedBackgroundColor = Color.FromArgb(255, 0, 0, 120);
+                //view.TitleBar.ButtonPressedForegroundColor = Colors.White;
+            }
         }
     }
 }

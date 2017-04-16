@@ -1,0 +1,89 @@
+﻿<Page
+    x:Class="JiHuangBaike.View.EventPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:JiHuangBaike.View"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:controls="using:Microsoft.Toolkit.Uwp.UI.Controls"
+    xmlns:data="using:JiHuangBaike.Data"
+    mc:Ignorable="d">
+
+    <Page.Resources>
+        <DataTemplate x:Key="EventDataTemplate" x:DataType="data:Event">
+            <Grid Margin="5" Width="80" Height="80">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="Auto" />
+                </Grid.RowDefinitions>
+                <Image Source="{x:Bind Picture}" Stretch="Uniform" />
+                <TextBlock Grid.Row="1" Text="{x:Bind Name}" FontSize="11" HorizontalAlignment="Center" />
+            </Grid>
+        </DataTemplate>
+    </Page.Resources>
+
+    <Grid Name="EventGrid" Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <VisualStateManager.VisualStateGroups>
+            <VisualStateGroup>
+                <VisualState>
+                    <VisualState.StateTriggers>
+                        <AdaptiveTrigger MinWindowWidth="{StaticResource LargeWindowSnapPoint}" />
+                    </VisualState.StateTriggers>
+                    <VisualState.Setters>
+                        <Setter Target="Title.Margin" Value="20,0,0,0"/>
+                    </VisualState.Setters>
+                </VisualState>
+                <VisualState>
+                    <VisualState.StateTriggers>
+                        <AdaptiveTrigger MinWindowWidth="{StaticResource MediumWindowSnapPoint}" />
+                    </VisualState.StateTriggers>
+                    <VisualState.Setters>
+                        <Setter Target="Title.Margin" Value="20,0,0,0"/>
+                    </VisualState.Setters>
+                </VisualState>
+                <VisualState>
+                    <VisualState.StateTriggers>
+                        <AdaptiveTrigger MinWindowWidth="{StaticResource MinWindowSnapPoint}" />
+                    </VisualState.StateTriggers>
+                    <VisualState.Setters>
+                        <Setter Target="Title.Margin" Value="68,0,0,0"/>
+                    </VisualState.Setters>
+                </VisualState>
+            </VisualStateGroup>
+        </VisualStateManager.VisualStateGroups>
+
+        <Grid Name="TitleGrid" Background="{ThemeResource SystemControlBackgroundAccentBrush}" Height="48">
+            <TextBlock Name="Title" Text="节日" FontSize="20" Foreground="White" VerticalAlignment="Center" />
+        </Grid>
+
+        <ScrollViewer Grid.Row="1" VerticalScrollBarVisibility="Auto">
+            <StackPanel>
+                <controls:Expander Header="万圣节 Hallowed Nights" IsExpanded="True">
+                    <StackPanel>
+                        <TextBlock Margin="10,10,10,0" Text="出现在万圣节季（2016年10月18日-2016年11月8日）" TextWrapping="Wrap" />
+                        <GridView Margin="10" ItemsSource="{x:Bind HallowedNightsData}" ItemTemplate="{StaticResource EventDataTemplate}" SelectionMode="None" IsItemClickEnabled="True" ItemClick="GridView_ItemClick" />
+                    </StackPanel>
+                </controls:Expander>
+                <controls:Expander Header="圣诞节 Winter's Feast" IsExpanded="False">
+                    <StackPanel>
+                        <TextBlock Margin="10,10,10,0" Text="出现在冬季假期（12月15日-1月5日）。" TextWrapping="Wrap" />
+                        <GridView Margin="10" ItemsSource="{x:Bind WintersFeastData}" ItemTemplate="{StaticResource EventDataTemplate}" SelectionMode="None" IsItemClickEnabled="True" ItemClick="GridView_ItemClick" />
+                    </StackPanel>
+                </controls:Expander>
+                <controls:Expander Header="农历鸡年 Year of the Gobbler" IsExpanded="False">
+                    <StackPanel>
+                        <TextBlock Margin="10,10,10,0" Text="出现在2017年1月19日-2017年2月14日。" TextWrapping="Wrap" />
+                        <GridView Margin="10" ItemsSource="{x:Bind GobblertData}" ItemTemplate="{StaticResource EventDataTemplate}" SelectionMode="None" IsItemClickEnabled="True" ItemClick="GridView_ItemClick" />
+                    </StackPanel>
+                </controls:Expander>
+            </StackPanel>
+            
+        </ScrollViewer>
+
+    </Grid>
+</Page>
