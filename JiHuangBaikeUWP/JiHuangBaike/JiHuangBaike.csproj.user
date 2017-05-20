@@ -2,13 +2,13 @@
 <Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <AppxShowAllApps>False</AppxShowAllApps>
-    <Source>C:\Users\zhang\Desktop\JiHuangBaike\Pic\600.png</Source>
-    <SmallTileSource>C:\Users\zhang\Desktop\JiHuangBaike\Pic\600.png</SmallTileSource>
-    <MediumTileSource>C:\Users\zhang\Desktop\JiHuangBaike\Pic\600.png</MediumTileSource>
-    <WideTileSource>C:\Users\zhang\Desktop\JiHuangBaike\Pic\600.png</WideTileSource>
-    <LargeTileSource>C:\Users\zhang\Desktop\JiHuangBaike\Pic\600.png</LargeTileSource>
-    <AppIconSource>C:\Users\zhang\Desktop\JiHuangBaike\Pic\600.png</AppIconSource>
-    <SplashScreenSource>C:\Users\zhang\Desktop\JiHuangBaike\Pic\600.png</SplashScreenSource>
+    <Source>C:\Users\zhang\Desktop\1.png</Source>
+    <SmallTileSource>C:\Users\zhang\Desktop\1.png</SmallTileSource>
+    <MediumTileSource>C:\Users\zhang\Desktop\1.png</MediumTileSource>
+    <WideTileSource>C:\Users\zhang\Desktop\1.png</WideTileSource>
+    <LargeTileSource>C:\Users\zhang\Desktop\1.png</LargeTileSource>
+    <AppIconSource>C:\Users\zhang\Desktop\1.png</AppIconSource>
+    <SplashScreenSource>C:\Users\zhang\Desktop\1.png</SplashScreenSource>
     <AppxPackageIsForStore>True</AppxPackageIsForStore>
     <AppxBuildConfigurationSelection>x86|x64|arm</AppxBuildConfigurationSelection>
     <PackageOptionalProjectsInIdeBuilds>False</PackageOptionalProjectsInIdeBuilds>

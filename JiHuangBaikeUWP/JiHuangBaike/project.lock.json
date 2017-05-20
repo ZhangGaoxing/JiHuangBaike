@@ -23057,10 +23057,10 @@
   },
   "project": {
     "restore": {
-      "projectUniqueName": "C:\\Users\\zhang\\Desktop\\JiHuangBaike\\JiHuangBaikeUWP\\JiHuangBaike\\JiHuangBaike.csproj",
+      "projectUniqueName": "C:\\Users\\zhang\\Documents\\GitHub\\JiHuangBaike\\JiHuangBaikeUWP\\JiHuangBaike\\JiHuangBaike.csproj",
       "projectName": "JiHuangBaike",
-      "projectPath": "C:\\Users\\zhang\\Desktop\\JiHuangBaike\\JiHuangBaikeUWP\\JiHuangBaike\\JiHuangBaike.csproj",
-      "projectJsonPath": "C:\\Users\\zhang\\Desktop\\JiHuangBaike\\JiHuangBaikeUWP\\JiHuangBaike\\project.json",
+      "projectPath": "C:\\Users\\zhang\\Documents\\GitHub\\JiHuangBaike\\JiHuangBaikeUWP\\JiHuangBaike\\JiHuangBaike.csproj",
+      "projectJsonPath": "C:\\Users\\zhang\\Documents\\GitHub\\JiHuangBaike\\JiHuangBaikeUWP\\JiHuangBaike\\project.json",
       "projectStyle": "ProjectJson"
     },
     "dependencies": {

@@ -78,6 +78,12 @@ namespace JiHuangBaike.View
 
             contentDialog.Style = transparent;
 
+            contentDialog.Closed += async (_s, _e) =>
+            {
+                 await CharacterGrid.Blur(value: 0, duration: 0, delay: 0).StartAsync();
+                 contentDialog.Hide();
+            };
+
             contentDialog.PrimaryButtonClick += async (_s, _e) =>
             {
                 await CharacterGrid.Blur(value: 0, duration: 0, delay: 0).StartAsync();
