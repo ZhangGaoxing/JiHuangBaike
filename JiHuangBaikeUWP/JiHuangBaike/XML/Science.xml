@@ -3771,7 +3771,7 @@
     </Science>
     <Science>
       <Picture>Statue_Pawn_Marble</Picture>
-      <Name></Name>
+      <Name>兵卒模型</Name>
       <EnName>Pawn Figure</EnName>
       <Need_1>G_marble</Need_1>
       <Need_1Value>1</Need_1Value>

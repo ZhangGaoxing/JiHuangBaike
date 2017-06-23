@@ -125,7 +125,7 @@ namespace JiHuangBaike.View
                 await EventGrid.Blur(value: 0, duration: 0, delay: 0).StartAsync();
                 contentDialog.Hide();
             };
-            await EventGrid.Blur(value: 7, duration: 200, delay: 0).StartAsync();
+            await EventGrid.Blur(value: 7, duration: 100, delay: 0).StartAsync();
 
             await contentDialog.ShowAsync();
         }

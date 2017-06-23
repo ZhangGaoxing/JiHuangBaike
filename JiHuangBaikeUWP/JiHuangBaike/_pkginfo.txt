@@ -1,1 +1,1 @@
-C:\Users\zhang\Documents\GitHub\JiHuangBaike\JiHuangBaikeUWP\JiHuangBaike\bin\ARM\Release\Upload\JiHuangBaike_1.2.4.0\JiHuangBaike_1.2.4.0_x86_x64_arm.appxbundle
+C:\Users\zhang\Desktop\JiHuangBaike\JiHuangBaikeUWP\JiHuangBaike\bin\ARM\Release\Upload\JiHuangBaike_1.2.6.0\JiHuangBaike_1.2.6.0_x86_x64_arm.appxbundle

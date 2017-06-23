@@ -88,7 +88,7 @@ namespace JiHuangBaike.View
                 await NatureGrid.Blur(value: 0, duration: 0, delay: 0).StartAsync();
                 contentDialog.Hide();
             };
-            await NatureGrid.Blur(value: 7, duration: 200, delay: 0).StartAsync();
+            await NatureGrid.Blur(value: 7, duration: 100, delay: 0).StartAsync();
 
             await contentDialog.ShowAsync();
         }

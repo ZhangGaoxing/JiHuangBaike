@@ -1,2 +1,2 @@
-MainPackage=C:\Users\zhang\Documents\GitHub\JiHuangBaike\JiHuangBaikeUWP\JiHuangBaike\bin\x86\Release\JiHuangBaike_1.2.4.0_x86.appx
-SymbolPackage=C:\Users\zhang\Documents\GitHub\JiHuangBaike\JiHuangBaikeUWP\JiHuangBaike\AppPackages\JiHuangBaike_1.2.4.0_Test\JiHuangBaike_1.2.4.0_x86.appxsym
+MainPackage=C:\Users\zhang\Desktop\JiHuangBaike\JiHuangBaikeUWP\JiHuangBaike\bin\x86\Release\JiHuangBaike_1.2.6.0_x86.appx
+SymbolPackage=C:\Users\zhang\Desktop\JiHuangBaike\JiHuangBaikeUWP\JiHuangBaike\AppPackages\JiHuangBaike_1.2.6.0_Test\JiHuangBaike_1.2.6.0_x86.appxsym

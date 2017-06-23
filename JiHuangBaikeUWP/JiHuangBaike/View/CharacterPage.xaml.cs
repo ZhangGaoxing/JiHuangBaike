@@ -89,7 +89,7 @@ namespace JiHuangBaike.View
                 await CharacterGrid.Blur(value: 0, duration: 0, delay: 0).StartAsync();
                 contentDialog.Hide();
             };
-            await CharacterGrid.Blur(value: 7, duration: 200, delay: 0).StartAsync();
+            await CharacterGrid.Blur(value: 7, duration: 100, delay: 0).StartAsync();
 
             await contentDialog.ShowAsync();
         }

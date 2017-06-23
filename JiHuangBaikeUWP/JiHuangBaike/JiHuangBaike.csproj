@@ -94,6 +94,7 @@
   </PropertyGroup>
   <ItemGroup>
     <!-- A reference to the entire .Net Framework and Windows SDK are automatically included -->
+    <Content Include="Assets\avatar.png" />
     <Content Include="Assets\belisa_plumilla.ttf" />
     <Content Include="Assets\GameResources\--Raisins--.png" />
     <Content Include="Assets\GameResources\Ancient_Key.png" />
@@ -239,8 +240,11 @@
     <Content Include="Assets\GameResources\Wood_Fence.png" />
     <Content Include="Assets\GameResources\Wood_Gate.png" />
     <Content Include="Assets\holomdl2.ttf" />
+    <Content Include="Assets\igithub.png" />
+    <Content Include="Assets\iweibo.png" />
     <Content Include="Assets\LargeTile.scale-125.png" />
     <Content Include="Assets\LargeTile.scale-150.png" />
+    <Content Include="Assets\Logo.png" />
     <Content Include="Assets\Pic\github.png" />
     <Content Include="Assets\segmdl2.ttf" />
     <None Include="JiHuangBaike_StoreKey.pfx" />

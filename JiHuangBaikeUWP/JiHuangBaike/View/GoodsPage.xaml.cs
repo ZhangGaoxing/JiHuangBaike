@@ -214,7 +214,7 @@ namespace JiHuangBaike.View
                 await GoodsGrid.Blur(value: 0, duration: 0, delay: 0).StartAsync();
                 contentDialog.Hide();
             };
-            await GoodsGrid.Blur(value: 7, duration: 200, delay: 0).StartAsync();
+            await GoodsGrid.Blur(value: 7, duration: 100, delay: 0).StartAsync();
 
             await contentDialog.ShowAsync();
         }
@@ -243,7 +243,7 @@ namespace JiHuangBaike.View
                 await GoodsGrid.Blur(value: 0, duration: 0, delay: 0).StartAsync();
                 contentDialog.Hide();
             };
-            await GoodsGrid.Blur(value: 7, duration: 200, delay: 0).StartAsync();
+            await GoodsGrid.Blur(value: 7, duration: 100, delay: 0).StartAsync();
 
             await contentDialog.ShowAsync();
         }
@@ -272,7 +272,7 @@ namespace JiHuangBaike.View
                 await GoodsGrid.Blur(value: 0, duration: 0, delay: 0).StartAsync();
                 contentDialog.Hide();
             };
-            await GoodsGrid.Blur(value: 7, duration: 200, delay: 0).StartAsync();
+            await GoodsGrid.Blur(value: 7, duration: 100, delay: 0).StartAsync();
 
             await contentDialog.ShowAsync();
         }
@@ -301,7 +301,7 @@ namespace JiHuangBaike.View
                 await GoodsGrid.Blur(value: 0, duration: 0, delay: 0).StartAsync();
                 contentDialog.Hide();
             };
-            await GoodsGrid.Blur(value: 7, duration: 200, delay: 0).StartAsync();
+            await GoodsGrid.Blur(value: 7, duration: 100, delay: 0).StartAsync();
 
             await contentDialog.ShowAsync();
         }
@@ -330,7 +330,7 @@ namespace JiHuangBaike.View
                 await GoodsGrid.Blur(value: 0, duration: 0, delay: 0).StartAsync();
                 contentDialog.Hide();
             };
-            await GoodsGrid.Blur(value: 7, duration: 200, delay: 0).StartAsync();
+            await GoodsGrid.Blur(value: 7, duration: 100, delay: 0).StartAsync();
 
             await contentDialog.ShowAsync();
         }
@@ -359,7 +359,7 @@ namespace JiHuangBaike.View
                 await GoodsGrid.Blur(value: 0, duration: 0, delay: 0).StartAsync();
                 contentDialog.Hide();
             };
-            await GoodsGrid.Blur(value: 7, duration: 200, delay: 0).StartAsync();
+            await GoodsGrid.Blur(value: 7, duration: 100, delay: 0).StartAsync();
 
             await contentDialog.ShowAsync();
         }
@@ -388,7 +388,7 @@ namespace JiHuangBaike.View
                 await GoodsGrid.Blur(value: 0, duration: 0, delay: 0).StartAsync();
                 contentDialog.Hide();
             };
-            await GoodsGrid.Blur(value: 7, duration: 200, delay: 0).StartAsync();
+            await GoodsGrid.Blur(value: 7, duration: 100, delay: 0).StartAsync();
 
             await contentDialog.ShowAsync();
         }

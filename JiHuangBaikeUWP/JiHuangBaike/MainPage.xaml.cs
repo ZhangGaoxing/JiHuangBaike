@@ -120,6 +120,10 @@ namespace JiHuangBaike
                 }
             });
 
+        double x = 0;
+
+        double buttonX = -30, buttonY = -130;
+
         public MainPage()
         {
             this.InitializeComponent();
@@ -139,7 +143,7 @@ namespace JiHuangBaike
                     }
                     else
                     {
-                        await RootFrame.Blur(value: 5, duration: 200, delay: 0).StartAsync();
+                        await RootFrame.Blur(value: 5, duration: 100, delay: 0).StartAsync();
                         RootSplitView.IsPaneOpen = true;
                     }
                 }
@@ -221,6 +225,56 @@ namespace JiHuangBaike
 
                 //view.TitleBar.ButtonPressedBackgroundColor = Color.FromArgb(255, 0, 0, 120);
                 //view.TitleBar.ButtonPressedForegroundColor = Colors.White;
+            }
+        }
+
+        private void MainThumb_DragDelta(object sender, DragDeltaEventArgs e)
+        {
+            buttonX += e.HorizontalChange;
+            buttonY += e.VerticalChange;
+
+            MainThumb.Margin = new Thickness(0, 0, -buttonX, -buttonY);
+        }
+
+
+        private void RootFrame_ManipulationStarting(object sender, ManipulationStartingRoutedEventArgs e)
+        {
+            e.Handled = true;
+        }
+
+        private void RootFrame_ManipulationCompleted(object sender, ManipulationCompletedRoutedEventArgs e)
+        {
+            if (x > 220)
+            {
+                RootSplitView.IsPaneOpen = true;
+            }
+
+            x = 0;
+        }
+
+        private void RootFrame_ManipulationDelta(object sender, ManipulationDeltaRoutedEventArgs e)
+        {
+            x += e.Delta.Translation.X;
+        }
+
+        private async void MainThumb_Tapped(object sender, TappedRoutedEventArgs e)
+        {
+            if (Window.Current.Bounds.Width < 641)
+            {
+                if (RootSplitView.IsPaneOpen)
+                {
+                    await RootFrame.Blur(value: 0, duration: 0, delay: 0).StartAsync();
+                    RootSplitView.IsPaneOpen = false;
+                }
+                else
+                {
+                    await RootFrame.Blur(value: 5, duration: 100, delay: 0).StartAsync();
+                    RootSplitView.IsPaneOpen = true;
+                }
+            }
+            else
+            {
+                RootSplitView.IsPaneOpen = !RootSplitView.IsPaneOpen;
             }
         }
     }
