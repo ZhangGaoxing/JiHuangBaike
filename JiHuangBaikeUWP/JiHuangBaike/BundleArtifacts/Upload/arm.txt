@@ -1,7 +1,0 @@
-MainPackage=C:\Users\zhang\Desktop\JiHuangBaike\JiHuangBaikeUWP\JiHuangBaike\bin\ARM\Release\Upload\JiHuangBaike_1.2.6.0_ARM.appx
-SymbolPackage=C:\Users\zhang\Desktop\JiHuangBaike\JiHuangBaikeUWP\JiHuangBaike\bin\ARM\Release\Upload\JiHuangBaike_1.2.6.0\JiHuangBaike_1.2.6.0_ARM.appxsym
-ResourcePack=C:\Users\zhang\Desktop\JiHuangBaike\JiHuangBaikeUWP\JiHuangBaike\_language-zh-hans.appx
-ResourcePack=C:\Users\zhang\Desktop\JiHuangBaike\JiHuangBaikeUWP\JiHuangBaike\_scale-100.appx
-ResourcePack=C:\Users\zhang\Desktop\JiHuangBaike\JiHuangBaikeUWP\JiHuangBaike\_scale-125.appx
-ResourcePack=C:\Users\zhang\Desktop\JiHuangBaike\JiHuangBaikeUWP\JiHuangBaike\_scale-150.appx
-ResourcePack=C:\Users\zhang\Desktop\JiHuangBaike\JiHuangBaikeUWP\JiHuangBaike\_scale-400.appx

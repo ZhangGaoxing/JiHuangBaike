@@ -168,7 +168,7 @@
       <IsSW>0</IsSW>
       <IsDST>1</IsDST>
       <Unlock>S_science_machine</Unlock>
-      <Introduction>用于刮牛毛，晚上趁牛睡觉可以举着火把刮点毛下来，威尔逊和韦伯的胡子长了你也可以自己刮点下来。</Introduction>
+      <Introduction>用于制作地图，地图可以把自己探索过的地图分享给其他人。</Introduction>
       <Console>featherpencil</Console>
     </Science>
     <Science>

@@ -23,12 +23,41 @@ namespace JiHuangBaike.View
     /// </summary>
     public sealed partial class AboutPage : Page
     {
+        Style transparent = (Style)Application.Current.Resources["TransparentDialog"];
+
         public AboutPage()
         {
             this.InitializeComponent();
             var v = Windows.ApplicationModel.Package.Current.Id.Version;
             Version.Text = $"{v.Major}.{v.Minor}.{v.Build}.{v.Revision}";
             Publisher.Text = Windows.ApplicationModel.Package.Current.PublisherDisplayName;
+        }
+
+        private async void AboutMe_Click(object sender, RoutedEventArgs e)
+        {
+            var contentDialog = new ContentDialog()
+            {
+                Content = new AboutMePage(),
+                PrimaryButtonText = "确定",
+                FullSizeDesired = true
+            };
+
+            contentDialog.Style = transparent;
+
+            contentDialog.Closing += async (_s, _e) =>
+            {
+                await AboutGrid.Blur(0, 0, 0).StartAsync();
+            };
+
+            contentDialog.PrimaryButtonClick += async (_s, _e) =>
+            {
+                await AboutGrid.Blur(0, 0, 0).StartAsync();
+                contentDialog.Hide();
+            };
+
+            await AboutGrid.Blur(10, 100, 0).StartAsync();
+
+            await contentDialog.ShowAsync();
         }
     }
 }

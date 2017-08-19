@@ -74,6 +74,8 @@
                         </HyperlinkButton>
                     </StackPanel>
 
+                    <Button x:Uid="AboutMe" Name="AboutMe" Content="关于作者" Margin="20,0,0,0" Click="AboutMe_Click" />
+                    
                     <TextBlock Text="数据来源" FontSize="22" Margin="20,20,0,0" />
                     <StackPanel Orientation="Horizontal">
                         <HyperlinkButton NavigateUri="http://dontstarve.wikia.com">
