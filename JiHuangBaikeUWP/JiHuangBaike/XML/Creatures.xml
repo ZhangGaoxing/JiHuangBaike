@@ -711,7 +711,7 @@
       <IsDST>1</IsDST>
       <Goods>齿轮*2</Goods>
       <Ability>无</Ability>
-      <Introduction>保护传送机零件底座的生物之一，通常传送机零件底座周围有两只。一般处于睡觉状态，当有生物靠近会主动攻击，远程且攻击力高，一般先击杀其他机械生物最后击杀它，或者吸引机械战车冲撞击杀它。</Introduction>
+      <Introduction>保护传送机零件底座的生物之一，通常传送机零件底座周围有两只。一般处于睡觉状态，当有生物靠近会主动攻击，可以风筝击杀。</Introduction>
       <Console>knight</Console>
     </Creature>
     <Creature>

@@ -322,7 +322,7 @@
       <IsROG>1</IsROG>
       <IsSW>1</IsSW>
       <IsDST>1</IsDST>
-      <Unlock></Unlock>
+      <Unlock>Willow_Portrait</Unlock>
       <Introduction>薇洛出生自带的打火机，联机版有耐久限制，作用与火炬大同小异，不受下雨影响，还能用来烤食物。</Introduction>
       <Console>lighter</Console>
     </Science>
@@ -664,7 +664,7 @@
       <IsROG>1</IsROG>
       <IsSW>1</IsSW>
       <IsDST>1</IsDST>
-      <Unlock></Unlock>
+      <Unlock>Wes_Portrait</Unlock>
       <Introduction>韦斯出生自带的一堆气球，用途嘛...当然是吹气球啦！每次吹气球会掉5点精神，气球被击破会连环引爆，然而伤害低的可怜。</Introduction>
       <Console></Console>
     </Science>
@@ -1214,7 +1214,7 @@
       <IsROG>1</IsROG>
       <IsSW>1</IsSW>
       <IsDST>1</IsDST>
-      <Unlock></Unlock>
+      <Unlock>Wigfrid_Portrait</Unlock>
       <Introduction>威戈芙瑞德出生自带的战斗长矛，攻击力比长矛要高一些，制作材料也比较简单，适合人手一把。</Introduction>
       <Console>spear_wathgrithr</Console>
     </Science>
@@ -1231,7 +1231,7 @@
       <IsROG>1</IsROG>
       <IsSW>1</IsSW>
       <IsDST>1</IsDST>
-      <Unlock></Unlock>
+      <Unlock>Wigfrid_Portrait</Unlock>
       <Introduction>威戈芙瑞德出生自带的战斗头盔，防御力不错，建议人手一个并多备一些，消耗得比较快。</Introduction>
       <Console>wathgrithrhat</Console>
     </Science>
@@ -1523,6 +1523,23 @@
       <Unlock>S_science_machine</Unlock>
       <Introduction>威力超强的远程武器，可以破坏与之接触的物体，使用时对目标发射一股旋风，并在施放点来回弹跳几次。总伤害大约140。</Introduction>
       <Console>staff_tornado</Console>
+    </Science>
+    <Science>
+      <Picture>Napsack</Picture>
+      <Name>睡弹</Name>
+      <EnName>Napsack</EnName>
+      <Need_1>Shroom_Skin</Need_1>
+      <Need_1Value>1</Need_1Value>
+      <Need_2>Canary</Need_2>
+      <Need_2Value>1</Need_2Value>
+      <Need_3></Need_3>
+      <Need_3Value>0</Need_3Value>
+      <IsROG>0</IsROG>
+      <IsSW>0</IsSW>
+      <IsDST>1</IsDST>
+      <Unlock>G_blueprint</Unlock>
+      <Introduction>一次制造四个，在范围内的生物会睡眠20s。</Introduction>
+      <Console>sleepbomb</Console>
     </Science>
   </Fight>
   <Structure>
@@ -2002,6 +2019,108 @@
       <Introduction>装饰，蓝图解锁。</Introduction>
       <Console>succulent_potted</Console>
     </Science>
+    <Science>
+      <Picture>Replica_Relic_Chair</Picture>
+      <Name>古董椅子仿制品</Name>
+      <EnName>Replica Relic Chair</EnName>
+      <Need_1>S_cut_stone</Need_1>
+      <Need_1Value>3</Need_1Value>
+      <Need_2></Need_2>
+      <Need_2Value>0</Need_2Value>
+      <Need_3></Need_3>
+      <Need_3Value>0</Need_3Value>
+      <IsROG>0</IsROG>
+      <IsSW>0</IsSW>
+      <IsDST>1</IsDST>
+      <Unlock>G_blueprint</Unlock>
+      <Introduction>需要在古代箱子中放入特定物品获取蓝图解锁。</Introduction>
+      <Console>ruinsrelic_chair</Console>
+    </Science>
+    <Science>
+      <Picture>Replica_Relic_Table</Picture>
+      <Name>古董桌子仿制品</Name>
+      <EnName>Replica Relic Table</EnName>
+      <Need_1>S_cut_stone</Need_1>
+      <Need_1Value>4</Need_1Value>
+      <Need_2></Need_2>
+      <Need_2Value>0</Need_2Value>
+      <Need_3></Need_3>
+      <Need_3Value>0</Need_3Value>
+      <IsROG>0</IsROG>
+      <IsSW>0</IsSW>
+      <IsDST>1</IsDST>
+      <Unlock>G_blueprint</Unlock>
+      <Introduction>需要在古代箱子中放入特定物品获取蓝图解锁。</Introduction>
+      <Console>ruinsrelic_table</Console>
+    </Science>
+    <Science>
+      <Picture>Replica_Relic_Vase</Picture>
+      <Name>古董花瓶仿制品</Name>
+      <EnName>Replica Relic Vase</EnName>
+      <Need_1>S_cut_stone</Need_1>
+      <Need_1Value>2</Need_1Value>
+      <Need_2></Need_2>
+      <Need_2Value>0</Need_2Value>
+      <Need_3></Need_3>
+      <Need_3Value>0</Need_3Value>
+      <IsROG>0</IsROG>
+      <IsSW>0</IsSW>
+      <IsDST>1</IsDST>
+      <Unlock>G_blueprint</Unlock>
+      <Introduction>需要在古代箱子中放入特定物品获取蓝图解锁。</Introduction>
+      <Console>ruinsrelic_vase</Console>
+    </Science>
+    <Science>
+      <Picture>Replica_Relic_Plate</Picture>
+      <Name>古董盘子仿制品</Name>
+      <EnName>Replica Relic Plate</EnName>
+      <Need_1>S_cut_stone</Need_1>
+      <Need_1Value>1</Need_1Value>
+      <Need_2></Need_2>
+      <Need_2Value>0</Need_2Value>
+      <Need_3></Need_3>
+      <Need_3Value>0</Need_3Value>
+      <IsROG>0</IsROG>
+      <IsSW>0</IsSW>
+      <IsDST>1</IsDST>
+      <Unlock>G_blueprint</Unlock>
+      <Introduction>需要在古代箱子中放入特定物品获取蓝图解锁。</Introduction>
+      <Console>ruinsrelic_plate</Console>
+    </Science>
+    <Science>
+      <Picture>Replica_Relic_Dish</Picture>
+      <Name>古董碟子仿制品</Name>
+      <EnName>Replica Relic Dish</EnName>
+      <Need_1>S_cut_stone</Need_1>
+      <Need_1Value>1</Need_1Value>
+      <Need_2></Need_2>
+      <Need_2Value>0</Need_2Value>
+      <Need_3></Need_3>
+      <Need_3Value>0</Need_3Value>
+      <IsROG>0</IsROG>
+      <IsSW>0</IsSW>
+      <IsDST>1</IsDST>
+      <Unlock>G_blueprint</Unlock>
+      <Introduction>需要在古代箱子中放入特定物品获取蓝图解锁。</Introduction>
+      <Console>ruinsrelic_chipbowl</Console>
+    </Science>
+    <Science>
+      <Picture>Replica_Relic_Bowl</Picture>
+      <Name>古董碗仿制品</Name>
+      <EnName>Replica Relic Bowl</EnName>
+      <Need_1>S_cut_stone</Need_1>
+      <Need_1Value>2</Need_1Value>
+      <Need_2></Need_2>
+      <Need_2Value>0</Need_2Value>
+      <Need_3></Need_3>
+      <Need_3Value>0</Need_3Value>
+      <IsROG>0</IsROG>
+      <IsSW>0</IsSW>
+      <IsDST>1</IsDST>
+      <Unlock>G_blueprint</Unlock>
+      <Introduction>需要在古代箱子中放入特定物品获取蓝图解锁。</Introduction>
+      <Console>ruinsrelic_bowl</Console>
+    </Science>
   </Structure>
   <Refine>
     <Science>
@@ -2206,9 +2325,9 @@
       <IsROG>1</IsROG>
       <IsSW>1</IsSW>
       <IsDST>1</IsDST>
-      <Unlock>S_science_machine</Unlock>
+      <Unlock>Wendy_Portrait</Unlock>
       <Introduction>温蒂出生自带的Abigail之花，当花开时放在地上并杀死一只生物(暗影怪不算)可召唤妹妹阿比盖尔。</Introduction>
-      <Console></Console>
+      <Console>abigail_flower</Console>
     </Science>
     <Science>
       <Picture>S_prestihatitator</Picture>
@@ -3011,6 +3130,23 @@
       <Introduction>夏天在荒漠行走不会减速。</Introduction>
       <Console>deserthat</Console>
     </Science>
+    <Science>
+      <Picture>Trusty_Tape</Picture>
+      <Name>可靠的胶带</Name>
+      <EnName>Trusty Tape</EnName>
+      <Need_1>G_cut_grass</Need_1>
+      <Need_1Value>3</Need_1Value>
+      <Need_2>G_silk</Need_2>
+      <Need_2Value>1</Need_2Value>
+      <Need_3></Need_3>
+      <Need_3Value>0</Need_3Value>
+      <IsROG>0</IsROG>
+      <IsSW>0</IsSW>
+      <IsDST>1</IsDST>
+      <Unlock>Winona_Portrait</Unlock>
+      <Introduction>薇诺娜专属物品，且只有薇诺娜可以合成。薇诺娜在游戏开始时也会有三个可靠的胶带在物品栏中。它们可以用于修补耐久度下降的服装，跟针线包具有相同的缝补效果，不同的仅仅只有使用次数。</Introduction>
+      <Console>sewing_tape</Console>
+    </Science>
   </Dress>
   <Ancient>
     <Science>
@@ -3266,7 +3402,7 @@
       <IsROG>1</IsROG>
       <IsSW>1</IsSW>
       <IsDST>1</IsDST>
-      <Unlock>S_ico_books</Unlock>
+      <Unlock>Wickerbottom_Portrait</Unlock>
       <Introduction>维克波顿周围将出现大量的鸟类，阅读书籍将会降低50精神，维克波顿专有，可使用5次。</Introduction>
       <Console>book_birds</Console>
     </Science>
@@ -3283,7 +3419,7 @@
       <IsROG>1</IsROG>
       <IsSW>1</IsSW>
       <IsDST>1</IsDST>
-      <Unlock>S_ico_books</Unlock>
+      <Unlock>Wickerbottom_Portrait</Unlock>
       <Introduction>让周围的植物迅速生长(需先施肥，冬天只对农场有效)，阅读书籍将会降低33精神，维克波顿专有，可使用5次。</Introduction>
       <Console>book_gardening</Console>
     </Science>
@@ -3300,7 +3436,7 @@
       <IsROG>1</IsROG>
       <IsSW>1</IsSW>
       <IsDST>1</IsDST>
-      <Unlock>S_ico_books</Unlock>
+      <Unlock>Wickerbottom_Portrait</Unlock>
       <Introduction>让周围生物进入梦乡，阅读书籍将会降低33精神，维克波顿专有，可使用5次。</Introduction>
       <Console>book_sleep</Console>
     </Science>
@@ -3317,7 +3453,7 @@
       <IsROG>1</IsROG>
       <IsSW>1</IsSW>
       <IsDST>1</IsDST>
-      <Unlock>S_ico_books</Unlock>
+      <Unlock>Wickerbottom_Portrait</Unlock>
       <Introduction>维克波顿周围将出现大量闪电，阅读书籍将会降低33精神，维克波顿专有，可使用5次。</Introduction>
       <Console>book_brimstone</Console>
     </Science>
@@ -3334,7 +3470,7 @@
       <IsROG>1</IsROG>
       <IsSW>1</IsSW>
       <IsDST>1</IsDST>
-      <Unlock>S_ico_books</Unlock>
+      <Unlock>Wickerbottom_Portrait</Unlock>
       <Introduction>维克波顿周围将出现3只触手，阅读书籍将会降低50精神，维克波顿专有，可使用5次。</Introduction>
       <Console>book_tentacles</Console>
     </Science>
@@ -3353,7 +3489,7 @@
       <IsROG>1</IsROG>
       <IsSW>1</IsSW>
       <IsDST>1</IsDST>
-      <Unlock>S_ico_shadow</Unlock>
+      <Unlock>Waxwell_Portrait</Unlock>
       <Introduction>麦克斯韦专属秘典！把它放到地上并且站在其周围(书呈翻开状)才能解锁暗影科技。</Introduction>
       <Console>waxwelljournal</Console>
     </Science>

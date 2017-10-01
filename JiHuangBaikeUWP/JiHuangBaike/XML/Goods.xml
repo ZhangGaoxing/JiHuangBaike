@@ -793,6 +793,18 @@
       <Introduction></Introduction>
       <Console>townportaltalisman</Console>
     </Good>
+    <Good>
+      <Picture>Crumpled_Package</Picture>
+      <Name>皱皱的袋子</Name>
+      <EnName>Crumpled Package</EnName>
+      <Science></Science>
+      <Creature></Creature>
+      <IsROG>0</IsROG>
+      <IsSW>0</IsSW>
+      <IsDST>1</IsDST>
+      <Introduction>在湖边钓鱼获取，打开可获得玩具或蓝图。</Introduction>
+      <Console>wetpouch</Console>
+    </Good>
   </Material>
   <Equipment>
     <Good>
@@ -2582,7 +2594,7 @@
       <Picture>T_28</Picture>
       <Name>白色棋子——车</Name>
       <EnName></EnName>
-      <IsROG>1</IsROG>
+      <IsROG>0</IsROG>
       <IsSW>0</IsSW>
       <IsDST>1</IsDST>
       <Console>trinket_28</Console>
@@ -2591,7 +2603,7 @@
       <Picture>T_29</Picture>
       <Name>黑色棋子——车</Name>
       <EnName></EnName>
-      <IsROG>1</IsROG>
+      <IsROG>0</IsROG>
       <IsSW>0</IsSW>
       <IsDST>1</IsDST>
       <Console>trinket_29</Console>
@@ -2600,7 +2612,7 @@
       <Picture>T_30</Picture>
       <Name>白色棋子——骑士</Name>
       <EnName></EnName>
-      <IsROG>1</IsROG>
+      <IsROG>0</IsROG>
       <IsSW>0</IsSW>
       <IsDST>1</IsDST>
       <Console>trinket_30</Console>
@@ -2609,12 +2621,20 @@
       <Picture>T_31</Picture>
       <Name>黑色棋子——骑士</Name>
       <EnName></EnName>
-      <IsROG>1</IsROG>
+      <IsROG>0</IsROG>
       <IsSW>0</IsSW>
       <IsDST>1</IsDST>
       <Console>trinket_31</Console>
     </Good>
-    
+    <Good>
+      <Picture>Beach_Toy</Picture>
+      <Name>沙滩玩具</Name>
+      <EnName></EnName>
+      <IsROG>0</IsROG>
+      <IsSW>0</IsSW>
+      <IsDST>1</IsDST>
+      <Console>antliontrinket</Console>
+    </Good>
   </Toy>
   <Turf>
     <Good>

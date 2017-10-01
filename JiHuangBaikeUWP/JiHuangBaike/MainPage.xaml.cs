@@ -94,6 +94,15 @@ namespace JiHuangBaike
                     Color = new SolidColorBrush(Colors.White),
                     Selected = Visibility.Collapsed,
                     DestPage = typeof(EventPage)
+                },
+                new NavMenuItem()
+                {
+                    FontFamily = new FontFamily("/Assets/seguisym.ttf#Segoe UI Symbol"),
+                    Icon = "👔",
+                    Label = "皮肤",
+                    Color = new SolidColorBrush(Colors.White),
+                    Selected = Visibility.Collapsed,
+                    DestPage = typeof(SkinPage)
                 }
             });
 
@@ -119,8 +128,6 @@ namespace JiHuangBaike
                     DestPage = typeof(AboutPage)
                 }
             });
-
-        double x = 0;
 
         double buttonX = -30, buttonY = -130;
 
@@ -234,27 +241,6 @@ namespace JiHuangBaike
             buttonY += e.VerticalChange;
 
             MainThumb.Margin = new Thickness(0, 0, -buttonX, -buttonY);
-        }
-
-
-        private void RootFrame_ManipulationStarting(object sender, ManipulationStartingRoutedEventArgs e)
-        {
-            e.Handled = true;
-        }
-
-        private void RootFrame_ManipulationCompleted(object sender, ManipulationCompletedRoutedEventArgs e)
-        {
-            if (x > 220)
-            {
-                RootSplitView.IsPaneOpen = true;
-            }
-
-            x = 0;
-        }
-
-        private void RootFrame_ManipulationDelta(object sender, ManipulationDeltaRoutedEventArgs e)
-        {
-            x += e.Delta.Translation.X;
         }
 
         private async void MainThumb_Tapped(object sender, TappedRoutedEventArgs e)

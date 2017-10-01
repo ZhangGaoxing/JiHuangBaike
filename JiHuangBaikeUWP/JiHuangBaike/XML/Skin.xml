@@ -1,0 +1,1995 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<SkinNode>
+  <Body>
+    <Skin>
+      <Picture>Tshirt_grey_battleship_collection_icon</Picture>
+      <Name>T恤</Name>
+      <EnName>T-Shirt</EnName>
+      <Rarity>Common</Rarity>
+      <Introduction>积云灰（Cumulus Gray）</Introduction>
+      <Type>T-Shirt</Type>
+    </Skin>
+    <Skin>
+      <Picture>Tshirt_purple_mauve_collection_icon</Picture>
+      <Name>T恤</Name>
+      <EnName>T-Shirt</EnName>
+      <Rarity>Common</Rarity>
+      <Introduction>蜗牛粘液紫（Snail Mucus Purple）</Introduction>
+      <Type>T-Shirt</Type>
+    </Skin>
+    <Skin>
+      <Picture>Tshirt_red_higgsbury_collection_icon</Picture>
+      <Name>T恤</Name>
+      <EnName>T-Shirt</EnName>
+      <Rarity>Common</Rarity>
+      <Introduction>威尔逊红（Higgsbury Red）</Introduction>
+      <Type>T-Shirt</Type>
+    </Skin>
+    <Skin>
+      <Picture>Tshirt_white_smoke_collection_icon</Picture>
+      <Name>T恤</Name>
+      <EnName>T-Shirt</EnName>
+      <Rarity>Common</Rarity>
+      <Introduction>烟雾白（Smoke White）</Introduction>
+      <Type>T-Shirt</Type>
+    </Skin>
+    <Skin>
+      <Picture>Trimmed_blouse_red_higgsbury_collection_icon</Picture>
+      <Name>褶皱的衬衫</Name>
+      <EnName>Pleated Shirt</EnName>
+      <Rarity>Common</Rarity>
+      <Introduction>威尔逊红（Higgsbury Red）</Introduction>
+      <Type>Pleated Shirt</Type>
+    </Skin>
+    <Skin>
+      <Picture>Trimmed_blouse_white_pure_collection_icon</Picture>
+      <Name>褶皱的衬衫</Name>
+      <EnName>Pleated Shirt</EnName>
+      <Rarity>Common</Rarity>
+      <Introduction>纯白（Pure White）</Introduction>
+      <Type>Pleated Shirt</Type>
+    </Skin>
+    <Skin>
+      <Picture>Trimmed_blouse_yellow_flax_collection_icon</Picture>
+      <Name>褶皱的衬衫</Name>
+      <EnName>Pleated Shirt</EnName>
+      <Rarity>Common</Rarity>
+      <Introduction>卵泡黄（Follicle Yellow）</Introduction>
+      <Type>Pleated Shirt</Type>
+    </Skin>
+    <Skin>
+      <Picture>Flannel_blue_snowbird_collection_icon</Picture>
+      <Name>伐木工衬衫</Name>
+      <EnName>Lumberjack Shirt</EnName>
+      <Rarity>Common</Rarity>
+      <Introduction>电解蓝（Electrolytic Blue）</Introduction>
+      <Type>Lumberjack Shirt</Type>
+    </Skin>
+    <Skin>
+      <Picture>Flannel_orange_lumberjack_collection_icon</Picture>
+      <Name>伐木工衬衫</Name>
+      <EnName>Lumberjack Shirt</EnName>
+      <Rarity>Common</Rarity>
+      <Introduction>木橙（Lumberjack Orange）</Introduction>
+      <Type>Lumberjack Shirt</Type>
+    </Skin>
+    <Skin>
+      <Picture>Flannel_purple_grape_collection_icon</Picture>
+      <Name>伐木工衬衫</Name>
+      <EnName>Lumberjack Shirt</EnName>
+      <Rarity>Common</Rarity>
+      <Introduction>触手紫（Tentacle Purple）</Introduction>
+      <Type>Lumberjack Shirt</Type>
+    </Skin>
+    <Skin>
+      <Picture>Flannel_green_napier_collection_icon</Picture>
+      <Name>伐木工衬衫</Name>
+      <EnName>Lumberjack Shirt</EnName>
+      <Rarity>Common</Rarity>
+      <Introduction>Being Uneasy Green（不安绿）</Introduction>
+      <Type>Lumberjack Shirt</Type>
+    </Skin>
+    <Skin>
+      <Picture>Buttons_blue_sky_collection_icon</Picture>
+      <Name>纽扣衬衫</Name>
+      <EnName>Buttoned Shirt</EnName>
+      <Rarity>Common</Rarity>
+      <Introduction>严谨蓝（Schematic Blue）</Introduction>
+      <Type>Buttoned Shirt</Type>
+    </Skin>
+    <Skin>
+      <Picture>Buttons_green_laurel_collection_icon</Picture>
+      <Name>纽扣衬衫</Name>
+      <EnName>Buttoned Shirt</EnName>
+      <Rarity>Common</Rarity>
+      <Introduction>任性绿（Willful Green）</Introduction>
+      <Type>Buttoned Shirt</Type>
+    </Skin>
+    <Skin>
+      <Picture>Buttons_pink_hibiscus_collection_icon</Picture>
+      <Name>纽扣衬衫</Name>
+      <EnName>Buttoned Shirt</EnName>
+      <Rarity>Common</Rarity>
+      <Introduction>猪人粉（Pigman Pink）</Introduction>
+      <Type>Buttoned Shirt</Type>
+    </Skin>
+    <Skin>
+      <Picture>Buttons_white_ghost_collection_icon</Picture>
+      <Name>纽扣衬衫</Name>
+      <EnName>Buttoned Shirt</EnName>
+      <Rarity>Common</Rarity>
+      <Introduction>幽灵白（Ghost White）</Introduction>
+      <Type>Buttoned Shirt</Type>
+    </Skin>
+    <Skin>
+      <Picture>Buttons_black_jet_collection_icon</Picture>
+      <Name>纽扣衬衫</Name>
+      <EnName>Buttoned Shirt</EnName>
+      <Rarity>Common</Rarity>
+      <Introduction>xx黑（Disilluminated Black）</Introduction>
+      <Type>Buttoned Shirt</Type>
+    </Skin>
+    <Skin>
+      <Picture>Polo_blue_denim_collection_icon</Picture>
+      <Name>领衬衫</Name>
+      <EnName>Collared Shirt</EnName>
+      <Rarity>Common</Rarity>
+      <Introduction>超智能蓝（Hyper Intelligent Blue）</Introduction>
+      <Type>Collared Shirt</Type>
+    </Skin>
+    <Skin>
+      <Picture>Polo_red_higgsbury_collection_icon</Picture>
+      <Name>领衬衫</Name>
+      <EnName>Collared Shirt</EnName>
+      <Rarity>Common</Rarity>
+      <Introduction>威尔逊红（Higgsbury Red）</Introduction>
+      <Type>Collared Shirt</Type>
+    </Skin>
+    <Skin>
+      <Picture>Polo_white_marble_collection_icon</Picture>
+      <Name>领衬衫</Name>
+      <EnName>Collared Shirt</EnName>
+      <Rarity>Common</Rarity>
+      <Introduction>大理石白（Marble White）</Introduction>
+      <Type>Collared Shirt</Type>
+    </Skin>
+    <Skin>
+      <Picture>Polo_yellow_goldenrod_collection_icon</Picture>
+      <Name>领衬衫</Name>
+      <EnName>Collared Shirt</EnName>
+      <Rarity>Common</Rarity>
+      <Introduction>很友善黄（Downright Neighborly Yellow）</Introduction>
+      <Type>Collared Shirt</Type>
+    </Skin>
+    <Skin>
+      <Picture>Polo_orange_salmon_collection_icon</Picture>
+      <Name>领衬衫</Name>
+      <EnName>Collared Shirt</EnName>
+      <Rarity>Common</Rarity>
+      <Introduction>xx橙（Fishy Tincture Orange）</Introduction>
+      <Type>Collared Shirt</Type>
+    </Skin>
+    <Skin>
+      <Picture>Cardigan_black_jet_collection_icon</Picture>
+      <Name>开衫毛衣</Name>
+      <EnName>Cardigan</EnName>
+      <Rarity>Classy</Rarity>
+      <Introduction>xx黑（Disilluminated Black）</Introduction>
+      <Type>Cardigan</Type>
+    </Skin>
+    <Skin>
+      <Picture>Cardigan_red_cardinal_collection_icon</Picture>
+      <Name>开衫毛衣</Name>
+      <EnName>Cardigan</EnName>
+      <Rarity>Classy</Rarity>
+      <Introduction>xx红（Combobulated Red）</Introduction>
+      <Type>Cardigan</Type>
+    </Skin>
+    <Skin>
+      <Picture>Cardigan_teal_jade_collection_icon</Picture>
+      <Name>开衫毛衣</Name>
+      <EnName>Cardigan</EnName>
+      <Rarity>Classy</Rarity>
+      <Introduction>渡渡鸟色（Doydoy Teal）</Introduction>
+      <Type>Cardigan</Type>
+    </Skin>
+    <Skin>
+      <Picture>Cardigan_white_ghost_collection_icon</Picture>
+      <Name>开衫毛衣</Name>
+      <EnName>Cardigan</EnName>
+      <Rarity>Classy</Rarity>
+      <Introduction>幽灵白（Ghost White）</Introduction>
+      <Type>Cardigan</Type>
+    </Skin>
+    <Skin>
+      <Picture>Suspenders_pink_pearl_collection_icon</Picture>
+      <Name>吊带衬衫</Name>
+      <EnName>Suspension Shirt</EnName>
+      <Rarity>Classy</Rarity>
+      <Introduction>猪人粉（Pigman Pink）</Introduction>
+      <Type>Suspension Shirt</Type>
+    </Skin>
+    <Skin>
+      <Picture>Suspenders_white_pure_collection_icon</Picture>
+      <Name>吊带衬衫</Name>
+      <EnName>Suspension Shirt</EnName>
+      <Rarity>Classy</Rarity>
+      <Introduction>纯白（Pure White）</Introduction>
+      <Type>Suspension Shirt</Type>
+    </Skin>
+    <Skin>
+      <Picture>Suspenders_yellow_flax_collection_icon</Picture>
+      <Name>吊带衬衫</Name>
+      <EnName>Suspension Shirt</EnName>
+      <Rarity>Classy</Rarity>
+      <Introduction>卵泡黄（Follicle Yellow）</Introduction>
+      <Type>Suspension Shirt</Type>
+    </Skin>
+    <Skin>
+      <Picture>Sweatervest_blue_snowbird_collection_icon</Picture>
+      <Name>毛衣背心</Name>
+      <EnName>Sweater Vest</EnName>
+      <Rarity>Classy</Rarity>
+      <Introduction>电解蓝（Electrolytic Blue）</Introduction>
+      <Type>Sweater Vest</Type>
+    </Skin>
+    <Skin>
+      <Picture>Sweatervest_brown_beaver_collection_icon</Picture>
+      <Name>毛衣背心</Name>
+      <EnName>Sweater Vest</EnName>
+      <Rarity>Classy</Rarity>
+      <Introduction>海獭棕（Werebeaver Brown）</Introduction>
+      <Type>Sweater Vest</Type>
+    </Skin>
+    <Skin>
+      <Picture>Sweatervest_grey_silver_collection_icon</Picture>
+      <Name>毛衣背心</Name>
+      <EnName>Sweater Vest</EnName>
+      <Rarity>Classy</Rarity>
+      <Introduction>积云灰（Cumulus Gray）</Introduction>
+      <Type>Sweater Vest</Type>
+    </Skin>
+    <Skin>
+      <Picture>Sweatervest_red_firehound_collection_icon</Picture>
+      <Name>毛衣背心</Name>
+      <EnName>Sweater Vest</EnName>
+      <Rarity>Classy</Rarity>
+      <Introduction>火猎犬红（Firehound Red）</Introduction>
+      <Type>Sweater Vest</Type>
+    </Skin>
+    <Skin>
+      <Picture>Sweatervest_green_forest_collection_icon</Picture>
+      <Name>毛衣背心</Name>
+      <EnName>Sweater Vest</EnName>
+      <Rarity>Classy</Rarity>
+      <Introduction>树人绿（Forest Guardian Green）</Introduction>
+      <Type>Sweater Vest</Type>
+    </Skin>
+    <Skin>
+      <Picture>Tweedvest_brown_chocolate_collection_icon</Picture>
+      <Name>粗花呢背心</Name>
+      <EnName>Tweed Waistcoat</EnName>
+      <Rarity>Classy</Rarity>
+      <Introduction>淡巧克力棕（Insufficient Chocolate Brown）</Introduction>
+      <Type>Tweed Waistcoat</Type>
+    </Skin>
+    <Skin>
+      <Picture>Tweedvest_green_hunters_collection_icon</Picture>
+      <Name>粗花呢背心</Name>
+      <EnName>Tweed Waistcoat</EnName>
+      <Rarity>Classy</Rarity>
+      <Introduction>树人绿（Forest Guardian Green）</Introduction>
+      <Type>Tweed Waistcoat</Type>
+    </Skin>
+    <Skin>
+      <Picture>Tweedvest_grey_steel_collection_icon</Picture>
+      <Name>粗花呢背心</Name>
+      <EnName>Tweed Waistcoat</EnName>
+      <Rarity>Classy</Rarity>
+      <Introduction>胶体银灰（Colloidal Silver Gray）</Introduction>
+      <Type>Tweed Waistcoat</Type>
+    </Skin>
+    <Skin>
+      <Picture>Tweedvest_tan_grass_collection_icon</Picture>
+      <Name>粗花呢背心</Name>
+      <EnName>Tweed Waistcoat</EnName>
+      <Rarity>Classy</Rarity>
+      <Introduction>干草黄（Dry Grass Tan）</Introduction>
+      <Type>Tweed Waistcoat</Type>
+    </Skin>
+    <Skin>
+      <Picture>Tweedvest_blue_lightning_collection_icon</Picture>
+      <Name>粗花呢背心</Name>
+      <EnName>Tweed Waistcoat</EnName>
+      <Rarity>Classy</Rarity>
+      <Introduction>闪电羊蓝（Lightning Goat Blue）</Introduction>
+      <Type>Tweed Waistcoat</Type>
+    </Skin>
+    <Skin>
+      <Picture>Trenchcoat_brown_fawn_collection_icon</Picture>
+      <Name>风衣</Name>
+      <EnName>Trench Coat</EnName>
+      <Rarity>Spiffy</Rarity>
+      <Introduction>海獭棕（Werebeaver Brown）</Introduction>
+      <Type>Trench Coat</Type>
+    </Skin>
+    <Skin>
+      <Picture>Trenchcoat_yellow_straw_collection_icon</Picture>
+      <Name>风衣</Name>
+      <EnName>Trench Coat</EnName>
+      <Rarity>Spiffy</Rarity>
+      <Introduction>硫黄（Sulfuric Yellow）</Introduction>
+      <Type>Trench Coat</Type>
+    </Skin>
+    <Skin>
+      <Picture>Overalls_black_scribble_collection_icon</Picture>
+      <Name>工装裤</Name>
+      <EnName>Overalls</EnName>
+      <Rarity>Spiffy</Rarity>
+      <Introduction>涂鸦黑（Scribble Black）</Introduction>
+      <Type>Overalls</Type>
+    </Skin>
+    <Skin>
+      <Picture>Overalls_blue_denim_collection_icon</Picture>
+      <Name>工装裤</Name>
+      <EnName>Overalls</EnName>
+      <Rarity>Spiffy</Rarity>
+      <Introduction>超智能蓝（Hyper Intelligent Blue）</Introduction>
+      <Type>Overalls</Type>
+    </Skin>
+    <Skin>
+      <Picture>Overalls_navy_ocean_collection_icon</Picture>
+      <Name>工装裤</Name>
+      <EnName>Overalls</EnName>
+      <Rarity>Spiffy</Rarity>
+      <Introduction>xx蓝（Unsuitably Blue）</Introduction>
+      <Type>Overalls</Type>
+    </Skin>
+    <Skin>
+      <Picture>Body_pj_purple_mauve_collection_icon</Picture>
+      <Name>Jammie衬衫</Name>
+      <EnName>Jammie Shirts</EnName>
+      <Rarity>Spiffy</Rarity>
+      <Introduction>蜗牛粘液紫（Snail Mucus Purple）</Introduction>
+      <Type>Jammie Shirts</Type>
+    </Skin>
+    <Skin>
+      <Picture>Body_pj_blue_agean_collection_icon</Picture>
+      <Name>Jammie衬衫</Name>
+      <EnName>Jammie Shirts</EnName>
+      <Rarity>Spiffy</Rarity>
+      <Introduction>高PH蓝（High pH Blue）</Introduction>
+      <Type>Jammie Shirts</Type>
+    </Skin>
+    <Skin>
+      <Picture>Toga_white_pure_collection_icon</Picture>
+      <Name>托加袍</Name>
+      <EnName>Toga</EnName>
+      <Rarity>Spiffy</Rarity>
+      <Introduction>纯白（Pure White）</Introduction>
+      <Type>Toga</Type>
+    </Skin>
+    <Skin>
+      <Picture>Tanktop_tiecollar_yellow_goldenrod_collection_icon</Picture>
+      <Name>女衬衫</Name>
+      <EnName>Blouse</EnName>
+      <Rarity>Spiffy</Rarity>
+      <Introduction>很友善黄（Downright Neighborly Yellow）</Introduction>
+      <Type>Blouse</Type>
+    </Skin>
+    <Skin>
+      <Picture>QuiltedOuterwear_red_collection_icon</Picture>
+      <Name>棉外套</Name>
+      <EnName>Quilted Outerwear</EnName>
+      <Rarity>Spiffy</Rarity>
+      <Introduction>xx红（Combobulated Red）</Introduction>
+      <Type>Quilted Outerwear</Type>
+    </Skin>
+    <Skin>
+      <Picture>Silk_eveningrobe_blue_frost_collection_icon</Picture>
+      <Name>丝绸长袍</Name>
+      <EnName>Silk Robe</EnName>
+      <Rarity>Spiffy</Rarity>
+      <Introduction>高原蓝（High Elevation Blue）</Introduction>
+      <Type>Silk Robe</Type>
+    </Skin>
+    <Skin>
+      <Picture>Silk_eveningrobe_pink_ewecus_collection_icon</Picture>
+      <Name>丝绸长袍</Name>
+      <EnName>Silk Robe</EnName>
+      <Rarity>Spiffy</Rarity>
+      <Introduction>钢羊粉（Ewecus Pink）</Introduction>
+      <Type>Silk Robe</Type>
+    </Skin>
+    <Skin>
+      <Picture>Silk_eveningrobe_red_rump_collection_icon</Picture>
+      <Name>丝绸长袍</Name>
+      <EnName>Silk Robe</EnName>
+      <Rarity>Spiffy</Rarity>
+      <Introduction>臀红（Rump Red）</Introduction>
+      <Type>Silk Robe</Type>
+    </Skin>
+    <Skin>
+      <Picture>Silk_eveningrobe_yellow_goldenrod_collection_icon</Picture>
+      <Name>丝绸长袍</Name>
+      <EnName>Silk Robe</EnName>
+      <Rarity>Spiffy</Rarity>
+      <Introduction>很友好黄（Downright Neighborly Yellow）</Introduction>
+      <Type>Silk Robe</Type>
+    </Skin>
+    <Skin>
+      <Picture>Silk_loungewear_black_davys_collection_icon</Picture>
+      <Name>丝绸便服</Name>
+      <EnName>Silk Loungewear</EnName>
+      <Rarity>Distinguished</Rarity>
+      <Introduction>xx黑（Disilluminated Black）</Introduction>
+      <Type>Silk Loungewear</Type>
+    </Skin>
+    <Skin>
+      <Picture>Silk_loungewear_green_laurel_collection_icon</Picture>
+      <Name>丝绸便服</Name>
+      <EnName>Silk Loungewear</EnName>
+      <Rarity>Distinguished</Rarity>
+      <Introduction>任性绿（Willful Green）</Introduction>
+      <Type>Silk Loungewear</Type>
+    </Skin>
+    <Skin>
+      <Picture>Silk_loungewear_red_cranberry_collection_icon</Picture>
+      <Name>丝绸便服</Name>
+      <EnName>Silk Loungewear</EnName>
+      <Rarity>Distinguished</Rarity>
+      <Introduction>xx红（Apidae Maxwellius Red）</Introduction>
+      <Type>Silk Loungewear</Type>
+    </Skin>
+    <Skin>
+      <Picture>Silk_loungewear_white_marble_collection_icon</Picture>
+      <Name>丝绸便服</Name>
+      <EnName>Silk Loungewear</EnName>
+      <Rarity>Distinguished</Rarity>
+      <Introduction>大理石白（Marble White）</Introduction>
+      <Type>Silk Loungewear</Type>
+    </Skin>
+    <Skin>
+      <Picture>Sleepgown_blue_ice_collection_icon</Picture>
+      <Name>睡衣</Name>
+      <EnName>Nightgown</EnName>
+      <Rarity>Distinguished</Rarity>
+      <Introduction>拟人化的猫蓝（Anthropomorphic Feline Blue）</Introduction>
+      <Type>Nightgown</Type>
+    </Skin>
+    <Skin>
+      <Picture>Sleepgown_purple_lavender_collection_icon</Picture>
+      <Name>睡衣</Name>
+      <EnName>Nightgown</EnName>
+      <Rarity>Distinguished</Rarity>
+      <Introduction>突转紫（Peripeteia Purple）</Introduction>
+      <Type>Nightgown</Type>
+    </Skin>
+    <Skin>
+      <Picture>Dress_flouncy_tan_cream_collection_icon</Picture>
+      <Name>荷叶裙</Name>
+      <EnName>Flouncy Dress</EnName>
+      <Rarity>Distinguished</Rarity>
+      <Introduction>乳霜色（Tan Cream）</Introduction>
+      <Type>Dresses</Type>
+    </Skin>
+    <Skin>
+      <Picture>Dress_yachtsuit_white_pure_collection_icon</Picture>
+      <Name>游艇服</Name>
+      <EnName>Yachtsuit Dress</EnName>
+      <Rarity>Distinguished</Rarity>
+      <Introduction>纯白（Pure White）</Introduction>
+      <Type>Dresses</Type>
+    </Skin>
+    <Skin>
+      <Picture>Jacket_shearling_orange_salmon_collection_icon</Picture>
+      <Name>羊毛大衣</Name>
+      <EnName>Shearling Coat</EnName>
+      <Rarity>Distinguished</Rarity>
+      <Introduction>xx橙（Fishy Tincture Orange）</Introduction>
+      <Type>Jackets &amp; Coats</Type>
+    </Skin>
+    <Skin>
+      <Picture>Jacket_toggle_navy_phthalo_collection_icon</Picture>
+      <Name>纽扣夹克</Name>
+      <EnName>Toggle Jacket</EnName>
+      <Rarity>Distinguished</Rarity>
+      <Introduction>海蓝（Phthalo Navy）</Introduction>
+      <Type>Jackets &amp; Coats</Type>
+    </Skin>
+    <Skin>
+      <Picture>Wilson_formal_body_collection_icon</Picture>
+      <Name>燕尾服</Name>
+      <EnName>Tuxedo</EnName>
+      <Rarity>Distinguished</Rarity>
+      <Introduction> "Some events ask for white tie, and some ask for black tie. Well, this is red tie."</Introduction>
+      <Type>Formal Outfits</Type>
+    </Skin>
+    <Skin>
+      <Picture>Willow_formal_body_collection_icon</Picture>
+      <Name>短裙</Name>
+      <EnName>Cocktail Dress</EnName>
+      <Rarity>Distinguished</Rarity>
+      <Introduction>"Everybody needs a little black dress. (Conveniently, it hides ash stains.)"</Introduction>
+      <Type>Formal Outfits</Type>
+    </Skin>
+    <Skin>
+      <Picture>Wolfgang_formal_body_collection_icon</Picture>
+      <Name>Mess Dress</Name>
+      <EnName>Mess Dress</EnName>
+      <Rarity>Distinguished</Rarity>
+      <Introduction>"Formal dinner attire for military officers."</Introduction>
+      <Type>Formal Outfits</Type>
+    </Skin>
+    <Skin>
+      <Picture>Wendy_formal_body_collection_icon</Picture>
+      <Name>派对礼服</Name>
+      <EnName>Party Frock</EnName>
+      <Rarity>Distinguished</Rarity>
+      <Introduction> "A cute party dress with puffed sleeves."</Introduction>
+      <Type>Formal Outfits</Type>
+    </Skin>
+    <Skin>
+      <Picture>Wx78_formal_body_collection_icon</Picture>
+      <Name>Formal Body Shell</Name>
+      <EnName>Formal Body Shell</EnName>
+      <Rarity>Distinguished</Rarity>
+      <Introduction> "But of course it has a cummerbund."</Introduction>
+      <Type>Formal Outfits</Type>
+    </Skin>
+    <Skin>
+      <Picture>Wickerbottom_formal_body_collection_icon</Picture>
+      <Name>舞会礼服</Name>
+      <EnName>Ball Gown</EnName>
+      <Rarity>Distinguished</Rarity>
+      <Introduction> "Be the life of the party in this gray silk ball gown."</Introduction>
+      <Type>Formal Outfits</Type>
+    </Skin>
+    <Skin>
+      <Picture>Woodie_formal_body_collection_icon</Picture>
+      <Name>加拿大夹克</Name>
+      <EnName>Canadian Jacket</EnName>
+      <Rarity>Distinguished</Rarity>
+      <Introduction>"A real Canadian Jacket, made for real Canadians. (Not out of real Canadians.)"</Introduction>
+      <Type>Formal Outfits</Type>
+    </Skin>
+    <Skin>
+      <Picture>Wes_formal_body_collection_icon</Picture>
+      <Name>晚礼服</Name>
+      <EnName>Evening Attire</EnName>
+      <Rarity>Distinguished</Rarity>
+      <Introduction>"A fancy flowing shirt with formal trousers."</Introduction>
+      <Type>Formal Outfits</Type>
+    </Skin>
+    <Skin>
+      <Picture>Waxwell_formal_body_collection_icon</Picture>
+      <Name>引人注目的礼服</Name>
+      <EnName>Striking Tuxedo</EnName>
+      <Rarity>Distinguished</Rarity>
+      <Introduction>"The delightful aroma of mothballs and decay wafts off it."</Introduction>
+      <Type>Formal Outfits</Type>
+    </Skin>
+    <Skin>
+      <Picture>Wathgrithr_formal_body_collection_icon</Picture>
+      <Name>女武神甲</Name>
+      <EnName>Valkyrie Armour</EnName>
+      <Rarity>Distinguished</Rarity>
+      <Introduction>"Be a knight in shining armor. Or at least look like one. (It's just a costume, not real armor.)"</Introduction>
+      <Type>Formal Outfits</Type>
+    </Skin>
+    <Skin>
+      <Picture>Webber_formal_body_collection_icon</Picture>
+      <Name>正装夹克</Name>
+      <EnName>Formal Jacket</EnName>
+      <Rarity>Distinguished</Rarity>
+      <Introduction>"A black blazer with a red scarf."</Introduction>
+      <Type>Formal Outfits</Type>
+    </Skin>
+    <Skin>
+      <Picture>Wilson_survivor_body_collection_icon</Picture>
+      <Name>皱巴巴的衣服</Name>
+      <EnName>Rumpled Outfit</EnName>
+      <Rarity>Distinguished</Rarity>
+      <Introduction>"This outfit may have been attacked by weevils. Or something worse."</Introduction>
+      <Type>Survivor Outfits</Type>
+    </Skin>
+    <Skin>
+      <Picture>Willow_survivor_body_collection_icon</Picture>
+      <Name>褴褛的碎布</Name>
+      <EnName>Raggedy Rags</EnName>
+      <Rarity>Distinguished</Rarity>
+      <Introduction>"These clothes aren't good for anything except fueling a fire."</Introduction>
+      <Type>Survivor Outfits</Type>
+    </Skin>
+    <Skin>
+      <Picture>Wolfgang_survivor_body_collection_icon</Picture>
+      <Name>打补丁的紧身衣</Name>
+      <EnName>Patched Bodysuit</EnName>
+      <Rarity>Distinguished</Rarity>
+      <Introduction> "Wearing fur makes you feel like mighty animal!"</Introduction>
+      <Type>Survivor Outfits</Type>
+    </Skin>
+    <Skin>
+      <Picture>Wendy_survivor_body_collection_icon</Picture>
+      <Name>破布裙</Name>
+      <EnName>Shredded Skirt</EnName>
+      <Rarity>Distinguished</Rarity>
+      <Introduction>"This skirt has had a close brush with the forces of darkness."</Introduction>
+      <Type>Survivor Outfits</Type>
+    </Skin>
+    <Skin>
+      <Picture>Wx78_survivor_body_collection_icon</Picture>
+      <Name>破旧的身体</Name>
+      <EnName>Battered Body</EnName>
+      <Rarity>Distinguished</Rarity>
+      <Introduction>"It may have seen better days, but this body is still minimally functional."</Introduction>
+      <Type>Survivor Outfits</Type>
+    </Skin>
+    <Skin>
+      <Picture>Wickerbottom_survivor_body_collection_icon</Picture>
+      <Name>破烂的标签</Name>
+      <EnName>Tattered Tags</EnName>
+      <Rarity>Distinguished</Rarity>
+      <Introduction>"Living outdoors may be healthy, but it's sure hard on your clothing."</Introduction>
+      <Type>Survivor Outfits</Type>
+    </Skin>
+    <Skin>
+      <Picture>Woodie_survivor_body_collection_icon</Picture>
+      <Name>肮脏的齿轮</Name>
+      <EnName>Grubby Gear</EnName>
+      <Rarity>Distinguished</Rarity>
+      <Introduction>"Trees are great, but clothing doesn't grow on them."</Introduction>
+      <Type>Survivor Outfits</Type>
+    </Skin>
+    <Skin>
+      <Picture>Wes_survivor_body_collection_icon</Picture>
+      <Name>破旧的衣服</Name>
+      <EnName>Threadbare Clothing</EnName>
+      <Rarity>Distinguished</Rarity>
+      <Introduction>"If these clothes could talk just imagine the stories they would tell."</Introduction>
+      <Type>Survivor Outfits</Type>
+    </Skin>
+    <Skin>
+      <Picture>Waxwell_survivor_body_collection_icon</Picture>
+      <Name>磨损的优雅服饰</Name>
+      <EnName>Frayed Finery</EnName>
+      <Rarity>Distinguished</Rarity>
+      <Introduction> "A tragic end to a once-dapper three piece suit."</Introduction>
+      <Type>Survivor Outfits</Type>
+    </Skin>
+    <Skin>
+      <Picture>Wathgrithr_survivor_body_collection_icon</Picture>
+      <Name>撕裂的服装</Name>
+      <EnName>Torn Costume</EnName>
+      <Rarity>Distinguished</Rarity>
+      <Introduction>"This costume looks a little the worse for wear, but the performance must go on."</Introduction>
+      <Type>Survivor Outfits</Type>
+    </Skin>
+    <Skin>
+      <Picture>Webber_survivor_body_collection_icon</Picture>
+      <Name>缠着绷带的身体</Name>
+      <EnName>Bandaged Body</EnName>
+      <Rarity>Distinguished</Rarity>
+      <Introduction>"Spiderwebs are pretty useful for bandaging scrapes."</Introduction>
+      <Type>Survivor Outfits</Type>
+    </Skin>
+    <Skin>
+      <Picture>Wilson_shadow_body_collection_icon</Picture>
+      <Name>暗影西装</Name>
+      <EnName>Shadow Suit</EnName>
+      <Rarity>Distinguished</Rarity>
+      <Introduction>"A suit made of shadows. Quite the opposite of flashy."</Introduction>
+      <Type>Shadow Outfits</Type>
+    </Skin>
+    <Skin>
+      <Picture>Willow_shadow_body_collection_icon</Picture>
+      <Name>暗影裙</Name>
+      <EnName>Shadow Dress</EnName>
+      <Rarity>Distinguished</Rarity>
+      <Introduction>"This dress flickers as if it were on fire... If that fire were made of shadows."</Introduction>
+      <Type>Shadow Outfits</Type>
+    </Skin>
+    <Skin>
+      <Picture>Wolfgang_shadow_body_collection_icon</Picture>
+      <Name>暗影连衣裤</Name>
+      <EnName>Shadow Jumpsuit</EnName>
+      <Rarity>Distinguished</Rarity>
+      <Introduction>"These clothes put hair on your chest."</Introduction>
+      <Type>Shadow Outfits</Type>
+    </Skin>
+    <Skin>
+      <Picture>Wendy_shadow_body_collection_icon</Picture>
+      <Name>暗影连衣裙</Name>
+      <EnName>Shadow Frock</EnName>
+      <Rarity>Distinguished</Rarity>
+      <Introduction>"Finally the darkness envelops you, as you always knew it would."</Introduction>
+      <Type>Shadow Outfits</Type>
+    </Skin>
+    <Skin>
+      <Picture>Wx78_shadow_body_collection_icon</Picture>
+      <Name>暗影底盘</Name>
+      <EnName>Shadow Chassis</EnName>
+      <Rarity>Distinguished</Rarity>
+      <Introduction>"A dark automaton chassis with a lovely decorative gemstone.</Introduction>
+      <Type>Shadow Outfits</Type>
+    </Skin>
+    <Skin>
+      <Picture>Wickerbottom_shadow_body_collection_icon</Picture>
+      <Name>暗影长袍</Name>
+      <EnName>Shadow Gown</EnName>
+      <Rarity>Distinguished</Rarity>
+      <Introduction>"This dress is made from many shadow fragments sewn together."</Introduction>
+      <Type>Shadow Outfits</Type>
+    </Skin>
+    <Skin>
+      <Picture>Woodie_shadow_body_collection_icon</Picture>
+      <Name>暗影Feller的衣服</Name>
+      <EnName>Shadow Feller's Kit</EnName>
+      <Rarity>Distinguished</Rarity>
+      <Introduction>"Clothes for leaping from tree to tree and eating buttered scones."</Introduction>
+      <Type>Shadow Outfits</Type>
+    </Skin>
+    <Skin>
+      <Picture>Wes_shadow_body_collection_icon</Picture>
+      <Name>冷影服饰</Name>
+      <EnName>Cool Shadow</EnName>
+      <Rarity>Distinguished</Rarity>
+      <Introduction>"Dark clothes for cool people."</Introduction>
+      <Type>Shadow Outfits</Type>
+    </Skin>
+    <Skin>
+      <Picture>Waxwell_shadow_body_collection_icon</Picture>
+      <Name>反暗影西装</Name>
+      <EnName>Unshadow Suit</EnName>
+      <Rarity>Distinguished</Rarity>
+      <Introduction>"This look hearkens back to a simpler time. You are missed, Charlie."</Introduction>
+      <Type>Shadow Outfits</Type>
+    </Skin>
+    <Skin>
+      <Picture>Wathgrithr_shadow_body_collection_icon</Picture>
+      <Name>暗影甲</Name>
+      <EnName>Shadow Armor</EnName>
+      <Rarity>Distinguished</Rarity>
+      <Introduction>"Dark armor. It looks nice, but unfortunately shadows have no substance."</Introduction>
+      <Type>Shadow Outfits</Type>
+    </Skin>
+    <Skin>
+      <Picture>Webber_shadow_body_collection_icon</Picture>
+      <Name>暗影蜘蛛体</Name>
+      <EnName>Shadow Spider Body</EnName>
+      <Rarity>Distinguished</Rarity>
+      <Introduction>"The hollowed out body of an elegant black widow."</Introduction>
+      <Type>Shadow Outfits</Type>
+    </Skin>
+    <Skin>
+      <Picture>Expo_letterman_yellow_beige_collection_icon</Picture>
+      <Name>Letterman夹克</Name>
+      <EnName>Letterman Jacket</EnName>
+      <Rarity>Spiffy</Rarity>
+      <Introduction>"Run from ghosts and eat copious amounts in style in this slick Letterman Jacket!"在PAX期间访问Klei Booth获得。</Introduction>
+      <Type>Expo Shirts</Type>
+    </Skin>
+    <Skin>
+      <Picture>Expo_sweater_blue_agean_collection_icon</Picture>
+      <Name>漂亮毛衣</Name>
+      <EnName>Smart Sweater</EnName>
+      <Rarity>Spiffy</Rarity>
+      <Introduction>"Donning this Smart Sweater impels the wearer to burgeon a broad, patrician lexicon."在PAX期间访问Klei Booth获得。</Introduction>
+      <Type>Expo Shirts</Type>
+    </Skin>
+    <Skin>
+      <Picture>Body_catcoon_costume_collection_icon</Picture>
+      <Name>浣熊服装</Name>
+      <EnName>Catty Costume</EnName>
+      <Rarity>Elegant</Rarity>
+      <Introduction>万圣节获取（2016/10/18-2016/11/8）</Introduction>
+      <Type>Halloween Costumes and Disguises</Type>
+    </Skin>
+    <Skin>
+      <Picture>Body_chester_costume_collection_icon</Picture>
+      <Name>厚脸皮切斯特服装</Name>
+      <EnName>Cheeky Chester Costume</EnName>
+      <Rarity>Elegant</Rarity>
+      <Introduction>万圣节获取（2016/10/18-2016/11/8）</Introduction>
+      <Type>Halloween Costumes and Disguises</Type>
+    </Skin>
+    <Skin>
+      <Picture>Body_glommer_costume_collection_icon</Picture>
+      <Name>咕噜姆服装</Name>
+      <EnName>Glommy Guise Costume</EnName>
+      <Rarity>Elegant</Rarity>
+      <Introduction>万圣节获取（2016/10/18-2016/11/8）</Introduction>
+      <Type>Halloween Costumes and Disguises</Type>
+    </Skin>
+    <Skin>
+      <Picture>Body_hutch_costume_collection_icon</Picture>
+      <Name>哈气伪装服装</Name>
+      <EnName>Hutch Disguise Collection</EnName>
+      <Rarity>Elegant</Rarity>
+      <Introduction>万圣节获取（2016/10/18-2016/11/8）</Introduction>
+      <Type>Halloween Costumes and Disguises</Type>
+    </Skin>
+  </Body>
+  <Glove>   
+    <Skin>
+      <Picture>Shortgloves_black_scribble_collection_icon</Picture>
+      <Name>手套</Name>
+      <EnName>Hand Covers</EnName>
+      <Rarity>Common</Rarity>
+      <Introduction>涂鸦黑（Scribble Black）</Introduction>
+      <Type>Hand Covers</Type>
+    </Skin>
+    <Skin>
+      <Picture>Shortgloves_blue_cornflower_collection_icon</Picture>
+      <Name>手套</Name>
+      <EnName>Hand Covers</EnName>
+      <Rarity>Common</Rarity>
+      <Introduction>橡胶蓝（Rubber Glove Blue）</Introduction>
+      <Type>Hand Covers</Type>
+    </Skin>
+    <Skin>
+      <Picture>Shortgloves_red_higgsbury_collection_icon</Picture>
+      <Name>手套</Name>
+      <EnName>Hand Covers</EnName>
+      <Rarity>Common</Rarity>
+      <Introduction>威尔逊红（Higgsbury Red）</Introduction>
+      <Type>Hand Covers</Type>
+    </Skin>
+    <Skin>
+      <Picture>Shortgloves_white_smoke_collection_icon</Picture>
+      <Name>手套</Name>
+      <EnName>Hand Covers</EnName>
+      <Rarity>Common</Rarity>
+      <Introduction>烟雾白（Smoke White）</Introduction>
+      <Type>Hand Covers</Type>
+    </Skin>
+    <Skin>
+      <Picture>Longgloves_green_hunters_collection_icon</Picture>
+      <Name>长手套</Name>
+      <EnName>Long Gloves</EnName>
+      <Rarity>Common</Rarity>
+      <Introduction>树人绿（Forest Guardian Green）</Introduction>
+      <Type>Long Gloves</Type>
+    </Skin>
+    <Skin>
+      <Picture>Longgloves_grey_battleship_collection_icon</Picture>
+      <Name>长手套</Name>
+      <EnName>Long Gloves</EnName>
+      <Rarity>Common</Rarity>
+      <Introduction>积云灰（Cumulus Gray）</Introduction>
+      <Type>Long Gloves</Type>
+    </Skin>
+    <Skin>
+      <Picture>Longgloves_yellow_straw_collection_icon</Picture>
+      <Name>长手套</Name>
+      <EnName>Long Gloves</EnName>
+      <Rarity>Common</Rarity>
+      <Introduction>硫黄（Sulfuric Yellow）</Introduction>
+      <Type>Long Gloves</Type>
+    </Skin>
+    <Skin>
+      <Picture>Longgloves_pure_white_collection_icon</Picture>
+      <Name>长手套</Name>
+      <EnName>Long Gloves</EnName>
+      <Rarity>Common</Rarity>
+      <Introduction>纯白（Pure White）</Introduction>
+      <Type>Long Gloves</Type>
+    </Skin>
+    <Skin>
+      <Picture>Beltedgloves_brown_beaver_collection_icon</Picture>
+      <Name>紧扣的手套</Name>
+      <EnName>Buckled Gloves</EnName>
+      <Rarity>Classy</Rarity>
+      <Introduction>海獭棕（Werebeaver Brown）</Introduction>
+      <Type>Themed Gloves</Type>
+    </Skin>
+    <Skin>
+      <Picture>Beltedgloves_red_firehound_collection_icon</Picture>
+      <Name>紧扣的手套</Name>
+      <EnName>Buckled Gloves</EnName>
+      <Rarity>Classy</Rarity>
+      <Introduction>火猎犬红（Firehound Red）</Introduction>
+      <Type>Themed Gloves</Type>
+    </Skin>
+    <Skin>
+      <Picture>Beltedgloves_teal_jungle_collection_icon</Picture>
+      <Name>紧扣的手套</Name>
+      <EnName>Buckled Gloves</EnName>
+      <Rarity>Classy</Rarity>
+      <Introduction>浆果丛绿（Jungle Green）</Introduction>
+      <Type>Themed Gloves</Type>
+    </Skin>
+    <Skin>
+      <Picture>Drivergloves_white_ivory_collection_icon</Picture>
+      <Name>紧扣的手套</Name>
+      <EnName>Buckled Gloves</EnName>
+      <Rarity>Classy</Rarity>
+      <Introduction>猎犬骨白（Houndbone White）</Introduction>
+      <Type>Themed Gloves</Type>
+    </Skin>
+    <Skin>
+      <Picture>Wilson_formal_hand_collection_icon</Picture>
+      <Name>礼服手套</Name>
+      <EnName>Tuxedo Gloves</EnName>
+      <Rarity>Classy</Rarity>
+      <Introduction>"These gloves will hide the chemical stains on your hands when you dress up for formal occasions."</Introduction>
+      <Type>Formal Gloves</Type>
+    </Skin>
+    <Skin>
+      <Picture>Waxwell_formal_hand_collection_icon</Picture>
+      <Name>引人注目的手套</Name>
+      <EnName>Striking Gloves</EnName>
+      <Rarity>Classy</Rarity>
+      <Introduction>"White gloved hands are sometimes a symbol of deception. They're also a symbol of fashion!"</Introduction>
+      <Type>Formal Gloves</Type>
+    </Skin>
+  </Glove>
+  <Legs>
+    <Skin>
+      <Picture>Pants_basic_black_scribble_collection_icon</Picture>
+      <Name>裤子</Name>
+      <EnName>Pant</EnName>
+      <Rarity>Common</Rarity>
+      <Introduction>涂鸦黑（Scribble Black）</Introduction>
+      <Type>Pant</Type>
+    </Skin>
+    <Skin>
+      <Picture>Pants_basic_brown_sepia_collection_icon</Picture>
+      <Name>裤子</Name>
+      <EnName>Pant</EnName>
+      <Rarity>Common</Rarity>
+      <Introduction>海獭棕（Werebeaver Brown）</Introduction>
+      <Type>Pant</Type>
+    </Skin>
+    <Skin>
+      <Picture>Pants_basic_grey_dark_collection_icon</Picture>
+      <Name>裤子</Name>
+      <EnName>Pant</EnName>
+      <Rarity>Common</Rarity>
+      <Introduction>暴风灰（Stormcloud Grey）</Introduction>
+      <Type>Pant</Type>
+    </Skin>
+    <Skin>
+      <Picture>Pants_basic_tan_cream_collection_icon</Picture>
+      <Name>裤子</Name>
+      <EnName>Pant</EnName>
+      <Rarity>Common</Rarity>
+      <Introduction>（No-Tan-Lines Tan）</Introduction>
+      <Type>Pant</Type>
+    </Skin>
+    <Skin>
+      <Picture>Pants_basic_green_forest_collection_icon</Picture>
+      <Name>裤子</Name>
+      <EnName>Pant</EnName>
+      <Rarity>Common</Rarity>
+      <Introduction>树人绿（Forest Guardian Green）</Introduction>
+      <Type>Pant</Type>
+    </Skin>
+    <Skin>
+      <Picture>Skirt_basic_black_scribble_collection_icon</Picture>
+      <Name>裙子</Name>
+      <EnName>Skirt</EnName>
+      <Rarity>Common</Rarity>
+      <Introduction>涂鸦黑（Scribble Black）</Introduction>
+      <Type>Skirt</Type>
+    </Skin>
+    <Skin>
+      <Picture>Skirt_basic_brown_sepia_collection_icon</Picture>
+      <Name>裙子</Name>
+      <EnName>Skirt</EnName>
+      <Rarity>Common</Rarity>
+      <Introduction>海獭棕（Werebeaver Brown）</Introduction>
+      <Type>Skirt</Type>
+    </Skin>
+    <Skin>
+      <Picture>Skirt_basic_grey_dark_collection_icon</Picture>
+      <Name>裙子</Name>
+      <EnName>Skirt</EnName>
+      <Rarity>Common</Rarity>
+      <Introduction>暴风灰（Stormcloud Grey）</Introduction>
+      <Type>Skirt</Type>
+    </Skin>
+    <Skin>
+      <Picture>Skirt_basic_tan_cream_collection_icon</Picture>
+      <Name>裙子</Name>
+      <EnName>Skirt</EnName>
+      <Rarity>Common</Rarity>
+      <Introduction>（No-Tan-Lines Tan）</Introduction>
+      <Type>Skirt</Type>
+    </Skin>
+    <Skin>
+      <Picture>Skirt_basic_pink_pigman_collection_icon</Picture>
+      <Name>裙子</Name>
+      <EnName>Skirt</EnName>
+      <Rarity>Common</Rarity>
+      <Introduction>猪人粉（Pigman Pink）</Introduction>
+      <Type>Skirt</Type>
+    </Skin>
+    <Skin>
+      <Picture>Checkered_pleats_blue_cornflower_collection_icon</Picture>
+      <Name>格子裤子</Name>
+      <EnName>Checkered Trousers</EnName>
+      <Rarity>Classy</Rarity>
+      <Introduction>橡胶蓝（Rubber Glove Blue）</Introduction>
+      <Type>Checkered Trousers</Type>
+    </Skin>
+    <Skin>
+      <Picture>Checkered_pleats_green_laurel_collection_icon</Picture>
+      <Name>格子裤子</Name>
+      <EnName>Checkered Trousers</EnName>
+      <Rarity>Classy</Rarity>
+      <Introduction>任性绿（Willful Green）</Introduction>
+      <Type>Checkered Trousers</Type>
+    </Skin>
+    <Skin>
+      <Picture>Tweed_knickerbocker_green_hunters_collection_icon</Picture>
+      <Name>过膝裤</Name>
+      <EnName>Knee Pants</EnName>
+      <Rarity>Classy</Rarity>
+      <Introduction>树人绿（Forest Guardian Green）</Introduction>
+      <Type>Knee Pants</Type>
+    </Skin>
+    <Skin>
+      <Picture>Tweed_knickerbocker_tan_grass_collection_icon</Picture>
+      <Name>过膝裤</Name>
+      <EnName>Knee Pants</EnName>
+      <Rarity>Classy</Rarity>
+      <Introduction>干草黄（Dry Grass Tan）</Introduction>
+      <Type>Knee Pants</Type>
+    </Skin>
+    <Skin>
+      <Picture>Skirt_plaid_blue_cornflower_collection_icon</Picture>
+      <Name>格子裙</Name>
+      <EnName>Plaid Skirt</EnName>
+      <Rarity>Classy</Rarity>
+      <Introduction>橡胶蓝（Rubber Glove Blue）</Introduction>
+      <Type>Plaid Skirt</Type>
+    </Skin>
+    <Skin>
+      <Picture>Skirt_plaid_green_pistachio_collection_icon</Picture>
+      <Name>格子裙</Name>
+      <EnName>Plaid Skirt</EnName>
+      <Rarity>Classy</Rarity>
+      <Introduction>实验绿（Science Experiment Green）</Introduction>
+      <Type>Plaid Skirt</Type>
+    </Skin>
+    <Skin>
+      <Picture>Legs_pj_purple_mauve_collection_icon</Picture>
+      <Name>Jammie裤子</Name>
+      <EnName>Jammie Pants</EnName>
+      <Rarity>Spiffy</Rarity>
+      <Introduction>蜗牛粘液紫（Snail Mucus Purple）</Introduction>
+      <Type>Jammie Pants</Type>
+    </Skin>
+    <Skin>
+      <Picture>Legs_pj_blue_agean_collection_icon</Picture>
+      <Name>Jammie裤子</Name>
+      <EnName>Jammie Pants</EnName>
+      <Rarity>Spiffy</Rarity>
+      <Introduction>高PH蓝（High pH Blue）</Introduction>
+      <Type>Jammie Pants</Type>
+    </Skin>  
+  </Legs>
+  <Shoe>
+    <Skin>
+      <Picture>Bootie_black_scribble_collection_icon</Picture>
+      <Name>靴子</Name>
+      <EnName>Boots</EnName>
+      <Rarity>Common</Rarity>
+      <Introduction>涂鸦黑（Scribble Black）</Introduction>
+      <Type>Boots</Type>
+    </Skin>
+    <Skin>
+      <Picture>Sneakers_blue_catcoon_collection_icon</Picture>
+      <Name>运动鞋</Name>
+      <EnName>Sneakers</EnName>
+      <Rarity>Common</Rarity>
+      <Introduction>浣熊蓝（Catcoon Blue）</Introduction>
+      <Type>Sneakers</Type>
+    </Skin>
+    <Skin>
+      <Picture>Sneakers_green_cactus_collection_icon</Picture>
+      <Name>运动鞋</Name>
+      <EnName>Sneakers</EnName>
+      <Rarity>Common</Rarity>
+      <Introduction>仙人掌绿（Cactus Green）</Introduction>
+      <Type>Sneakers</Type>
+    </Skin>
+    <Skin>
+      <Picture>Sneakers_red_auburn_collection_icon</Picture>
+      <Name>运动鞋</Name>
+      <EnName>Sneakers</EnName>
+      <Rarity>Common</Rarity>
+      <Introduction>低PH红（Low pH Red）</Introduction>
+      <Type>Sneakers</Type>
+    </Skin>
+    <Skin>
+      <Picture>Sneakers_orange_carrot_collection_icon</Picture>
+      <Name>运动鞋</Name>
+      <EnName>Sneakers</EnName>
+      <Rarity>Common</Rarity>
+      <Introduction>胡萝卜橙（Carrot Orange）</Introduction>
+      <Type>Sneakers</Type>
+    </Skin>
+    <Skin>
+      <Picture>Maryjanes_white_pure_collection_icon</Picture>
+      <Name>玛丽简女鞋</Name>
+      <EnName>Mary Janes</EnName>
+      <Rarity>Classy</Rarity>
+      <Introduction>"Hit the jackpot with these classic 'pure white' colored Mary Janes."</Introduction>
+      <Type>Heels</Type>
+    </Skin>
+    <Skin>
+      <Picture>Formal_highheel_white_pure_collection_icon</Picture>
+      <Name>舞鞋</Name>
+      <EnName>Pumps</EnName>
+      <Rarity>Classy</Rarity>
+      <Introduction>"Dress to the nines in these 'pure white' colored shoes."</Introduction>
+      <Type>Heels</Type>
+    </Skin>
+    <Skin>
+      <Picture>Formal_lowheel_black_scribble_collection_icon</Picture>
+      <Name>低跟鞋</Name>
+      <EnName>Low Heels</EnName>
+      <Rarity>Classy</Rarity>
+      <Introduction>"Low-heeled 'scribble black' colored dress shoes."</Introduction>
+      <Type>Heels</Type>
+    </Skin>
+    <Skin>
+      <Picture>Formal_stiletto_black_scribble_collection_icon</Picture>
+      <Name>高跟鞋</Name>
+      <EnName>High Heels</EnName>
+      <Rarity>Classy</Rarity>
+      <Introduction>"High-heeled 'scribble black' colored dress shoes."</Introduction>
+      <Type>Heels</Type>
+    </Skin>
+    <Skin>
+      <Picture>Ridingboot_white_pure_collection_icon</Picture>
+      <Name>马靴</Name>
+      <EnName>Riding Boots</EnName>
+      <Rarity>Classy</Rarity>
+      <Introduction>"A pair of 'pure white' colored riding boots. Yee-haw!"</Introduction>
+      <Type>Boots</Type>
+    </Skin>
+    <Skin>
+      <Picture>Fleece_boot_brown_sepia_collection_icon</Picture>
+      <Name>加拿大靴</Name>
+      <EnName>Canadian Boots</EnName>
+      <Rarity>Classy</Rarity>
+      <Introduction>"Infused with maple syrup and essence of moose. This pair is a tasteful 'werebeaver brown' color."</Introduction>
+      <Type>Boots</Type>
+    </Skin>
+    <Skin>
+      <Picture>Workboot_brown_chocolate_collection_icon</Picture>
+      <Name>钢趾靴</Name>
+      <EnName>Steel-Toed Boots</EnName>
+      <Rarity>Classy</Rarity>
+      <Introduction>"These 'insufficient chocolate brown' colored boots will protect you from stubbing your toes, but not a whole lot else."</Introduction>
+      <Type>Boots</Type>
+    </Skin>
+    <Skin>
+      <Picture>Workboot_tan_clay_collection_icon</Picture>
+      <Name>钢趾靴</Name>
+      <EnName>Steel-Toed Boots</EnName>
+      <Rarity>Classy</Rarity>
+      <Introduction>"These 'muddy shoes tan' colored boots will protect you from stubbing your toes, but not a whole lot else."</Introduction>
+      <Type>Boots</Type>
+    </Skin>
+    <Skin>
+      <Picture>Sandals_blue_catcoon_collection_icon</Picture>
+      <Name>凉鞋</Name>
+      <EnName>Sandals</EnName>
+      <Rarity>Classy</Rarity>
+      <Introduction>"A pair of 'catcoon blue' colored sandals, with socks (for extra fashion)."</Introduction>
+      <Type>Sandals</Type>
+    </Skin>
+    <Skin>
+      <Picture>Bunnyslippers_purple_mauve_collection_icon</Picture>
+      <Name>兔子拖鞋</Name>
+      <EnName>Bunny Slippers</EnName>
+      <Rarity>Distinguished</Rarity>
+      <Introduction>"Show those bunnies what's what by wearing this pair of fuzzy 'snail mucus purple' colored bunny slippers."</Introduction>
+      <Type>Slippers</Type>
+    </Skin>
+    <Skin>
+      <Picture>Fuzzyslippers_blue_ice_collection_icon</Picture>
+      <Name>绒毛拖鞋</Name>
+      <EnName>Fuzzy Slippers</EnName>
+      <Rarity>Distinguished</Rarity>
+      <Introduction>"Warm, fuzzy, 'anthropomorphic feline blue' colored slippers. A spot of cheer in a hostile world."</Introduction>
+      <Type>Slippers</Type>
+    </Skin>
+  </Shoe>
+  <CharacterSpecific>
+    <Skin>
+      <Picture>Wilson_GoH_collection_icon</Picture>
+      <Name>威尔森 - 尊贵的客人</Name>
+      <EnName>Wilson - Guest of Honor</EnName>
+      <Rarity>Elegant</Rarity>
+      <Introduction>"Formal Wilson is unhappy Wilson."</Introduction>
+      <Type>Guest of Honor</Type>
+    </Skin>
+    <Skin>
+      <Picture>Willow_GoH_collection_icon</Picture>
+      <Name>薇洛 - 尊贵的客人</Name>
+      <EnName>Willow - Guest of Honor</EnName>
+      <Rarity>Elegant</Rarity>
+      <Introduction>"Willow prefers events that include bonfires or fireworks."</Introduction>
+      <Type>Guest of Honor</Type>
+    </Skin>
+    <Skin>
+      <Picture>Wolfgang_GoH_collection_icon</Picture>
+      <Name>沃尔夫冈 - 尊贵的客人</Name>
+      <EnName>Wolfgang - Guest of Honor</EnName>
+      <Rarity>Elegant</Rarity>
+      <Introduction>"Wolfgang enjoys formal dinners: the food is usually excellent."</Introduction>
+      <Type>Guest of Honor</Type>
+    </Skin>
+    <Skin>
+      <Picture>Wendy_GoH_collection_icon</Picture>
+      <Name>温蒂 - 尊贵的客人</Name>
+      <EnName>Wendy - Guest of Honor</EnName>
+      <Rarity>Elegant</Rarity>
+      <Introduction>"Wendy is not cheered by party games."</Introduction>
+      <Type>Guest of Honor</Type>
+    </Skin>
+    <Skin>
+      <Picture>Wx78_GoH_collection_icon</Picture>
+      <Name>WX-78 - 尊贵的客人</Name>
+      <EnName>WX-78 - Guest of Honor</EnName>
+      <Rarity>Elegant</Rarity>
+      <Introduction>"ERROR: DO NOT RECOGNIZE COMMAND "MOUSTACHE.TWIRL""</Introduction>
+      <Type>Guest of Honor</Type>
+    </Skin>
+    <Skin>
+      <Picture>Wickerbottom_GoH_collection_icon</Picture>
+      <Name>薇克巴顿 - 尊贵的客人</Name>
+      <EnName>Wickerbottom - Guest of Honor</EnName>
+      <Rarity>Elegant</Rarity>
+      <Introduction>"Since Wickerbottom doesn't sleep, she can dance all night."</Introduction>
+      <Type>Guest of Honor</Type>
+    </Skin>
+    <Skin>
+      <Picture>Woodie_GoH_collection_icon</Picture>
+      <Name>伍迪 - 尊贵的客人</Name>
+      <EnName>Woodie - Guest of Honor</EnName>
+      <Rarity>Elegant</Rarity>
+      <Introduction>"Woodie puts bear fat in his hair when he goes out."</Introduction>
+      <Type>Guest of Honor</Type>
+    </Skin>
+    <Skin>
+      <Picture>Wes_GoH_collection_icon</Picture>
+      <Name>韦斯 - 尊贵的客人</Name>
+      <EnName>Wes - Guest of Honor</EnName>
+      <Rarity>Elegant</Rarity>
+      <Introduction>"Formal Wes requires extra pomade."</Introduction>
+      <Type>Guest of Honor</Type>
+    </Skin>
+    <Skin>
+      <Picture>Waxwell_GoH_collection_icon</Picture>
+      <Name>麦斯威尔 - 尊贵的客人</Name>
+      <EnName>Maxwell - Guest of Honor</EnName>
+      <Rarity>Elegant</Rarity>
+      <Introduction>"Against all possible odds Maxwell has become even more dapper."</Introduction>
+      <Type>Guest of Honor</Type>
+    </Skin>
+    <Skin>
+      <Picture>Wathgrithr_GoH_collection_icon</Picture>
+      <Name>薇格弗德 - 尊贵的客人</Name>
+      <EnName>Wigfrid - Guest of Honor</EnName>
+      <Rarity>Elegant</Rarity>
+      <Introduction>"She resembles a Visigothic princess."</Introduction>
+      <Type>Guest of Honor</Type>
+    </Skin>
+    <Skin>
+      <Picture>Webber_GoH_collection_icon</Picture>
+      <Name>韦伯 - 尊贵的客人</Name>
+      <EnName>Webber - Guest of Honor</EnName>
+      <Rarity>Elegant</Rarity>
+      <Introduction>"Webber takes parties seriously."</Introduction>
+      <Type>Guest of Honor</Type>
+    </Skin>
+    <Skin>
+      <Picture>Wilson_Survivor_collection_icon</Picture>
+      <Name>威尔森 - 幸存者</Name>
+      <EnName>Wilson - Survivor</EnName>
+      <Rarity>Elegant</Rarity>
+      <Introduction>"As a scientist, Wilson is well equipped to investigate the natural world."</Introduction>
+      <Type>Survivor</Type>
+    </Skin>
+    <Skin>
+      <Picture>Willow_Survivor_collection_icon</Picture>
+      <Name>薇洛 - 幸存者</Name>
+      <EnName>Willow - Survivor</EnName>
+      <Rarity>Elegant</Rarity>
+      <Introduction>"Willow is taming the wilderness with fire."</Introduction>
+      <Type>Survivor</Type>
+    </Skin>
+    <Skin>
+      <Picture>Wolfgang_Survivor_collection_icon</Picture>
+      <Name>沃尔夫冈 - 幸存者</Name>
+      <EnName>Wolfgang - Survivor</EnName>
+      <Rarity>Elegant</Rarity>
+      <Introduction>"In the wilderness, only the mighty survive."</Introduction>
+      <Type>Survivor</Type>
+    </Skin>
+    <Skin>
+      <Picture>Wendy_Survivor_collection_icon</Picture>
+      <Name>温蒂 - 幸存者</Name>
+      <EnName>Wendy - Survivor</EnName>
+      <Rarity>Elegant</Rarity>
+      <Introduction>"Wendy is actually pretty good at surviving."</Introduction>
+      <Type>Survivor</Type>
+    </Skin>
+    <Skin>
+      <Picture>WX78_Survivor_collection_icon</Picture>
+      <Name>WX-78 - 幸存者</Name>
+      <EnName>WX-78 - Survivor</EnName>
+      <Rarity>Elegant</Rarity>
+      <Introduction>"Exposure to the elements causes corrosion."</Introduction>
+      <Type>Survivor</Type>
+    </Skin>
+    <Skin>
+      <Picture>Wickerbottom_Survivor_collection_icon</Picture>
+      <Name>薇克巴顿 - 幸存者</Name>
+      <EnName>Wickerbottom - Survivor</EnName>
+      <Rarity>Elegant</Rarity>
+      <Introduction>"Those with knowledge are good at making do in difficult circumstances."</Introduction>
+      <Type>Survivor</Type>
+    </Skin>
+    <Skin>
+      <Picture>Woodie_Survivor_collection_icon</Picture>
+      <Name>伍迪 - 幸存者</Name>
+      <EnName>Woodie - Survivor</EnName>
+      <Rarity>Elegant</Rarity>
+      <Introduction>"Woodie looks like he's turning into a tree."</Introduction>
+      <Type>Survivor</Type>
+    </Skin>
+    <Skin>
+      <Picture>Wes_Survivor_collection_icon</Picture>
+      <Name>韦斯 - 幸存者</Name>
+      <EnName>Wes - Survivor</EnName>
+      <Rarity>Elegant</Rarity>
+      <Introduction>"Even mimes can fight if confronted with a monster."</Introduction>
+      <Type>Survivor</Type>
+    </Skin>
+    <Skin>
+      <Picture>Waxwell_Survivor_collection_icon</Picture>
+      <Name>麦斯威尔 - 幸存者</Name>
+      <EnName>Maxwell - Survivor</EnName>
+      <Rarity>Elegant</Rarity>
+      <Introduction>"This is Maxwell, the intrepid explorer."</Introduction>
+      <Type>Survivor</Type>
+    </Skin>
+    <Skin>
+      <Picture>Wathgrithr_Survivor_collection_icon</Picture>
+      <Name>薇格弗德 - 幸存者</Name>
+      <EnName>Wigfrid - Survivor</EnName>
+      <Rarity>Elegant</Rarity>
+      <Introduction>"A warrior cannot eat until she defeats some meat."</Introduction>
+      <Type>Survivor</Type>
+    </Skin>
+    <Skin>
+      <Picture>Webber_Survivor_collection_icon</Picture>
+      <Name>韦伯 - 幸存者</Name>
+      <EnName>Webber - Survivor</EnName>
+      <Rarity>Elegant</Rarity>
+      <Introduction>"Webber looks a little worse for the wear."</Introduction>
+      <Type>Survivor</Type>
+    </Skin>
+    <Skin>
+      <Picture>Wilson_Shadow_collection_icon</Picture>
+      <Name>威尔森 - 凯旋</Name>
+      <EnName>Wilson - Triumphant</EnName>
+      <Rarity>Elegant</Rarity>
+      <Introduction>"Wilson has learned the science of shadows."</Introduction>
+      <Type>Triumphant</Type>
+    </Skin>
+    <Skin>
+      <Picture>Willow_Shadow_collection_icon</Picture>
+      <Name>薇洛 - 凯旋</Name>
+      <EnName>Willow - Triumphant</EnName>
+      <Rarity>Elegant</Rarity>
+      <Introduction>"Willow enjoys flickering flames of inky blackness."</Introduction>
+      <Type>Triumphant</Type>
+    </Skin>
+    <Skin>
+      <Picture>Wolfgang_Shadow_collection_icon</Picture>
+      <Name>沃尔夫冈 - 凯旋</Name>
+      <EnName>Wolfgang - Triumphant</EnName>
+      <Rarity>Elegant</Rarity>
+      <Introduction>"Wolfgang is even mightier than usual."</Introduction>
+      <Type>Triumphant</Type>
+    </Skin>
+    <Skin>
+      <Picture>Wendy_Shadow_collection_icon</Picture>
+      <Name>温蒂 - 凯旋</Name>
+      <EnName>Wendy - Triumphant</EnName>
+      <Rarity>Elegant</Rarity>
+      <Introduction>"Wendy has always been comfortable with darkness."</Introduction>
+      <Type>Triumphant</Type>
+    </Skin>
+    <Skin>
+      <Picture>Wx78_Shadow_collection_icon</Picture>
+      <Name>WX-78 - 凯旋</Name>
+      <EnName>WX-78 - Triumphant</EnName>
+      <Rarity>Elegant</Rarity>
+      <Introduction>"This robot was evil before. Now they're double evil."</Introduction>
+      <Type>Triumphant</Type>
+    </Skin>
+    <Skin>
+      <Picture>Wickerbottom_Shadow_collection_icon</Picture>
+      <Name>薇克巴顿 - 凯旋</Name>
+      <EnName>Wickerbottom - Triumphant</EnName>
+      <Rarity>Elegant</Rarity>
+      <Introduction>"A librarian knows how to watch from the shadows."</Introduction>
+      <Type>Triumphant</Type>
+    </Skin>
+    <Skin>
+      <Picture>Woodie_Shadow_collection_icon</Picture>
+      <Name>伍迪 - 凯旋</Name>
+      <EnName>Woodie - Triumphant</EnName>
+      <Rarity>Elegant</Rarity>
+      <Introduction>"The shadow realm is pretty much the same as here, just darker."</Introduction>
+      <Type>Triumphant</Type>
+    </Skin>
+    <Skin>
+      <Picture>Wes_Shadow_collection_icon</Picture>
+      <Name>韦斯 - 凯旋</Name>
+      <EnName>Wes - Triumphant</EnName>
+      <Rarity>Elegant</Rarity>
+      <Introduction>"The sun is too bright. It blots out the darkness."</Introduction>
+      <Type>Triumphant</Type>
+    </Skin>
+    <Skin>
+      <Picture>Waxwell_Shadow_collection_icon</Picture>
+      <Name>麦斯威尔 - 凯旋</Name>
+      <EnName>Maxwell - Triumphant</EnName>
+      <Rarity>Elegant</Rarity>
+      <Introduction>"Before it all went so wrong..."</Introduction>
+      <Type>Triumphant</Type>
+    </Skin>
+    <Skin>
+      <Picture>Wathgrithr_Shadow_collection_icon</Picture>
+      <Name>薇格弗德 - 凯旋</Name>
+      <EnName>Wigfrid - Triumphant</EnName>
+      <Rarity>Elegant</Rarity>
+      <Introduction>"Go to the dark side and be on top of the world."</Introduction>
+      <Type>Triumphant</Type>
+    </Skin>
+    <Skin>
+      <Picture>Webber_Shadow_collection_icon</Picture>
+      <Name>韦伯 - 凯旋</Name>
+      <EnName>Webber - Triumphant</EnName>
+      <Rarity>Elegant</Rarity>
+      <Introduction>"Dark spiders have poisonous fangs."</Introduction>
+      <Type>Triumphant</Type>
+    </Skin>
+  </CharacterSpecific>
+  <Item>
+    <Skin>
+      <Picture>Backpack_mushy_collection_icon</Picture>
+      <Name>破旧的背包</Name>
+      <EnName>Moldy Backpack</EnName>
+      <Rarity>Common</Rarity>
+      <Introduction>将背包放在地上一定时间即可</Introduction>
+      <Type>Backpack</Type>
+    </Skin>
+    <Skin>
+      <Picture>Backpack_basic_blue_catcoon_collection_icon</Picture>
+      <Name>彩色背包</Name>
+      <EnName>Colored Backpack</EnName>
+      <Rarity>Spiffy</Rarity>
+      <Introduction>浣熊蓝（Catcoon Blue）</Introduction>
+      <Type>Backpack</Type>
+    </Skin>
+    <Skin>
+      <Picture>Backpack_basic_green_olive_collection_icon</Picture>
+      <Name>彩色背包</Name>
+      <EnName>Colored Backpack</EnName>
+      <Rarity>Spiffy</Rarity>
+      <Introduction>永恒绿（Forever Green）</Introduction>
+      <Type>Backpack</Type>
+    </Skin>
+    <Skin>
+      <Picture>Backpack_buckle_grey_pewter_collection_icon</Picture>
+      <Name>紧扣的背包</Name>
+      <EnName>Buckled Backpack</EnName>
+      <Rarity>Spiffy</Rarity>
+      <Introduction>阴沉灰（Dismal Gray）</Introduction>
+      <Type>Backpack</Type>
+    </Skin>
+    <Skin>
+      <Picture>Backpack_buckle_navy_phthalo_collection_icon</Picture>
+      <Name>紧扣的背包</Name>
+      <EnName>Buckled Backpack</EnName>
+      <Rarity>Spiffy</Rarity>
+      <Introduction>酞青（Monastral Blue）</Introduction>
+      <Type>Backpack</Type>
+    </Skin>
+    <Skin>
+      <Picture>Backpack_buckle_red_rook_collection_icon</Picture>
+      <Name>紧扣的背包</Name>
+      <EnName>Buckled Backpack</EnName>
+      <Rarity>Spiffy</Rarity>
+      <Introduction>xx红（Rook Red）</Introduction>
+      <Type>Backpack</Type>
+    </Skin>
+    <Skin>
+      <Picture>Backpack_camping_green_viridian_collection_icon</Picture>
+      <Name>帆布背包</Name>
+      <EnName>Rucksack</EnName>
+      <Rarity>Spiffy</Rarity>
+      <Introduction>水草绿（Subaqueous Megafauna Green）</Introduction>
+      <Type>Backpack</Type>
+    </Skin>
+    <Skin>
+      <Picture>Backpack_camping_orange_carrot_collection_icon</Picture>
+      <Name>帆布背包</Name>
+      <EnName>Rucksack</EnName>
+      <Rarity>Spiffy</Rarity>
+      <Introduction>胡萝卜橙（Carrot Orange）</Introduction>
+      <Type>Backpack</Type>
+    </Skin>
+    <Skin>
+      <Picture>Backpack_camping_red_koalefant_collection_icon</Picture>
+      <Name>帆布背包</Name>
+      <EnName>Rucksack</EnName>
+      <Rarity>Spiffy</Rarity>
+      <Introduction>无尾象红（Koalefant Trunk Red）</Introduction>
+      <Type>Backpack</Type>
+    </Skin>
+    <Skin>
+      <Picture>Backpack_poop_collection_icon</Picture>
+      <Name>便便袋</Name>
+      <EnName>Poop Pouch</EnName>
+      <Rarity>Elegant</Rarity>
+      <Introduction>"A bag shaped like feces. Obviously it was designed by somebody who enjoys sophomoric humor."</Introduction>
+      <Type>Backpack</Type>
+    </Skin>
+    <Skin>
+      <Picture>Backpack_bat_collection_icon</Picture>
+      <Name>蝙蝠背包</Name>
+      <EnName>Back Bat</EnName>
+      <Rarity>Elegant</Rarity>
+      <Introduction>"Behold, a batty black bat-shaped backpack. Bat."</Introduction>
+      <Type>Backpack</Type>
+    </Skin>
+    <Skin>
+      <Picture>Backpack_beefalo_collection_icon</Picture>
+      <Name>野牛背包</Name>
+      <EnName>Beefalo Carryall</EnName>
+      <Rarity>Elegant</Rarity>
+      <Introduction>"A backpack made in the shape of a little beefalo. It's so cute and fluffy!"</Introduction>
+      <Type>Backpack</Type>
+    </Skin>
+    <Skin>
+      <Picture>Backpack_catcoon_collection_icon</Picture>
+      <Name>浣熊背包</Name>
+      <EnName>Catcoon Carryall</EnName>
+      <Rarity>Elegant</Rarity>
+      <Introduction>"Squirrel away your items with this catcoon-shaped carryall."</Introduction>
+      <Type>Backpack</Type>
+    </Skin>
+    <Skin>
+      <Picture>Backpack_dragonfly_fire_collection_icon</Picture>
+      <Name>蜻蜓龙挎包</Name>
+      <EnName>Scorching Satchel</EnName>
+      <Rarity>Elegant</Rarity>
+      <Introduction>"Dragon flier burning bright, in the desert quite a sight. What equipment is required to quench thy fearsome scorching fires?"</Introduction>
+      <Type>Backpack</Type>
+    </Skin>
+    <Skin>
+      <Picture>Backpack_rabbit_collection_icon</Picture>
+      <Name>兔子背包</Name>
+      <EnName>Rabbit Rucksack</EnName>
+      <Rarity>Elegant</Rarity>
+      <Introduction>"Go down the rabbit hole with this rabbit-shaped backpack."</Introduction>
+      <Type>Backpack</Type>
+    </Skin>
+    <Skin>
+      <Picture>Backpack_smallbird_collection_icon</Picture>
+      <Name>小高脚鸟包</Name>
+      <EnName>Smallbird Satchel</EnName>
+      <Rarity>Elegant</Rarity>
+      <Introduction>"This smallbird won't ever grow up and reject you like a real smallbird would."</Introduction>
+      <Type>Backpack</Type>
+    </Skin>
+    <Skin>
+      <Picture>Backpack_spider_collection_icon</Picture>
+      <Name>蜘蛛袋</Name>
+      <EnName>Spider Sack</EnName>
+      <Rarity>Elegant</Rarity>
+      <Introduction>"Wearing this backpack will let you make an arachnophobe's day a little bit worse. Or, you could ask yourself 'What would Willow do?' and burn it! Burn it with fire!"</Introduction>
+      <Type>Backpack</Type>
+    </Skin>
+    <Skin>
+      <Picture>Backpack_crab_collection_icon</Picture>
+      <Name>螃蟹背包</Name>
+      <EnName>Crabpack</EnName>
+      <Rarity>Loyal</Rarity>
+      <Introduction>Klei Store购买物品获得。</Introduction>
+      <Type>Backpack</Type>
+    </Skin>
+    <Skin>
+      <Picture>Backpack_deerclops_collection_icon</Picture>
+      <Name>巨鹿背包</Name>
+      <EnName>Deerclops Duffel</EnName>
+      <Rarity>Loyal</Rarity>
+      <Introduction>Klei Store购买物品获得。</Introduction>
+      <Type>Backpack</Type>
+    </Skin>
+    <Skin>
+      <Picture>Backpack_glommer_collection_icon</Picture>
+      <Name>咕噜姆背包</Name>
+      <EnName>Glommer Pack</EnName>
+      <Rarity>Loyal</Rarity>
+      <Introduction>Klei Store购买物品获得。</Introduction>
+      <Type>Backpack</Type>
+    </Skin>
+    <Skin>
+      <Picture>Backpack_mandrake_collection_icon</Picture>
+      <Name>曼德拉包</Name>
+      <EnName>Meepsack</EnName>
+      <Rarity>Loyal</Rarity>
+      <Introduction>Klei Store购买物品获得。</Introduction>
+      <Type>Backpack</Type>
+    </Skin>
+    <Skin>
+      <Picture>Flowerhat_wreath_collection_icon</Picture>
+      <Name>带刺的桂冠</Name>
+      <EnName>Thorned Laurel</EnName>
+      <Rarity>Elegant</Rarity>
+      <Introduction>花环 "Laurels ought rest on you, not the other way around."</Introduction>
+      <Type>Hat</Type>
+    </Skin>
+    <Skin>
+      <Picture>Flowerhat_holly_wreath_collection_icon</Picture>
+      <Name>冬青花环</Name>
+      <EnName>Holly Wreath</EnName>
+      <Rarity>Spiffy</Rarity>
+      <Introduction>冬季假期获取（12/15-1/5）</Introduction>
+      <Type>Hat</Type>
+    </Skin>
+    <Skin>
+      <Picture>Flowerhat_ribbon_wreath_collection_icon</Picture>
+      <Name>丝带花环</Name>
+      <EnName>Ribbon Wreath</EnName>
+      <Rarity>Spiffy</Rarity>
+      <Introduction>冬季假期获取（12/15-1/5）</Introduction>
+      <Type>Hat</Type>
+    </Skin>
+    <Skin>
+      <Picture>Strawhat_floppy_collection_icon</Picture>
+      <Name>软草帽</Name>
+      <EnName>Floppy Straw Hat</EnName>
+      <Rarity>Elegant</Rarity>
+      <Introduction>草帽 "Be like a little British lady in your garden!"</Introduction>
+      <Type>Hat</Type>
+    </Skin>
+    <Skin>
+      <Picture>Tophat_derby_collection_icon</Picture>
+      <Name>圆顶礼帽</Name>
+      <EnName>Bowler Hat</EnName>
+      <Rarity>Elegant</Rarity>
+      <Introduction>高礼帽 "Demonstrate your impeccable style with this dapper bowler hat."</Introduction>
+      <Type>Hat</Type>
+    </Skin>
+    <Skin>
+      <Picture>Hat_catcoon_costume_collection_icon</Picture>
+      <Name>浣熊帽</Name>
+      <EnName>Catty Costume Cap</EnName>
+      <Rarity>Elegant</Rarity>
+      <Introduction>万圣节获取（2016/10/18-2016/11/8）</Introduction>
+      <Type>Hats</Type>
+    </Skin>
+    <Skin>
+      <Picture>Hat_chester_costume_collection_icon</Picture>
+      <Name>厚脸皮切斯特帽子</Name>
+      <EnName>Cheeky Chester Cap</EnName>
+      <Rarity>Elegant</Rarity>
+      <Introduction>万圣节获取（2016/10/18-2016/11/8）</Introduction>
+      <Type>Hats</Type>
+    </Skin>
+    <Skin>
+      <Picture>Hat_glommer_costume_collection_icon</Picture>
+      <Name>咕噜姆帽</Name>
+      <EnName>Glommy Head Guise</EnName>
+      <Rarity>Elegant</Rarity>
+      <Introduction>万圣节获取（2016/10/18-2016/11/8）</Introduction>
+      <Type>Hats</Type>
+    </Skin>
+    <Skin>
+      <Picture>Hat_hutch_costume_collection_icon</Picture>
+      <Name>哈奇伪装帽子</Name>
+      <EnName>Hutch Head Disguise</EnName>
+      <Rarity>Elegant</Rarity>
+      <Introduction>万圣节获取（2016/10/18-2016/11/8）</Introduction>
+      <Type>Hats</Type>
+    </Skin>
+    <Skin>
+      <Picture>Spear_bee_collection_icon</Picture>
+      <Name>黄蜂长矛</Name>
+      <EnName>Bumble Spear</EnName>
+      <Rarity>Elegant</Rarity>
+      <Introduction>长矛 "It doesn't hit harder than a regular spear, although it certainly still stings."</Introduction>
+      <Type>Spear</Type>
+    </Skin>
+    <Skin>
+      <Picture>Torch_survivor_collection_icon</Picture>
+      <Name>饱经风霜的火炬</Name>
+      <EnName>Weatherbeaten Torch</EnName>
+      <Rarity>Elegant</Rarity>
+      <Introduction>火炬 "Give your torch some visual flare with these hastily wrapped, desiccated rags. Smoky!"</Introduction>
+      <Type>Torch</Type>
+    </Skin>
+    <Skin>
+      <Picture>Torch_shadow_collection_icon</Picture>
+      <Name>悲剧火炬</Name>
+      <EnName>Tragic Torch</EnName>
+      <Rarity>Loyal</Rarity>
+      <Introduction>火炬 "At first glance this torch appears menacing, but holding it makes you feel quite sad."解密游戏获得。</Introduction>
+      <Type>Torch</Type>
+    </Skin>
+    <Skin>
+      <Picture>Torch_spooky_collection_icon</Picture>
+      <Name>万圣节火炬</Name>
+      <EnName>Halloween Torches</EnName>
+      <Rarity>Elegant</Rarity>
+      <Introduction>万圣节获取（2016/10/18-2016/11/8）</Introduction>
+      <Type>Torch</Type>
+    </Skin>
+    <Skin>
+      <Picture>Ancient_Cane</Picture>
+      <Name>古代手杖</Name>
+      <EnName>Ancient Cane</EnName>
+      <Rarity>Loyal</Rarity>
+      <Introduction>步行手杖 "To tread ancient paths, long forgotten."解密游戏获得。</Introduction>
+      <Type>Cane</Type>
+    </Skin>
+    <Skin>
+      <Picture>Bedroll_furry_quilty_white_ivory_collection_icon</Picture>
+      <Name>被子</Name>
+      <EnName>Patchwork Quilt</EnName>
+      <Rarity>Distinguished</Rarity>
+      <Introduction>毛皮铺盖 "Nothing says "bedtime" quite like a bunch of little fabric squares sewn into one bigger, 'houndbone white' fabric square."</Introduction>
+      <Type>Bedrolls</Type>
+    </Skin>
+    <Skin>
+      <Picture>Bedroll_furry_quilty_blue_frost_collection_icon</Picture>
+      <Name>被子</Name>
+      <EnName>Patchwork Quilt</EnName>
+      <Rarity>Distinguished</Rarity>
+      <Introduction>毛皮铺盖 "Nothing says "bedtime" quite like a bunch of little fabric squares sewn into one bigger, 'high elevation blue' fabric square."</Introduction>
+      <Type>Bedrolls</Type>
+    </Skin>
+    <Skin>
+      <Picture>Winterhat_black_davys_collection_icon</Picture>
+      <Name>黑冬帽</Name>
+      <EnName>Winter Hats</EnName>
+      <Rarity>Loyal</Rarity>
+      <Introduction>Klei Store购买获得。</Introduction>
+      <Type>Winter Hats</Type>
+    </Skin>
+    <Skin>
+      <Picture>Winterhat_pink_hibiscus_collection_icon</Picture>
+      <Name>粉冬帽</Name>
+      <EnName>Winter Hats</EnName>
+      <Rarity>Loyal</Rarity>
+      <Introduction>Klei Store购买获得。</Introduction>
+      <Type>Winter Hats</Type>
+    </Skin>
+    <Skin>
+      <Picture>Winterhat_stocking_cap_green_forest_collection_icon</Picture>
+      <Name>节日冬帽</Name>
+      <EnName>Festive Stocking Cap</EnName>
+      <Rarity>Spiffy</Rarity>
+      <Introduction>冬季假期获取（12/15-1/5）</Introduction>
+      <Type>Winter Hats</Type>
+    </Skin>
+    <Skin>
+      <Picture>Clucky_Winter_Hat_Collection_Icon</Picture>
+      <Name>节日冬帽</Name>
+      <EnName>Clucky Winter Hat</EnName>
+      <Rarity>Spiffy</Rarity>
+      <Introduction>农历鸡年获取（2017/1/19-2017/2/14）</Introduction>
+      <Type>Winter Hats</Type>
+    </Skin>
+    <Skin>
+      <Picture>CherubsHeart_collection_icon</Picture>
+      <Name>丘比特之心</Name>
+      <EnName>Cherub's Heart</EnName>
+      <Rarity>Loyal</Rarity>
+      <Introduction>情人节获得。</Introduction>
+      <Type></Type>
+    </Skin>
+  </Item>
+  <Structure>
+    <Skin>
+      <Picture>Firepit_fanged_collection_icon</Picture>
+      <Name>尖牙篝火</Name>
+      <EnName>Fanged Firepit</EnName>
+      <Rarity>Distinguished</Rarity>
+      <Introduction>篝火 "Thish firepit ish made of rocksh that reshemble fangsh. What would it shay if it could shpeak?"</Introduction>
+      <Type>Firepit</Type>
+    </Skin>
+    <Skin>
+      <Picture>Firepit_hole_collection_icon</Picture>
+      <Name>无底洞篝火</Name>
+      <EnName>Bottomless Pit</EnName>
+      <Rarity>Loyal</Rarity>
+      <Introduction>篝火 "Bottomless pits are the best. But bottomless pits filled with fire are even better."参加DST早期阶段获得。</Introduction>
+      <Type>Firepit</Type>
+    </Skin>
+    <Skin>
+      <Picture>Firepit_stonehenge_collection_icon</Picture>
+      <Name>纪念碑篝火</Name>
+      <EnName>Mini Monument</EnName>
+      <Rarity>Loyal</Rarity>
+      <Introduction>篝火 ""A firepit modeled after an ancient, giant monument. Luckily, this version is sized more appropriately for humans (and human-sized entities)."RoG在DST版本中的补偿。</Introduction>
+      <Type>Firepit</Type>
+    </Skin>
+    <Skin>
+      <Picture>Treasurechest_carpetbag_collection_icon</Picture>
+      <Name>手提袋储物箱</Name>
+      <EnName>"Carpet Bag" Chest</EnName>
+      <Rarity>Distinguished</Rarity>
+      <Introduction>储物箱 "This bag made from luxurious carpet is the height of modern fashion!"</Introduction>
+      <Type>Chests</Type>
+    </Skin>
+    <Skin>
+      <Picture>Treasurechest_posh_collection_icon</Picture>
+      <Name>宝箱</Name>
+      <EnName>"Treasured Chest" Chest</EnName>
+      <Rarity>Distinguished</Rarity>
+      <Introduction>储物箱 "A chest worthy of storing your finest gems and treasures. Or, y'know, twigs and manure."</Introduction>
+      <Type>Chests</Type>
+    </Skin>
+    <Skin>
+      <Picture>Treasurechest_traincase_collection_icon</Picture>
+      <Name>火车箱</Name>
+      <EnName>"Train Case" Chest</EnName>
+      <Rarity>Distinguished</Rarity>
+      <Introduction>储物箱 "Organize your foraged scraps in class and style."</Introduction>
+      <Type>Chests</Type>
+    </Skin>
+    <Skin>
+      <Picture>Treasurechest_steamertrunk_collection_icon</Picture>
+      <Name>皮箱</Name>
+      <EnName>"Steamer Trunk" Chest</EnName>
+      <Rarity>Distinguished</Rarity>
+      <Introduction>储物箱 "NOTE: Doesn't steam."</Introduction>
+      <Type>Chests</Type>
+    </Skin>
+    <Skin>
+      <Picture>Treasurechest_traveltrunk_collection_icon</Picture>
+      <Name>旅行箱</Name>
+      <EnName>"Traveller's Trunk" Chest</EnName>
+      <Rarity>Distinguished</Rarity>
+      <Introduction>储物箱 "Its travelling days may be over, but it'll always have the memories."</Introduction>
+      <Type>Chests</Type>
+    </Skin>
+    <Skin>
+      <Picture>Ancient_Kings_Chest</Picture>
+      <Name>古代国王的储物箱</Name>
+      <EnName>Ancient King's Chest</EnName>
+      <Rarity>Loyal</Rarity>
+      <Introduction>储物箱 "The history of an ancient people is locked away inside."解密游戏获得。</Introduction>
+      <Type>Chests</Type>
+    </Skin>
+    <Skin>
+      <Picture>Treasurechest_poshprint_collection_icon</Picture>
+      <Name>Calico Chester储物箱</Name>
+      <EnName>Calico Chester Chest</EnName>
+      <Rarity>Loyal</Rarity>
+      <Introduction>Klei Store购买物品获得。</Introduction>
+      <Type>Chests</Type>
+    </Skin>
+    <Skin>
+      <Picture>Endtable_carpet_collection_icon</Picture>
+      <Name>朴素茶几</Name>
+      <EnName>"Austere" Endtable</EnName>
+      <Rarity>Distinguished</Rarity>
+      <Introduction>茶几 "A table that would be a truly elegant addition to any unkempt wilderness base."</Introduction>
+      <Type>End Tables</Type>
+    </Skin>
+    <Skin>
+      <Picture>Endtable_dragonfly_collection_icon</Picture>
+      <Name>蜻蜓龙茶几</Name>
+      <EnName>"Dragonfly" Endtable</EnName>
+      <Rarity>Distinguished</Rarity>
+      <Introduction>茶几 "An endtable inspired by the most opulent of bloodthirsty monsters."</Introduction>
+      <Type>End Tables</Type>
+    </Skin>
+    <Skin>
+      <Picture>Endtable_vintage_collection_icon</Picture>
+      <Name>古董茶几</Name>
+      <EnName>"Antique" Endtable</EnName>
+      <Rarity>Distinguished</Rarity>
+      <Introduction>茶几 "A quaint decorative table that would make your grandmother proud."</Introduction>
+      <Type>End Tables</Type>
+    </Skin>
+    <Skin>
+      <Picture>Crockpot_survival_collection_icon</Picture>
+      <Name>野营烹饪锅</Name>
+      <EnName>Camping Crock Pot</EnName>
+      <Rarity>Elegant</Rarity>
+      <Introduction>烹饪锅 "This cooking pot looks kind of beaten up, but the food it cooks still tastes delicious."</Introduction>
+      <Type>Crock Pots</Type>
+    </Skin>
+    <Skin>
+      <Picture>Birdcage_ornamental_collection_icon</Picture>
+      <Name>观赏鸟笼</Name>
+      <EnName>Ornamental Birdcage</EnName>
+      <Rarity>Distinguished</Rarity>
+      <Introduction>冬季假期获取（12/15-1/5）</Introduction>
+      <Type>Birdcage</Type>
+    </Skin>
+    <Skin>
+      <Picture>Birdcage_pirate_collection_icon</Picture>
+      <Name>海盗鸟笼</Name>
+      <EnName>Pirate Birdcage</EnName>
+      <Rarity>Loyal</Rarity>
+      <Introduction>鸟笼。SW在DST中的补偿。</Introduction>
+      <Type>Birdcage</Type>
+    </Skin>
+  </Structure>
+  <Critter>
+    <Skin>
+      <Picture>Dragonling_wyvern_collection_icon</Picture>
+      <Name>"Wyvernling"寄生虫</Name>
+      <EnName>"Wyvernling" Broodling</EnName>
+      <Rarity>Elegant</Rarity>
+      <Introduction>寄生虫 "This pet's doofy lil dragon face inspires both fear and wuv."</Introduction>
+      <Type>Critter</Type>
+    </Skin>
+    <Skin>
+      <Picture>Glomling_beardeddragon_collection_icon</Picture>
+      <Name>髯龙咕噜姆</Name>
+      <EnName>"Bearded Dragon" Glomglom</EnName>
+      <Rarity>Elegant</Rarity>
+      <Introduction>咕噜姆 "A pet as noble as he is huggable."</Introduction>
+      <Type>Critter</Type>
+    </Skin>
+    <Skin>
+      <Picture>Dragonling_winter_collection_icon</Picture>
+      <Name>极地寄生虫</Name>
+      <EnName>"Polar" Broodling</EnName>
+      <Rarity>Distinguished</Rarity>
+      <Introduction>冬季假期获取（12/15-1/5）</Introduction>
+      <Type>Critter</Type>
+    </Skin>
+    <Skin>
+      <Picture>Glomling_winter_collection_icon</Picture>
+      <Name>雪咕噜姆</Name>
+      <EnName>"Snowy" Glomglom</EnName>
+      <Rarity>Distinguished</Rarity>
+      <Introduction>冬季假期获取（12/15-1/5）</Introduction>
+      <Type>Critter</Type>
+    </Skin>
+    <Skin>
+      <Picture>Kitten_winter_collection_icon</Picture>
+      <Name>雪小猫咪</Name>
+      <EnName>"Snowkit" Kittykit</EnName>
+      <Rarity>Distinguished</Rarity>
+      <Introduction>冬季假期获取（12/15-1/5）</Introduction>
+      <Type>Critter</Type>
+    </Skin>
+    <Skin>
+      <Picture>Lamb_winter_collection_icon</Picture>
+      <Name>雪花伊乌莱特</Name>
+      <EnName>"Snowflake" Ewelet</EnName>
+      <Rarity>Distinguished</Rarity>
+      <Introduction>冬季假期获取（12/15-1/5）</Introduction>
+      <Type>Critter</Type>
+    </Skin>
+    <Skin>
+      <Picture>Puppy_winter_collection_icon</Picture>
+      <Name>北极瓦格灵</Name>
+      <EnName>"Arctic" Vargling</EnName>
+      <Rarity>Distinguished</Rarity>
+      <Introduction>冬季假期获取（12/15-1/5）</Introduction>
+      <Type>Critter</Type>
+    </Skin>
+  </Critter>
+</SkinNode>

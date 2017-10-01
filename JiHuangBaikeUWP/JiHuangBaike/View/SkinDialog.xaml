@@ -1,0 +1,28 @@
+﻿<Page
+    x:Class="JiHuangBaike.View.SkinDialog"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:JiHuangBaike.View"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:data="using:JiHuangBaike.Data"
+    mc:Ignorable="d">
+
+    <ScrollViewer VerticalScrollBarVisibility="Auto">
+        <Grid Background="Transparent">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+            </Grid.RowDefinitions>
+
+            <Image Name="SkinImage" Stretch="Uniform" Height="150" HorizontalAlignment="Center" />
+            <TextBlock Grid.Row="1" Name="SkinName" FontSize="25" FontWeight="Bold" HorizontalAlignment="Center" />
+            <TextBlock Grid.Row="2" Name="SkinEnName" FontSize="25" FontFamily="/Assets/belisa_plumilla.ttf#Belisa plumilla manual" HorizontalAlignment="Center" />
+            <TextBlock Grid.Row="3" Name="SkinRarity" HorizontalAlignment="Center" />
+            <TextBlock Grid.Row="4" Name="SkinIntroduction" TextWrapping="Wrap" HorizontalAlignment="Center" Margin="10,0,10,10" />
+        </Grid>
+    </ScrollViewer>
+</Page>

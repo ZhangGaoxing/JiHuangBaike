@@ -1,0 +1,112 @@
+﻿<Page
+    x:Class="JiHuangBaike.View.SkinPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:JiHuangBaike.View"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:controls="using:Microsoft.Toolkit.Uwp.UI.Controls"
+    xmlns:data="using:JiHuangBaike.Data"
+    mc:Ignorable="d">
+
+    <Page.Resources>
+        <DataTemplate x:Key="SkinDataTemplate" x:DataType="data:Skin">
+            <Grid Margin="5" Width="80" Height="80">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="Auto" />
+                </Grid.RowDefinitions>
+                <Image Source="{x:Bind Picture}" Stretch="Uniform" />
+                <TextBlock Grid.Row="1" Text="{x:Bind Name}" Foreground="{x:Bind Color}" FontSize="11" HorizontalAlignment="Center" />
+            </Grid>
+        </DataTemplate>
+    </Page.Resources>
+
+    <Grid Name="SkinGrid" Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <VisualStateManager.VisualStateGroups>
+            <VisualStateGroup>
+                <VisualState>
+                    <VisualState.StateTriggers>
+                        <AdaptiveTrigger MinWindowWidth="{StaticResource LargeWindowSnapPoint}" />
+                    </VisualState.StateTriggers>
+                    <VisualState.Setters>
+                        <Setter Target="Title.Margin" Value="20,0,0,0"/>
+                    </VisualState.Setters>
+                </VisualState>
+                <VisualState>
+                    <VisualState.StateTriggers>
+                        <AdaptiveTrigger MinWindowWidth="{StaticResource MediumWindowSnapPoint}" />
+                    </VisualState.StateTriggers>
+                    <VisualState.Setters>
+                        <Setter Target="Title.Margin" Value="20,0,0,0"/>
+                    </VisualState.Setters>
+                </VisualState>
+                <VisualState>
+                    <VisualState.StateTriggers>
+                        <AdaptiveTrigger MinWindowWidth="{StaticResource MinWindowSnapPoint}" />
+                    </VisualState.StateTriggers>
+                    <VisualState.Setters>
+                        <Setter Target="Title.Margin" Value="68,0,0,0"/>
+                    </VisualState.Setters>
+                </VisualState>
+            </VisualStateGroup>
+        </VisualStateManager.VisualStateGroups>
+
+        <Grid Name="TitleGrid" Background="{ThemeResource SystemControlBackgroundAccentBrush}" Height="48">
+            <TextBlock Name="Title" Text="皮肤" FontSize="20" Foreground="White" VerticalAlignment="Center" />
+        </Grid>
+
+        <ScrollViewer Grid.Row="1" VerticalScrollBarVisibility="Auto">
+            <StackPanel>
+                <StackPanel Margin="10">
+                    <TextBlock TextWrapping="Wrap">
+                        有六种类型的皮肤，同时又分为八个等级。等级如下：                      
+                    </TextBlock>
+                    <TextBlock TextWrapping="Wrap" HorizontalAlignment="Center">
+                        <Run Foreground="#97B2B9">普通的 - Common</Run><LineBreak />
+                        <Run Foreground="#415078">上等的 - Classy</Run><LineBreak />
+                        <Run Foreground="#68457C">漂亮的 - Spiffy</Run><LineBreak />
+                        <Run Foreground="#BA74A5">卓越的 - Distinguished</Run><LineBreak />
+                        <Run Foreground="#BD4646">优雅的 - Elegant</Run><LineBreak />
+                        <Run Foreground="#92B45F">忠诚的 - Loyal</Run><LineBreak />
+                        <Run Foreground="#6CC17E">永恒的 - Timeless</Run><LineBreak />
+                        <Run Foreground="#B49400">事件 - Event</Run>
+                    </TextBlock>
+                    <TextBlock TextWrapping="Wrap">
+                        忠诚和事件皮肤是无法从 Gift Box 中掉落的。忠诚的皮肤是某些购买时的证明，事件皮肤是所有玩家在有限时间内可穿戴的。
+                    </TextBlock>
+                </StackPanel>
+                
+                <controls:Expander Header="身体 Body" IsExpanded="False">
+                    <GridView Margin="10" ItemsSource="{x:Bind BodyData}" ItemTemplate="{StaticResource SkinDataTemplate}" SelectionMode="None" IsItemClickEnabled="True" ItemClick="SkinGridView_ItemClick" />
+                </controls:Expander>
+                <controls:Expander Header="手套 Glove" IsExpanded="False">
+                    <GridView Margin="10" ItemsSource="{x:Bind GloveData}" ItemTemplate="{StaticResource SkinDataTemplate}" SelectionMode="None" IsItemClickEnabled="True" ItemClick="SkinGridView_ItemClick" />
+                </controls:Expander>
+                <controls:Expander Header="裤子 Legs" IsExpanded="False">
+                    <GridView Margin="10" ItemsSource="{x:Bind LegsData}" ItemTemplate="{StaticResource SkinDataTemplate}" SelectionMode="None" IsItemClickEnabled="True" ItemClick="SkinGridView_ItemClick" />
+                </controls:Expander>
+                <controls:Expander Header="鞋子 Shoe" IsExpanded="False">
+                    <GridView Margin="10" ItemsSource="{x:Bind ShoeData}" ItemTemplate="{StaticResource SkinDataTemplate}" SelectionMode="None" IsItemClickEnabled="True" ItemClick="SkinGridView_ItemClick" />
+                </controls:Expander>
+                <controls:Expander Header="角色特定 Character Specific" IsExpanded="False">
+                    <GridView Margin="10" ItemsSource="{x:Bind CharacterSpecificData}" ItemTemplate="{StaticResource SkinDataTemplate}" SelectionMode="None" IsItemClickEnabled="True" ItemClick="SkinGridView_ItemClick" />
+                </controls:Expander>
+                <controls:Expander Header="物品 Item" IsExpanded="False">
+                    <GridView Margin="10" ItemsSource="{x:Bind ItemData}" ItemTemplate="{StaticResource SkinDataTemplate}" SelectionMode="None" IsItemClickEnabled="True" ItemClick="SkinGridView_ItemClick" />
+                </controls:Expander> 
+                <controls:Expander Header="建筑 Structure" IsExpanded="False">
+                    <GridView Margin="10" ItemsSource="{x:Bind StructureData}" ItemTemplate="{StaticResource SkinDataTemplate}" SelectionMode="None" IsItemClickEnabled="True" ItemClick="SkinGridView_ItemClick" />
+                </controls:Expander>
+                <controls:Expander Header="小动物 Critter" IsExpanded="False">
+                    <GridView Margin="10" ItemsSource="{x:Bind CritterData}" ItemTemplate="{StaticResource SkinDataTemplate}" SelectionMode="None" IsItemClickEnabled="True" ItemClick="SkinGridView_ItemClick" />
+                </controls:Expander>
+            </StackPanel>
+        </ScrollViewer>
+    </Grid>
+</Page>

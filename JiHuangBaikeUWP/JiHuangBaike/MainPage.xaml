@@ -58,7 +58,7 @@
 
         <Button Name="PaneOpenButton" FontFamily="Segoe MDL2 Assets" Content="&#xE700;" FontSize="22" Foreground="White" Background="Transparent" Width="48" Height="48" VerticalAlignment="Top" Canvas.ZIndex="100" />
 
-        <Thumb Name="MainThumb" Height="55" Width="55" HorizontalAlignment="Right" VerticalAlignment="Bottom" Canvas.ZIndex="101" Margin="0,0,30,130" Style="{StaticResource ThumbStyle1}" Tapped="MainThumb_Tapped" />
+        <Thumb Name="MainThumb" Height="55" Width="55" HorizontalAlignment="Right" VerticalAlignment="Bottom" Canvas.ZIndex="101" Margin="0,0,30,130" Style="{StaticResource ThumbStyle1}" DragDelta="MainThumb_DragDelta" Tapped="MainThumb_Tapped" />
         
         <SplitView Name="RootSplitView" DisplayMode="CompactOverlay" CompactPaneLength="48" OpenPaneLength="256" IsPaneOpen="True" PaneClosed="RootSplitView_PaneClosed">
             <SplitView.Pane>

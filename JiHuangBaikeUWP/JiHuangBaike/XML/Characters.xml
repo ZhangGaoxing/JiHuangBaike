@@ -143,6 +143,19 @@
     <Introduction>韦伯 (蜘蛛人) 与其他角色不同，出生自带一个蜘蛛卵和两个怪兽肉。吃怪兽肉和怪兽千层饼不会有血量和精神惩罚。得小心别靠近猪人和兔人，它们会主动攻击你。相反的可以用怪兽肉收买蜘蛛作为你的帮手。他会长出毛绒绒的小胡子，具有一定的保温功能，还可以刮下少量蜘蛛网。</Introduction>
     <Console>webber</Console>
   </Character>
+  <Character>
+    <Picture>Winona_DST</Picture>
+    <Name>女巧匠薇诺娜</Name>
+    <EnName>Winona</EnName>
+    <Motto>“哈！我知道你的所有行动！”</Motto>
+    <Description>· 是一名熟练的建造者&#x000A;· 查理的第一下攻击不造成伤害&#x000A;· 带着她自己的工具</Description>
+    <Health>150</Health>
+    <Hunger>150</Hunger>
+    <Sanity>200</Sanity>
+    <Damage>1</Damage>
+    <Introduction>薇诺娜在游戏开始时就会拥有 3 个可靠的胶带，在黑暗中查理 （暗影怪物）对她的第一下攻击不会造成伤害，也不会降低她的理智。而且，因为她是一名干练的建造者，所以她合成物品时只需要花 0.5 秒。</Introduction>
+    <Console>winona</Console>
+  </Character>
   <!--
     <Character>
       <Picture>C_wendy_1</Picture>
