@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Package xmlns="http://schemas.microsoft.com/appx/manifest/foundation/windows10" xmlns:mp="http://schemas.microsoft.com/appx/2014/phone/manifest" xmlns:uap="http://schemas.microsoft.com/appx/manifest/uap/windows10" IgnorableNamespaces="uap mp">
-  <Identity Name="61563.1913014AAA7D3" Publisher="CN=A3FDB3F8-D9B5-4AC5-A767-89EF990FD8C9" Version="1.2.7.0" />
+  <Identity Name="61563.1913014AAA7D3" Publisher="CN=A3FDB3F8-D9B5-4AC5-A767-89EF990FD8C9" Version="1.3.0.0" />
   <mp:PhoneIdentity PhoneProductId="d4b51379-9a62-41c7-b750-a40658eb9e90" PhonePublisherId="00000000-0000-0000-0000-000000000000" />
   <Properties>
     <DisplayName>饥荒百科</DisplayName>

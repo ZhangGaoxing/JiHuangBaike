@@ -56,20 +56,29 @@
             </VisualStateGroup>
         </VisualStateManager.VisualStateGroups>
 
-        <Button Name="PaneOpenButton" FontFamily="Segoe MDL2 Assets" Content="&#xE700;" FontSize="22" Foreground="White" Background="Transparent" Width="48" Height="48" VerticalAlignment="Top" Canvas.ZIndex="100" />
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
 
-        <Thumb Name="MainThumb" Height="55" Width="55" HorizontalAlignment="Right" VerticalAlignment="Bottom" Canvas.ZIndex="101" Margin="0,0,30,130" Style="{StaticResource ThumbStyle1}" DragDelta="MainThumb_DragDelta" Tapped="MainThumb_Tapped" />
+        <Grid Name="BarGrid" Background="{ThemeResource SystemControlBackgroundAccentBrush}">
+            <TextBlock x:Uid="AppNameText" Text="饥荒百科" FontSize="12" VerticalAlignment="Center" Height="32" Margin="15,5,0,5" />
+        </Grid>
         
-        <SplitView Name="RootSplitView" DisplayMode="CompactOverlay" CompactPaneLength="48" OpenPaneLength="256" IsPaneOpen="True" PaneClosed="RootSplitView_PaneClosed">
+        <Button Grid.Row="1" Name="PaneOpenButton" FontFamily="Segoe MDL2 Assets" Content="&#xE700;" FontSize="22" Foreground="White" Background="Transparent" Width="48" Height="48" VerticalAlignment="Top" Canvas.ZIndex="100" />
+
+        <Thumb Grid.Row="1" Name="MainThumb" Height="55" Width="55" HorizontalAlignment="Right" VerticalAlignment="Bottom" Canvas.ZIndex="101" Margin="0,0,30,130" Style="{StaticResource ThumbStyle1}" DragDelta="MainThumb_DragDelta" Tapped="MainThumb_Tapped" />
+
+        <SplitView Grid.Row="1" Name="RootSplitView" DisplayMode="CompactOverlay" CompactPaneLength="48" OpenPaneLength="256" IsPaneOpen="True" PaneClosed="RootSplitView_PaneClosed">
             <SplitView.Pane>
-                <Grid Background="#CC000000">
+                <Grid Name="SplitViewPane" Background="#CC000000">
                     <Grid.RowDefinitions>
                         <RowDefinition Height="48" />
                         <RowDefinition Height="*" />
                         <RowDefinition Height="Auto" />
                     </Grid.RowDefinitions>
 
-                    <Rectangle Name="FillRectangle" Fill="{ThemeResource SystemControlBackgroundAccentBrush}" />
+                    <Rectangle Name="FillRectangle" Fill="Transparent" />
 
                     <ListView Grid.Row="1" Name="NavMenuPrimaryListView" VerticalAlignment="Top" SelectionMode="None" IsItemClickEnabled="True" ItemTemplate="{StaticResource DataTemplate}" ItemContainerStyle="{StaticResource NavMenuItemContainerStyle}"/>
 

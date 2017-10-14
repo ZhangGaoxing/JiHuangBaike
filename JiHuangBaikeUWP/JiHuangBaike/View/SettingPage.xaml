@@ -46,7 +46,7 @@
             <TextBlock Name="Title" Text="设置" FontSize="20" Foreground="White" VerticalAlignment="Center" />
         </Grid>
 
-        <StackPanel Grid.Row="1">
+        <StackPanel Name="SettingPanel" Grid.Row="1">
             <StackPanel Margin="10">
                 <TextBlock Text="主题" FontSize="18" />
                 <ComboBox Name="Theme" Margin="0,10,0,0" SelectionChanged="Theme_SelectionChanged">

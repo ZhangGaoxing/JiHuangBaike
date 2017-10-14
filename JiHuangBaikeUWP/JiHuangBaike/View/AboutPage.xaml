@@ -49,7 +49,7 @@
         <ScrollViewer Name="AboutScrollViewer" Grid.Row="1" HorizontalScrollBarVisibility="Auto" VerticalScrollBarVisibility="Auto">
 
             <StackPanel Grid.Row="1">
-                <StackPanel VerticalAlignment="Center" Background="{ThemeResource SystemControlBackgroundAccentBrush}">
+                <StackPanel Name="AppInfoGrid" VerticalAlignment="Center" Background="{ThemeResource SystemControlBackgroundAccentBrush}">
                     <Ellipse Height="120" Width="120" StrokeThickness="4" Stroke="White" Margin="0,15,0,0">
                         <Ellipse.Fill>
                             <ImageBrush ImageSource="/Assets/Logo.png" />

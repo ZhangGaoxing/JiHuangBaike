@@ -23048,12 +23048,12 @@
   },
   "project": {
     "restore": {
-      "projectUniqueName": "C:\\Users\\zhang\\Documents\\GitHub\\JiHuangBaike\\JiHuangBaikeUWP\\JiHuangBaike\\JiHuangBaike.csproj",
+      "projectUniqueName": "C:\\Users\\zhang\\Desktop\\JiHuangBaike\\JiHuangBaikeUWP\\JiHuangBaike\\JiHuangBaike.csproj",
       "projectName": "JiHuangBaike",
-      "projectPath": "C:\\Users\\zhang\\Documents\\GitHub\\JiHuangBaike\\JiHuangBaikeUWP\\JiHuangBaike\\JiHuangBaike.csproj",
-      "projectJsonPath": "C:\\Users\\zhang\\Documents\\GitHub\\JiHuangBaike\\JiHuangBaikeUWP\\JiHuangBaike\\project.json",
+      "projectPath": "C:\\Users\\zhang\\Desktop\\JiHuangBaike\\JiHuangBaikeUWP\\JiHuangBaike\\JiHuangBaike.csproj",
+      "projectJsonPath": "C:\\Users\\zhang\\Desktop\\JiHuangBaike\\JiHuangBaikeUWP\\JiHuangBaike\\project.json",
       "packagesPath": "C:\\Users\\zhang\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\zhang\\Documents\\GitHub\\JiHuangBaike\\JiHuangBaikeUWP\\JiHuangBaike\\obj\\",
+      "outputPath": "C:\\Users\\zhang\\Desktop\\JiHuangBaike\\JiHuangBaikeUWP\\JiHuangBaike\\obj\\",
       "projectStyle": "ProjectJson",
       "configFilePaths": [
         "C:\\Users\\zhang\\AppData\\Roaming\\NuGet\\NuGet.Config",

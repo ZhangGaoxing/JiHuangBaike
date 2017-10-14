@@ -6,6 +6,7 @@ using System.Linq;
 using System.Runtime.InteropServices.WindowsRuntime;
 using Windows.Foundation;
 using Windows.Foundation.Collections;
+using Windows.UI;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
 using Windows.UI.Xaml.Controls.Primitives;
@@ -30,6 +31,22 @@ namespace JiHuangBaike.View
             Theme.SelectedIndex = SettingSet.ThemeSettingRead();
         }
 
+        protected override void OnNavigatedTo(NavigationEventArgs e)
+        {
+            if (DeviceInfoManager.GetOsVersion() > 15063)
+            {
+                Windows.UI.Xaml.Media.AcrylicBrush myBrush = new Windows.UI.Xaml.Media.AcrylicBrush();
+                myBrush.BackgroundSource = Windows.UI.Xaml.Media.AcrylicBackgroundSource.HostBackdrop;
+                myBrush.FallbackColor = Colors.Transparent;
+                myBrush.TintColor = Color.FromArgb(255, 15, 15, 15);
+                myBrush.TintOpacity = 0.3;
+
+                TitleGrid.Background = myBrush;
+                SettingPanel.Background = myBrush;
+
+                //Style style = (Style)Application.Current.Resources["GridViewItemRevealStyle"];
+            }
+        }
         private void Theme_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
             SettingSet.ThemeSettingSet(Theme.SelectedIndex);

@@ -1,4 +1,5 @@
 ﻿using JiHuangBaike.Data;
+using JiHuangBaike.Manager;
 using Microsoft.Toolkit.Uwp.UI.Animations;
 using System;
 using System.Collections.Generic;
@@ -11,6 +12,7 @@ using Windows.Data.Xml.Dom;
 using Windows.Foundation;
 using Windows.Foundation.Collections;
 using Windows.Storage;
+using Windows.UI;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
 using Windows.UI.Xaml.Controls.Primitives;
@@ -44,6 +46,22 @@ namespace JiHuangBaike.View
             Deserialize();
         }
 
+        protected override void OnNavigatedTo(NavigationEventArgs e)
+        {
+            if (DeviceInfoManager.GetOsVersion() > 15063)
+            {
+                Windows.UI.Xaml.Media.AcrylicBrush myBrush = new Windows.UI.Xaml.Media.AcrylicBrush();
+                myBrush.BackgroundSource = Windows.UI.Xaml.Media.AcrylicBackgroundSource.HostBackdrop;
+                myBrush.FallbackColor = Colors.Transparent;
+                myBrush.TintColor = Color.FromArgb(255, 15, 15, 15);
+                myBrush.TintOpacity = 0.3;
+
+                TitleGrid.Background = myBrush;
+                FoodGrid.Background = myBrush;
+
+                //Style style = (Style)Application.Current.Resources["GridViewItemRevealStyle"];
+            }
+        }
         public async void Deserialize()
         {
             Uri xmlUri = new Uri("ms-appx:///XML/Foods.xml");

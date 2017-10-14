@@ -1,4 +1,5 @@
 ﻿using JiHuangBaike.Data;
+using JiHuangBaike.Manager;
 using JiHuangBaike.View;
 using Microsoft.Toolkit.Uwp.UI.Animations;
 using System;
@@ -6,8 +7,11 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Runtime.InteropServices.WindowsRuntime;
+using System.Threading.Tasks;
+using Windows.ApplicationModel.Core;
 using Windows.Foundation;
 using Windows.Foundation.Collections;
+using Windows.System.Profile;
 using Windows.UI;
 using Windows.UI.ViewManagement;
 using Windows.UI.Xaml;
@@ -210,28 +214,26 @@ namespace JiHuangBaike
                 statusBar.BackgroundOpacity = 1;
                 statusBar.BackgroundColor = brush;
                 await statusBar.ShowAsync();
+
+                BarGrid.Visibility = Visibility.Collapsed;
             }
             else
             {
-                var view = ApplicationView.GetForCurrentView();
-                // active
-                view.TitleBar.BackgroundColor = brush;
-                view.TitleBar.ForegroundColor = Colors.White;
-                // inactive
-                view.TitleBar.InactiveBackgroundColor = brush;
-                view.TitleBar.InactiveForegroundColor = Colors.Gray;
-                // button
-                view.TitleBar.ButtonBackgroundColor = brush;
-                view.TitleBar.ButtonForegroundColor = Colors.White;
+                //var view = ApplicationView.GetForCurrentView();
+                //// active
+                //view.TitleBar.BackgroundColor = brush;
+                //view.TitleBar.ForegroundColor = Colors.White;
+                //// inactive
+                //view.TitleBar.InactiveBackgroundColor = brush;
+                //view.TitleBar.InactiveForegroundColor = Colors.Gray;
+                //// button
+                //view.TitleBar.ButtonBackgroundColor = brush;
+                //view.TitleBar.ButtonForegroundColor = Colors.White;
 
-                view.TitleBar.ButtonInactiveBackgroundColor = brush;
-                view.TitleBar.ButtonInactiveForegroundColor = Colors.Gray;
+                //view.TitleBar.ButtonInactiveBackgroundColor = brush;
+                //view.TitleBar.ButtonInactiveForegroundColor = Colors.Gray;
 
-                //view.TitleBar.ButtonHoverBackgroundColor = Colors.LightSkyBlue;
-                //view.TitleBar.ButtonHoverForegroundColor = Colors.White;
-
-                //view.TitleBar.ButtonPressedBackgroundColor = Color.FromArgb(255, 0, 0, 120);
-                //view.TitleBar.ButtonPressedForegroundColor = Colors.White;
+                SetBarAndStyle();
             }
         }
 
@@ -263,5 +265,38 @@ namespace JiHuangBaike
                 RootSplitView.IsPaneOpen = !RootSplitView.IsPaneOpen;
             }
         }
+
+        public void SetBarAndStyle()
+        {
+            if (DeviceInfoManager.GetOsVersion() > 15063)
+            {
+                if (Windows.Foundation.Metadata.ApiInformation.IsTypePresent("Windows.UI.Xaml.Media.XamlCompositionBrushBase"))
+                {
+                    Windows.UI.Xaml.Media.AcrylicBrush myBrush = new Windows.UI.Xaml.Media.AcrylicBrush();
+                    myBrush.BackgroundSource = Windows.UI.Xaml.Media.AcrylicBackgroundSource.HostBackdrop;
+                    myBrush.FallbackColor = Colors.Transparent;
+                    myBrush.TintColor = Color.FromArgb(255, 15, 15, 15);
+                    myBrush.TintOpacity = 0.3;
+
+                    SplitViewPane.Background = myBrush;
+                    BarGrid.Background = myBrush;
+
+                    Style buttonReveal = (Style)Application.Current.Resources["ButtonRevealStyle"];
+                    Style itemReveal = (Style)Application.Current.Resources["NavMenuItemRevealStyle"];
+
+                    PaneOpenButton.Style = buttonReveal;
+                    NavMenuPrimaryListView.ItemContainerStyle = itemReveal;
+                    NavMenuSecondaryListView.ItemContainerStyle = itemReveal;
+                }
+            }
+
+            CoreApplication.GetCurrentView().TitleBar.ExtendViewIntoTitleBar = true;
+            ApplicationViewTitleBar titleBar = ApplicationView.GetForCurrentView().TitleBar;
+            titleBar.ButtonBackgroundColor = Colors.Transparent;
+            titleBar.ButtonInactiveBackgroundColor = Colors.Transparent;
+            titleBar.ButtonForegroundColor = Colors.White;
+            titleBar.ButtonHoverBackgroundColor = Colors.Gray;
+        }
+
     }
 }
